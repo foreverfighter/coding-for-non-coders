@@ -121,62 +121,64 @@ In the `VAR=value` syntax, value is taken to be a string _by default_ when there
 
 ## Glossary
 
-- **.net** - A framework needed for running or writing newer windows apps.
-- **ajax** - A way for a webpage to update information without loading a new webpage.
-- **algorithm** - A way to do something.
-- **android** - Google's mobile operating system.
-- **angular** - A front-end javascript framework.
-- **app inventor** - A web-based, simple way to build android apps.
-- **applet** - A (usually)java application meant to sent over the web for in-browser use.
-- **atom** - A text editor.
-- **aws** -
-- **babel** -
-- **bash** - A common shell.
-- **binary** -
-- **c#** - A programming language commonly used writing windows apps.
-- **c++** - A programming language commonly used for computing performance and embedded systems.
-- **client-side** -
-- **cms** -
-- **css** - A way to describe how web content looks in the browser.
-- **csv** - A human-readable file format for data in rows and columns.
-- **dynamically-typed** - [overflow](https://stackoverflow.com/questions/2690544/what-is-the-difference-between-a-strongly-typed-language-and-a-statically-typed)
-- **embed** - Put in.
-- **framework** - A way to do something.
-- **front-end** -
-- **ftp** -
-- **github** -
-- **high-level** -
-- **html** - A markup language to structure web pages, used with css and javascript.
-- **http** -
-- **human-readable** - Something a human can read, as opposed to binary data understood by computers.
-- **ios** - Apple's mobile operating system.
-- **java** -
-- **java** - A programming language that can be easily deployed on many types of computers.
-- **javascript** -
-- **jquery** - A javascript library to work with the DOM, events, animations and ajax.
-- **jre** - Java Runtime Environment. A program which runs java programs.
-- **json web token authentication** -
-- **jsp** - A way for a servlet to create web pages dynamically.
-- **library** - A bunch of code to help do something.
-- **low-level** -
-- **manifest file** - A file with data about some other files that it comes together with.
-- **markup** -
-- **paradigm** - A set of features about a programming language. [wiki](https://en.wikipedia.org/wiki/Programming_paradigm)
-- **php** - A programming language commonly used for server-side programming.
-- **render(web)** - To load and output a template(may be with data) onto a browser.
-- **scripting language** - [wiki](https://en.wikipedia.org/wiki/Scripting_language)
-- **server-side** -
-- **servlet** - A java web backend.
-- **shell** -
-- **ssl certificates/root certificates** -
-- **statically-typed** - [overflow](https://stackoverflow.com/questions/2690544/what-is-the-difference-between-a-strongly-typed-language-and-a-statically-typed)
-- **strongly-typed** - [overflow](https://stackoverflow.com/questions/2690544/what-is-the-difference-between-a-strongly-typed-language-and-a-statically-typed)
-- **sublime** - A light text editor.
-- **syntax** - The grammar for coding something, which needs to be correct for it to work.
-- **tls host** -
-- **vim** - A powerful shell text editor.
-- **weakly-typed** - [overflow](https://stackoverflow.com/questions/2690544/what-is-the-difference-between-a-strongly-typed-language-and-a-statically-typed)
-- **xml** -
+#### What is ...
+
+- **.net?** - A framework needed for running or writing newer windows apps.
+- **ajax?** - A way for a webpage to update information without loading a new webpage.
+- **algorithm?** - A way to do something.
+- **android?** - Google's mobile operating system.
+- **angular?** - A front-end javascript framework.
+- **app inventor?** - A web-based, simple way to build android apps.
+- **applet?** - A (usually)java application meant to sent over the web for in-browser use.
+- **atom?** - A text editor.
+- **aws?** -
+- **babel?** -
+- **bash?** - A common shell.
+- **binary?** -
+- **c#?** - A programming language commonly used writing windows apps.
+- **c++?** - A programming language commonly used for computing performance and embedded systems.
+- **client-side?** -
+- **cms?** -
+- **css?** - A way to describe how web content looks in the browser.
+- **csv?** - A human-readable file format for data in rows and columns.
+- **dynamically-typed?** - [overflow](https://stackoverflow.com/questions/2690544/what-is-the-difference-between-a-strongly-typed-language-and-a-statically-typed)
+- **embed?** - Put in.
+- **framework?** - A way to do something.
+- **front-end?** -
+- **ftp?** -
+- **github?** -
+- **high-level?** -
+- **html?** - A markup language to structure web pages, used with css and javascript.
+- **http?** -
+- **human-readable?** - Something a human can read, as opposed to binary data understood by computers.
+- **ios?** - Apple's mobile operating system.
+- **java?** -
+- **java?** - A programming language that can be easily deployed on many types of computers.
+- **javascript?** -
+- **jquery?** - A javascript library to work with the DOM, events, animations and ajax.
+- **jre?** - Java Runtime Environment. A program which runs java programs.
+- **json web token authentication?** -
+- **jsp?** - A way for a servlet to create web pages dynamically.
+- **library?** - A bunch of code to help do something.
+- **low-level?** -
+- **manifest file?** - A file with data about some other files that it comes together with.
+- **markup?** -
+- **paradigm?** - A set of features about a programming language. [wiki](https://en.wikipedia.org/wiki/Programming_paradigm)
+- **php?** - A programming language commonly used for server-side programming.
+- **render(web)?** - To load and output a template(may be with data) onto a browser.
+- **scripting language?** - [wiki](https://en.wikipedia.org/wiki/Scripting_language)
+- **server-side?** -
+- **servlet?** - A java web backend.
+- **shell?** -
+- **ssl certificates/root certificates?** -
+- **statically-typed?** - [overflow](https://stackoverflow.com/questions/2690544/what-is-the-difference-between-a-strongly-typed-language-and-a-statically-typed)
+- **strongly-typed?** - [overflow](https://stackoverflow.com/questions/2690544/what-is-the-difference-between-a-strongly-typed-language-and-a-statically-typed)
+- **sublime?** - A light text editor.
+- **syntax?** - The grammar for coding something, which needs to be correct for it to work.
+- **tls host?** -
+- **vim?** - A powerful shell text editor.
+- **weakly-typed?** - [overflow](https://stackoverflow.com/questions/2690544/what-is-the-difference-between-a-strongly-typed-language-and-a-statically-typed)
+- **xml?** -
 
 beautifulsoup
 bokeh
