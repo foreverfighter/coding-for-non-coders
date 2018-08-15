@@ -130,6 +130,7 @@ In the `VAR=value` syntax, value is taken to be a string _by default_ when there
 - **angular?** - A front-end javascript framework.
 - **app inventor?** - A web-based, simple way to build android apps.
 - **applet?** - A (usually)java application meant to sent over the web for in-browser use.
+- **asp.net?** - A Microsoft web framework.
 - **atom?** - A text editor.
 - **aws?** -
 - **babel?** -
@@ -141,11 +142,13 @@ In the `VAR=value` syntax, value is taken to be a string _by default_ when there
 - **cms?** -
 - **css?** - A way to describe how web content looks in the browser.
 - **csv?** - A human-readable file format for data in rows and columns.
+- **database management system?** - A way to store a lot of data efficiently.
 - **dynamically-typed?** - [overflow](https://stackoverflow.com/questions/2690544/what-is-the-difference-between-a-strongly-typed-language-and-a-statically-typed)
 - **embed?** - Put in.
 - **framework?** - A way to do something.
 - **front-end?** -
 - **ftp?** -
+- **full-stack?** -
 - **github?** -
 - **high-level?** -
 - **html?** - A markup language to structure web pages, used with css and javascript.
@@ -156,20 +159,25 @@ In the `VAR=value` syntax, value is taken to be a string _by default_ when there
 - **java?** - A programming language that can be easily deployed on many types of computers.
 - **javascript?** -
 - **jquery?** - A javascript library to work with the DOM, events, animations and ajax.
-- **jre?** - Java Runtime Environment. A program which runs java programs.
+- **jre?** - A program which runs java programs. aka Java Runtime Environment.
 - **json web token authentication?** -
 - **jsp?** - A way for a servlet to create web pages dynamically.
 - **library?** - A bunch of code to help do something.
 - **low-level?** -
 - **manifest file?** - A file with data about some other files that it comes together with.
 - **markup?** -
+- **mysql?** - A free relational database management system.
 - **paradigm?** - A set of features about a programming language. [wiki](https://en.wikipedia.org/wiki/Programming_paradigm)
 - **php?** - A programming language commonly used for server-side programming.
+- **query?** - To get data from (something).
 - **render(web)?** - To load and output a template(may be with data) onto a browser.
+- **ruby on rails?** - A full-stack ruby web framework.
+- **ruby?** - A high-level, clean programming language, commonly used for web development.
 - **scripting language?** - [wiki](https://en.wikipedia.org/wiki/Scripting_language)
 - **server-side?** -
 - **servlet?** - A java web backend.
 - **shell?** -
+- **sql?** - A way to select data from a database management system. aka Structured Query Language.
 - **ssl certificates/root certificates?** -
 - **statically-typed?** - [overflow](https://stackoverflow.com/questions/2690544/what-is-the-difference-between-a-strongly-typed-language-and-a-statically-typed)
 - **strongly-typed?** - [overflow](https://stackoverflow.com/questions/2690544/what-is-the-difference-between-a-strongly-typed-language-and-a-statically-typed)
