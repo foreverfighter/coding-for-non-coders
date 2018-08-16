@@ -124,27 +124,47 @@ In the `VAR=value` syntax, value is taken to be a string _by default_ when there
 #### What is ...
 
 - **.net?** - A framework needed for running or writing newer windows apps.
+- **3g?** - A range of technologies which support a mobile data transfer rate of at least 14.4mbps.
+- **4g?** - A range of technologies which support a mobile data transfer rate of at least 100mbps.
+- **802.11?** - A family of wifi standards. A bigger suffixing letter(b > a) means a newer standard.
+- **absolute path?** - A path defined from a fixed point, usually root directory.
+- **access point?** - A physical place with wifi access.
+- **access?** - A proprietary dbms for windows.
 - **ajax?** - A way for a webpage to update information without loading a new webpage.
 - **algorithm?** - A way to do something.
 - **android?** - Google's mobile operating system.
 - **angular?** - A front-end javascript framework.
+- **api?** - The set of instructions that a program understands.
 - **app inventor?** - A web-based, simple way to build android apps.
 - **applet?** - A (usually)java application meant to sent over the web for in-browser use.
 - **asp.net?** - A Microsoft web framework.
 - **atom?** - A text editor.
 - **aws?** -
 - **babel?** -
+- **bandwidth?** - The rate that data that can flow through a network connection. It is limited per connection, which is why 10 people downloading files on the same wifi connection causes everyone to slow down.
 - **bash?** - A common shell.
+- **batch file?** - A script run on windows, usually executing commands like running other programs, copying, moving or renaming files and directories.
 - **binary?** -
+- **bitmap?** - An image made of dots. When the image resolution is insufficient, the image looks blocky and pixellated. Compare with vector. aka raster.
 - **c#?** - A programming language commonly used writing windows apps.
 - **c++?** - A programming language commonly used for computing performance and embedded systems.
+- **captcha?** - A test designed to block access to programs(bots) but allow human users to pass.
 - **client-side?** -
 - **cms?** -
+- **compile?** -
 - **css?** - A way to describe how web content looks in the browser.
 - **csv?** - A human-readable file format for data in rows and columns.
-- **database management system?** - A way to store a lot of data efficiently.
+- **data type?** - A form of data. Running a function using data of an unintended type is a common source of bugs. Eg, integer, string, object.
+- **database management system?** - A way to store a lot of data efficiently. aka dbms.
+- **dbms?** - A way to store a lot of data efficiently. aka database management system.
+- **directory?** - aka folder.
+- **dns?** -
 - **dynamically-typed?** - [overflow](https://stackoverflow.com/questions/2690544/what-is-the-difference-between-a-strongly-typed-language-and-a-statically-typed)
 - **embed?** - Put in.
+- **endpoint?** -
+- **file extension?** - The part of the filename after the period. Eg, for 'zen.txt', the extension is 'txt'(or '.txt'). The operating system uses the extension to decide what program to open this file with. Changing the extension of a file doesn't change the actual content of the file.
+- **file?** -
+- **fingerprint?** -
 - **framework?** - A way to do something.
 - **front-end?** -
 - **ftp?** -
@@ -154,6 +174,8 @@ In the `VAR=value` syntax, value is taken to be a string _by default_ when there
 - **html?** - A markup language to structure web pages, used with css and javascript.
 - **http?** -
 - **human-readable?** - Something a human can read, as opposed to binary data understood by computers.
+- **image resolution?** -
+- **interpret?** -
 - **ios?** - Apple's mobile operating system.
 - **java?** -
 - **java?** - A programming language that can be easily deployed on many types of computers.
@@ -162,28 +184,42 @@ In the `VAR=value` syntax, value is taken to be a string _by default_ when there
 - **jre?** - A program which runs java programs. aka Java Runtime Environment.
 - **json web token authentication?** -
 - **jsp?** - A way for a servlet to create web pages dynamically.
+- **let's encrypt?** - A non-profit organization providing free ssl certificates. [site](https://letsencrypt.org/)
 - **library?** - A bunch of code to help do something.
 - **low-level?** -
 - **manifest file?** - A file with data about some other files that it comes together with.
 - **markup?** -
 - **mysql?** - A free relational database management system.
+- **network backbone?** - A big, ultra-high bandwidth network connection that connects far away places.
 - **paradigm?** - A set of features about a programming language. [wiki](https://en.wikipedia.org/wiki/Programming_paradigm)
+- **path?** - An address for a file or directory. Looks like this ~/Music/iTunes/ or this C:\\My Documents\\zen.txt or this ../../assets/zen.jpg. See **absolute path** and **relative path**.
 - **php?** - A programming language commonly used for server-side programming.
+- **program?** - Code that constitutes some system. It is usually compiled.
+- **proprietary?** - (Usually) A software you have to pay for.
 - **query?** - To get data from (something).
+- **raster?** - An image made of dots. When the image resolution is insufficient, the image looks blocky and pixellated. Compare with vector. aka bitmap.
+- **relative path?** - A path defined from wherever the current directory is. This usually means it is shorter than a comparable absolute path.
 - **render(web)?** - To load and output a template(may be with data) onto a browser.
+- **restful api?** -
+- **rsa?** -
 - **ruby on rails?** - A full-stack ruby web framework.
 - **ruby?** - A high-level, clean programming language, commonly used for web development.
+- **script?** - Code that references some system. It is usually interpreted.
 - **scripting language?** - [wiki](https://en.wikipedia.org/wiki/Scripting_language)
 - **server-side?** -
 - **servlet?** - A java web backend.
 - **shell?** -
+- **signature?** -
 - **sql?** - A way to select data from a database management system. aka Structured Query Language.
+- **ssl certificate?** - A way to confirm that you are currently on a certain website. Lacking an ssl certificate doesn't confirm that the website is fraudulent, but it is unprofessional.
 - **ssl certificates/root certificates?** -
 - **statically-typed?** - [overflow](https://stackoverflow.com/questions/2690544/what-is-the-difference-between-a-strongly-typed-language-and-a-statically-typed)
 - **strongly-typed?** - [overflow](https://stackoverflow.com/questions/2690544/what-is-the-difference-between-a-strongly-typed-language-and-a-statically-typed)
 - **sublime?** - A light text editor.
 - **syntax?** - The grammar for coding something, which needs to be correct for it to work.
+- **tests?** -
 - **tls host?** -
+- **vector?** - An image made of shapes. It can be scaled infinitely at any resolution. Compare with bitmap/raster.
 - **vim?** - A powerful shell text editor.
 - **weakly-typed?** - [overflow](https://stackoverflow.com/questions/2690544/what-is-the-difference-between-a-strongly-typed-language-and-a-statically-typed)
 - **xml?** -
