@@ -158,7 +158,7 @@ In the `VAR=value` syntax, value is taken to be a string _by default_ when there
 - **database management system?** - A way to store a lot of data efficiently. aka dbms.
 - **dbms?** - A way to store a lot of data efficiently. aka database management system.
 - **directory?** - aka folder.
-- **dns?** -
+- **dns? name server?** - A server that translates domain names(like google.com) into ip addresses. It allows us to visit the address of a website just from its name.
 - **dynamically-typed?** - [overflow](https://stackoverflow.com/questions/2690544/what-is-the-difference-between-a-strongly-typed-language-and-a-statically-typed)
 - **embed?** - Put in.
 - **endpoint?** -
@@ -219,10 +219,34 @@ In the `VAR=value` syntax, value is taken to be a string _by default_ when there
 - **syntax?** - The grammar for coding something, which needs to be correct for it to work.
 - **tests?** -
 - **tls host?** -
-- **vector?** - An image made of shapes. It can be scaled infinitely at any resolution. Compare with bitmap/raster.
 - **vim?** - A powerful shell text editor.
 - **weakly-typed?** - [overflow](https://stackoverflow.com/questions/2690544/what-is-the-difference-between-a-strongly-typed-language-and-a-statically-typed)
 - **xml?** -
+- **file system?** - Something that keeps your files organized. Windows uses NTFS or FAT32(old). Mac uses HFS+ or HFS(old).
+- **hdmi?** - A way to transmit audio and video data in a single cable.
+- **keylogger?** - A program that records all keys pressed on a computer's keyboard.
+- **mac address?** - A number unique to every network device. It is represented by 6 two-digit hexadecimal numbers, like 00:0d:83:b1:c0:8e.
+- **ip address?** - The address of a computer on a network. It is a number unique to every computer connected to that network. See **ipv4** and **ipv6**.
+- **ipv4?** -
+- **ipv6?** -
+- **newsgroup?** - A forum to meet online and talk about a subject.
+- **packet?** - A self-sufficient bundle of data sent over a network. It contains(amongst other things) the addresses of the sender and intended recipient.
+- **parallel port?** - A port for an old type of cable.
+- **port?** -
+- **lossy?** - A way of compressing data that loses some of the original information. Most commonly, this happens with jpg images. Compare with **lossless**.
+- **lossless?** - A way of compressing data that retains all of the original information. Compare with **lossy**.
+- **digital?** - Data stored in 0s and 1s.
+- **analog?** - Data stored electrically or in some tactile form.
+- **vector?** - An image made of shapes. It can be scaled infinitely at any resolution. Compare with bitmap/raster.
+- **parse?** - To read.
+- **partition?** - A part of a hard disk, which can have its own operating system.
+- **hard disk?** -
+- **operating system?** -
+- **public key certificate?** -
+- **public key encryption?** - A way to give data safely. A message is encrypted with a public key, and can only be decrypted by the matching private key. (not sure)
+- **authenticate?** -
+- **digital signature?** -
+- **mime? mime type?** - A label used to identify a type of data.
 
 beautifulsoup
 bokeh
