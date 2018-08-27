@@ -5,6 +5,7 @@ A big list of likely questions from non coders, my answers and some relevant res
 ## Contents
 
 - Coding
+- Python
 - Computing
 - Text Editors
 - The Web
@@ -50,6 +51,11 @@ Below are my picks ranked in order.
 2.  For general purpose programming, **Python** is very popular and easy.
 3.  For server-side programming, **PHP** is the most [popular](https://w3techs.com/technologies/history_overview/programming_language) language by far.
 4.  Other good languages to learn are **Java**, and **C#**, because they are popular.
+
+## Python
+
+#### How do I write a docstring?
+[overflow](https://stackoverflow.com/questions/3898572/what-is-the-standard-python-docstring-format)
 
 ## Computing
 
