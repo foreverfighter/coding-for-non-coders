@@ -55,6 +55,7 @@ Below are my picks ranked in order.
 ## Python
 
 #### How do I write a docstring?
+
 [overflow](https://stackoverflow.com/questions/3898572/what-is-the-standard-python-docstring-format)
 
 ## Computing
@@ -125,134 +126,212 @@ In the `VAR=value` syntax, value is taken to be a string _by default_ when there
 
 `git reset --hard origin/(your_branch_name)`
 
-## Glossary
-
-#### What is ...
+## Glossary - Coding and computing in general
 
 - **.net?** - A framework needed for running or writing newer windows apps.
-- **3g?** - A range of technologies which support a mobile data transfer rate of at least 14.4mbps.
-- **4g?** - A range of technologies which support a mobile data transfer rate of at least 100mbps.
-- **802.11?** - A family of wifi standards. A bigger suffixing letter(b > a) means a newer standard.
-- **absolute path?** - A path defined from a fixed point, usually root directory.
-- **access point?** - A physical place with wifi access.
-- **access?** - A proprietary dbms for windows.
-- **ajax?** - A way for a webpage to update information without loading a new webpage.
 - **algorithm?** - A way to do something.
-- **android?** - Google's mobile operating system.
-- **angular?** - A front-end javascript framework.
 - **api?** - The set of instructions that a program understands.
-- **app inventor?** - A web-based, simple way to build android apps.
-- **applet?** - A (usually)java application meant to sent over the web for in-browser use.
-- **asp.net?** - A Microsoft web framework.
 - **atom?** - A text editor.
-- **aws?** -
-- **babel?** -
-- **bandwidth?** - The rate that data that can flow through a network connection. It is limited per connection, which is why 10 people downloading files on the same wifi connection causes everyone to slow down.
-- **bash?** - A common shell.
+- **authenticate?** -
 - **batch file?** - A script run on windows, usually executing commands like running other programs, copying, moving or renaming files and directories.
 - **binary?** -
-- **bitmap?** - An image made of dots. When the image resolution is insufficient, the image looks blocky and pixellated. Compare with vector. aka raster.
-- **c#?** - A programming language commonly used writing windows apps.
-- **c++?** - A programming language commonly used for computing performance and embedded systems.
-- **captcha?** - A test designed to block access to programs(bots) but allow human users to pass.
-- **client-side?** -
-- **cms?** -
 - **compile?** -
-- **css?** - A way to describe how web content looks in the browser.
-- **csv?** - A human-readable file format for data in rows and columns.
+- **daemon?** - A program that runs in the background.
 - **data type?** - A form of data. Running a function using data of an unintended type is a common source of bugs. Eg, integer, string, object.
-- **database management system?** - A way to store a lot of data efficiently. aka dbms.
-- **dbms?** - A way to store a lot of data efficiently. aka database management system.
-- **directory?** - aka folder.
-- **dns? name server?** - A server that translates domain names(like google.com) into ip addresses. It allows us to visit the address of a website just from its name.
 - **dynamically-typed?** - [overflow](https://stackoverflow.com/questions/2690544/what-is-the-difference-between-a-strongly-typed-language-and-a-statically-typed)
-- **embed?** - Put in.
-- **endpoint?** -
-- **file extension?** - The part of the filename after the period. Eg, for 'zen.txt', the extension is 'txt'(or '.txt'). The operating system uses the extension to decide what program to open this file with. Changing the extension of a file doesn't change the actual content of the file.
-- **file?** -
-- **fingerprint?** -
+- **embed? embedded?** - Put into a physical device that is more than just a computer, like a camera, or toy.
 - **framework?** - A way to do something.
-- **front-end?** -
-- **ftp?** -
-- **full-stack?** -
 - **github?** -
+- **hard disk?** -
 - **high-level?** -
-- **html?** - A markup language to structure web pages, used with css and javascript.
-- **http?** -
-- **human-readable?** - Something a human can read, as opposed to binary data understood by computers.
-- **image resolution?** -
+- **ide?** -
 - **interpret?** -
-- **ios?** - Apple's mobile operating system.
-- **java?** -
-- **java?** - A programming language that can be easily deployed on many types of computers.
-- **javascript?** -
-- **jquery?** - A javascript library to work with the DOM, events, animations and ajax.
 - **jre?** - A program which runs java programs. aka Java Runtime Environment.
-- **json web token authentication?** -
-- **jsp?** - A way for a servlet to create web pages dynamically.
-- **let's encrypt?** - A non-profit organization providing free ssl certificates. [site](https://letsencrypt.org/)
+- **keylogger?** - A program that records all keys pressed on a computer's keyboard.
 - **library?** - A bunch of code to help do something.
 - **low-level?** -
 - **manifest file?** - A file with data about some other files that it comes together with.
 - **markup?** -
-- **mysql?** - A free relational database management system.
-- **network backbone?** - A big, ultra-high bandwidth network connection that connects far away places.
-- **paradigm?** - A set of features about a programming language. [wiki](https://en.wikipedia.org/wiki/Programming_paradigm)
-- **path?** - An address for a file or directory. Looks like this ~/Music/iTunes/ or this C:\\My Documents\\zen.txt or this ../../assets/zen.jpg. See **absolute path** and **relative path**.
-- **php?** - A programming language commonly used for server-side programming.
+- **microservice?** - 
+- **rsa?** - A public-key encryption technology. (to simplify)
+- **parse?** - To read.
+- **pipeline?** - 
 - **program?** - Code that constitutes some system. It is usually compiled.
 - **proprietary?** - (Usually) A software you have to pay for.
-- **query?** - To get data from (something).
-- **raster?** - An image made of dots. When the image resolution is insufficient, the image looks blocky and pixellated. Compare with vector. aka bitmap.
-- **relative path?** - A path defined from wherever the current directory is. This usually means it is shorter than a comparable absolute path.
-- **render(web)?** - To load and output a template(may be with data) onto a browser.
-- **restful api?** -
-- **rsa?** -
-- **ruby on rails?** - A full-stack ruby web framework.
-- **ruby?** - A high-level, clean programming language, commonly used for web development.
 - **script?** - Code that references some system. It is usually interpreted.
-- **scripting language?** - [wiki](https://en.wikipedia.org/wiki/Scripting_language)
-- **server-side?** -
-- **servlet?** - A java web backend.
-- **shell?** -
-- **signature?** -
-- **sql?** - A way to select data from a database management system. aka Structured Query Language.
-- **ssl certificate?** - A way to confirm that you are currently on a certain website. Lacking an ssl certificate doesn't confirm that the website is fraudulent, but it is unprofessional.
-- **ssl certificates/root certificates?** -
-- **statically-typed?** - [overflow](https://stackoverflow.com/questions/2690544/what-is-the-difference-between-a-strongly-typed-language-and-a-statically-typed)
-- **strongly-typed?** - [overflow](https://stackoverflow.com/questions/2690544/what-is-the-difference-between-a-strongly-typed-language-and-a-statically-typed)
 - **sublime?** - A light text editor.
 - **syntax?** - The grammar for coding something, which needs to be correct for it to work.
 - **tests?** -
-- **tls host?** -
 - **vim?** - A powerful shell text editor.
-- **weakly-typed?** - [overflow](https://stackoverflow.com/questions/2690544/what-is-the-difference-between-a-strongly-typed-language-and-a-statically-typed)
 - **xml?** -
+
+## Glossary - Operating systems
+
+- **absolute path?** - A path defined from a fixed point, usually root directory.
+- **android?** - Google's mobile operating system.
+- **directory?** -
+- **file?** -
+- **file extension?** - The part of the filename after the period. Eg, for 'zen.txt', the extension is 'txt'(or '.txt'). The operating system uses the extension to decide what program to open this file with. Changing the extension of a file doesn't change the actual content of the file.
 - **file system?** - Something that keeps your files organized. Windows uses NTFS or FAT32(old). Mac uses HFS+ or HFS(old).
+- **ios?** - Apple's mobile operating system.
+- **operating system?** -
+- **path?** - An address for a file or directory. Looks like this ~/Music/iTunes/ or this C:\\My Documents\\zen.txt or this ../../assets/zen.jpg. See **absolute path** and **relative path**.
+- **relative path?** - A path defined from wherever the current directory is. This usually means it is shorter than a comparable absolute path.
+- **shell?** -
+- **partition?** - A part of a hard disk, which can have its own operating system.
+
+## Glossary - Databases and data
+
+- **access?** - A proprietary dbms for windows.
+- **analog?** - Data stored electrically or in some tactile form.
+- **csv?** - A human-readable file format for data in rows and columns.
+- **digital?** - Data stored in 0s and 1s.
+- **dbms? database management system?** - A way to store a lot of data efficiently.
+- **mysql?** - A free relational database management system.
+- **query?** - To get data from (something).
+- **orm?** - 
+- **sql?** - A way to select data from a database management system. aka Structured Query Language.
+
+## Glossary - Python
+
+- **append?** - Add to the back.
+- **argument? parameter?** - Input.
+- **attribute?** - Feature, property.
+- **boolean?** - Item.
+- **call? run? execute?** - Item.
+- **comprehension?** - 
+- **class?** - A custom type.
+- **dictionary?** - Item.
+- **element?** - Item.
+- **float?** - To get data from (something).
+- **for loop?** - Item.
+- **function?** - Item.
+- **generator?** - An object that can be looped over, without being run first.
+- **generator function?** - A function used to create generators, just like classes are used to make class instances.
+- **if statement?** - Item.
+- **index?** - Address.
+- **instantiate?** -
+- **integer?** - To get data from (something).
+- **iterable?** - Item.
+- **key/value?** - Item.
+- **library? module?** - Someone else's code(usually).
+- **list slice?** - Item.
+- **list?** - Item.
+- **method?** - A function, owned by a type. For example, strings have a `.format` method.
+- **return value?** - Item.
+- **standard library?** - Someone else's code, pre-installed with python.
+- **string?** - To get data from (something).
+- **variable?** - To get data from (something).
+- **while?** - Item.
+- **write?** - To write to a file is to create the file.
+decorators
+context managers
+descriptors
+import hooks
+metaclasses
+AST transformations
+pythonic/idiomatic
+zen of python
+
+## Glossary - Hardware
+
 - **hdmi?** - A way to transmit audio and video data in a single cable.
-- **keylogger?** - A program that records all keys pressed on a computer's keyboard.
-- **mac address?** - A number unique to every network device. It is represented by 6 two-digit hexadecimal numbers, like 00:0d:83:b1:c0:8e.
+- **parallel port?** - A port for an old type of cable.
+
+## Glossary - Security and encryption
+
+- **public key certificate?** -
+- **public key encryption?** - A way to give data safely. A message is encrypted with a public key, and can only be decrypted by the matching private key. (not sure)
+
+## Glossary - Programming Languages
+
+- **c#?** - A programming language commonly used writing windows apps.
+- **c++?** - A programming language commonly used for computing performance and embedded systems.
+- **java?** - A programming language that can be easily deployed on many types of computers.
+- **javascript?** -
+- **paradigm?** - A set of features about a programming language.
+- **php?** - A programming language commonly used for server-side programming.
+- **ruby?** - A high-level, clean programming language, commonly used for web development.
+- **rust?** -
+- **scripting language?** - [wiki](https://en.wikipedia.org/wiki/Scripting_language)
+- **statically-typed?** - [overflow](https://stackoverflow.com/questions/2690544/what-is-the-difference-between-a-strongly-typed-language-and-a-statically-typed)
+- **strongly-typed?** - [overflow](https://stackoverflow.com/questions/2690544/what-is-the-difference-between-a-strongly-typed-language-and-a-statically-typed)
+- **weakly-typed?** - [overflow](https://stackoverflow.com/questions/2690544/what-is-the-difference-between-a-strongly-typed-language-and-a-statically-typed)
+
+## Glossary - Images
+
+- **bitmap? raster?** - An image made of dots. When the image resolution is insufficient, the image looks blocky and pixellated. Compare with vector.
+- **lossless?** - A way of compressing data that retains all of the original information. Compare with **lossy**.
+- **lossy?** - A way of compressing data that loses some of the original information. Most commonly, this happens with jpg images. Compare with **lossless**.
+- **vector?** - An image made of shapes. It can be scaled infinitely at any resolution. Compare with bitmap/raster.
+
+## Glossary - The Web
+
+- **3g?** - A range of technologies which support a mobile data transfer rate of at least 14.4mbps.
+- **4g?** - A range of technologies which support a mobile data transfer rate of at least 100mbps.
+- **802.11?** - A family of wifi standards. A bigger suffixing letter(b > a) means a newer standard.
+- **access point?** - A physical place with wifi access.
+- **ajax?** - A way for a webpage to update information based on some trigger without loading a new webpage.
+- **angular?** - A front-end javascript framework.
+- **app inventor?** - A web-based, simple way to build android apps.
+- **applet?** - A (usually)java application meant to sent over the web for in-browser use.
+- **asp.net?** - A Microsoft web framework.
+- **aws?** -
+- **babel?** -
+- **bandwidth?** - The rate that data that can flow through a network connection. It is limited per connection, which is why 10 people downloading files on the same wifi connection causes everyone to slow down.
+- **captcha?** - A test(usually on the web) designed to block access to programs(bots) but allow human users to pass.
+- **client-side?** -
+- **cms?** -
+- **css?** - A way to describe how web content looks in the browser.
+- **dns? name server?** - A server that translates domain names(like google.com) into ip addresses. It allows us to visit the address of a website just from its name.
+- **endpoint?** -
+- **front-end?** -
+- **ftp?** -
+- **full-stack?** -
+- **html?** - A markup language to structure web pages, used with css and javascript.
+- **http?** -
 - **ip address?** - The address of a computer on a network. It is a number unique to every computer connected to that network. See **ipv4** and **ipv6**.
 - **ipv4?** -
 - **ipv6?** -
+- **jquery?** - A javascript library to work with the DOM, events, animations and ajax.
+- **json web token authentication?** -
+- **jsp?** - A way for a servlet to create web pages dynamically.
+- **let's encrypt?** - A non-profit organization providing free ssl certificates. [site](https://letsencrypt.org/)
+- **mac address?** - A number unique to every network device. It is represented by 6 two-digit hexadecimal numbers, like 00:0d:83:b1:c0:8e.
+- **mime? mime type?** - A label used to identify a type of data.
+- **network backbone?** - A big, ultra-high bandwidth network connection that connects far away places.
+  [wiki](https://en.wikipedia.org/wiki/Programming_paradigm)
 - **newsgroup?** - A forum to meet online and talk about a subject.
 - **packet?** - A self-sufficient bundle of data sent over a network. It contains(amongst other things) the addresses of the sender and intended recipient.
-- **parallel port?** - A port for an old type of cable.
 - **port?** -
-- **lossy?** - A way of compressing data that loses some of the original information. Most commonly, this happens with jpg images. Compare with **lossless**.
-- **lossless?** - A way of compressing data that retains all of the original information. Compare with **lossy**.
-- **digital?** - Data stored in 0s and 1s.
-- **analog?** - Data stored electrically or in some tactile form.
-- **vector?** - An image made of shapes. It can be scaled infinitely at any resolution. Compare with bitmap/raster.
-- **parse?** - To read.
-- **partition?** - A part of a hard disk, which can have its own operating system.
-- **hard disk?** -
-- **operating system?** -
-- **public key certificate?** -
-- **public key encryption?** - A way to give data safely. A message is encrypted with a public key, and can only be decrypted by the matching private key. (not sure)
-- **authenticate?** -
-- **digital signature?** -
-- **mime? mime type?** - A label used to identify a type of data.
+- **render?** - To load and output a template(may be with data) onto a browser.
+- **restful api?** -
+- **root certificates?** -
+- **ruby on rails?** - A full-stack ruby web framework.
+- **server-side?** -
+- **servlet?** - A java web backend.
+- **ssl certificate?** - A way to confirm that you are currently on a certain website. Lacking an ssl certificate doesn't confirm that the website is fraudulent, but it is unprofessional.
+- **tls host?** -
+
+## Glossary - Linux
+
+- **bash?** - A common shell.
+
+## Glossary - Git
+
+- **add?** -
+- **blame?** -
+- **commit?** -
+- **diff?** -
+- **gitk?** -
+- **pull?** -
+- **push?** -
+- **origin?** -
+- **repo? repository?** -
+- **remote?** -
+- **staging?** -
+- **tracked?** -
+- **untracked?** -
 
 beautifulsoup
 bokeh
@@ -320,8 +399,6 @@ react native
 redis
 regex
 rest api
-ruby
-ruby on rails
 rust
 s3direct
 sass
