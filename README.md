@@ -97,7 +97,7 @@ An operating system, just like Windows.
 
 ### Why is Unix important?
 
-MacOS terminal is based on unix. Webservers mainly use unix. We can interact with the computer filesystem more efficiently with some useful unix commands.
+MacOS terminal is based on Unix. Webservers mainly use Unix. We can interact with the computer filesystem more efficiently with some useful Unix commands.
 
 ### How to delete a folder?
 
@@ -105,9 +105,15 @@ MacOS terminal is based on unix. Webservers mainly use unix. We can interact wit
 rm -rf my_folder
 ```
 
-### What are exit codes?
+### What are exit codes / return codes?
 
-[https://shapeshed.com/unix-exit-codes/]
+https://shapeshed.com/unix-exit-codes/
+
+A number from 0-255 returned to the shell after a program ends. On Unix-like systems, 0 represents success and any number from 1 to 255 for anything else.
+
+Exit codes can be interpreted by machine scripts to adapt in the event of successes of failures. If exit codes are not set the exit code will be the exit code of the last run command.
+
+### What is POSIX?
 
 ### What is bash?
 
