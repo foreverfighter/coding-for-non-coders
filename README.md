@@ -15,11 +15,11 @@ A big list of likely questions from non coders, my answers and some relevant res
 
 ## Coding
 
-### What is coding
+### What is coding?
 
 Coding is giving instructions to a computer. We often write the instructions in programming languages.
 
-### Why do we code
+### Why do we code?
 
 Computers can communicate with other computers(through the internet), store, process and output information(and graphics and music), run games, move(through robotics), make predictions and create new information(through machine learning). Coding is telling the computer how to do these things.
 
@@ -39,9 +39,9 @@ Some common coding applications are:
 - Cryptography
 - Hacking
 
-### What can we use coding for
+### What can we use coding for?
 
-### What programming languages should I learn
+### What programming languages should I learn?
 
 A language is good to learn if it has a lot of community support(ie. it's popular) and provides career opportunities. Ideally, it should also be easy to use.
 
@@ -56,11 +56,11 @@ Below are my picks ranked in order.
 
 ## Python
 
-### How do I write a docstring
+### How do I write a docstring?
 
 [overflow](https://stackoverflow.com/questions/3898572/what-is-the-standard-python-docstring-format)
 
-#### How do I remove all .pyc files in my project
+#### How do I remove all .pyc files in my project?
 
 ```bash
 find . -name '*.pyc' -delete
@@ -68,22 +68,24 @@ find . -name '*.pyc' -delete
 
 ## Computing
 
-### What is computing about
+### What is computing about?
 
 Computing is about two aspects of computations: Speed(time efficiency) and storage efficiency. Computing problems can be solved in many ways, but the field strives towards time- and space-efficient solutions.
 
 ## Text Editors
 
+### VSCode
+
 ### Atom
 
-### What are some useful regex for find and replace
+#### What are some useful regex for find and replace?
 
 - ^\s.\*\n selects all lines which start with a whitespace character.
 - You can replace selections with an empty string to delete the selections.
 
 ## The Web
 
-### What are some good free resources for learning
+### What are some good free resources for learning?
 
 - [Google networking course](https://www.coursera.org/learn/computer-networking)
 
@@ -93,11 +95,11 @@ Computing is about two aspects of computations: Speed(time efficiency) and stora
 
 An operating system, just like Windows.
 
-### Importance
+### Why is Unix important?
 
 MacOS terminal is based on unix. Webservers mainly use unix. We can interact with the computer filesystem more efficiently with some useful unix commands.
 
-### How to delete a folder
+### How to delete a folder?
 
 ```bash
 rm -rf my_folder
@@ -107,15 +109,15 @@ rm -rf my_folder
 
 [https://shapeshed.com/unix-exit-codes/]
 
-### Bash
+### What is bash?
 
 The most important shell. It is the default shell for many operating system distributions.
 
-### What are some common bash commands
+### What are some common bash commands?
 
 `cd`
 
-### What are some common bash programs
+### What are some common bash programs?
 
 `grep`
 `export`
@@ -125,7 +127,7 @@ The most important shell. It is the default shell for many operating system dist
 `mv`
 `cp`
 
-#### What is an shell/environment variable
+#### What is an shell/environment variable?
 
 `$ export` shows all shell variables.
 Environment variables also often refers to shell variables, but can also refer to variables used by applications other than a shell.
@@ -133,25 +135,25 @@ Environment variables also often refers to shell variables, but can also refer t
 These can be set with `VAR=value`, `export VAR=value` or `env VAR=value`. `value` should use quotes if it's a string.
 `export VAR=value` is most common. It's bash-syntax. `VAR=value` doesn't expose the set variable to other programs like `grep`. `env` works like `export` but is a program in itself. (https://askubuntu.com/questions/205688/whats-the-difference-between-set-export-and-env-and-when-should-i-use-each)
 
-#### Why don't I need quotes for strings when setting shell variables
+#### Why don't I need quotes for strings when setting shell variables?
 
 In the `VAR=value` syntax, value is taken to be a string _by default_ when there are no spaces in it. If there are spaces, you need to enclose the string in quotes.
 
 ## Git
 
-#### What are some common commands
+#### What are some common commands?
 
 `git diff HEAD~1 HEAD` - View differences between this commit and the previous.
 
-#### How do I track the history of a file
+#### How do I track the history of a file?
 
 `gitk (filename)` or `git log -p (filename)`.
 
-#### How do I overwrite the remote after making a mistake
+#### How do I overwrite the remote after making a mistake?
 
 `git push --force`
 
-#### How do I reset my local branch to copy the remote
+#### How do I reset my local branch to copy the remote?
 
 `git reset --hard origin/(your_branch_name)`
 
