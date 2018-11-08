@@ -1,4 +1,6 @@
-# coding-for-non-coders
+# coding-for-non-coders &middot; [![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)](https://github.com/siowyisheng/coding-for-non-coders/blob/master/LICENSE) [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](https://reactjs.org/docs/how-to-contribute.html#your-first-pull-request)
+
+<!-- [![Coverage Status](https://img.shields.io/coveralls/facebook/react/master.svg?style=flat)](https://coveralls.io/github/facebook/react?branch=master) [![CircleCI Status](https://circleci.com/gh/facebook/react.svg?style=shield&circle-token=:circle-token)](https://circleci.com/gh/facebook/react) -->
 
 A big list of likely questions from non coders, my answers and some relevant resources.
 
@@ -8,9 +10,12 @@ A big list of likely questions from non coders, my answers and some relevant res
 - Python
 - Computing
 - Text Editors
+- Software
 - The Web
 - Unix
+- Tests
 - Git
+- Github
 - Glossary
 
 ## Coding
@@ -78,10 +83,20 @@ Computing is about two aspects of computations: Speed(time efficiency) and stora
 
 ### Atom
 
-#### What are some useful regex for find and replace?
+### What are some useful regex for find and replace?
 
 - ^\s.\*\n selects all lines which start with a whitespace character.
 - You can replace selections with an empty string to delete the selections.
+
+## Software
+
+### How do I add a license to my software?
+
+Simply copy a LICENSE file to your repo.
+
+### What software licenses should I choose?
+
+[Choose a license](https://choosealicense.com/)
 
 ## The Web
 
@@ -109,7 +124,7 @@ rm -rf my_folder
 
 [Tutorial](https://shapeshed.com/unix-exit-codes/)
 
-A number from 0-255 returned to the shell after a program ends. On Unix-like systems, 0 represents success and any number from 1 to 255 for anything else.
+A number returned to the shell after a program ends. 0 indicates that the program ran successfully. On Unix-like systems, it goes up to 255. On Windows systems, it goes up to 15999.
 
 Exit codes can be interpreted by machine scripts to adapt in the event of successes of failures. If exit codes are not set the exit code will be the exit code of the last run command.
 
@@ -121,19 +136,20 @@ The most important shell. It is the default shell for many operating system dist
 
 ### What are some common bash commands?
 
-`cd`
+```bash
+cd
+export
+ls
+mkdir
+rm
+mv
+cp
+touch
+cat
+grep
+```
 
-### What are some common bash programs?
-
-`grep`
-`export`
-`ls`
-`mkdir`
-`rm`
-`mv`
-`cp`
-
-#### What is an shell/environment variable?
+### What is an shell/environment variable?
 
 `$ export` shows all shell variables.
 Environment variables also often refers to shell variables, but can also refer to variables used by applications other than a shell.
@@ -141,27 +157,47 @@ Environment variables also often refers to shell variables, but can also refer t
 These can be set with `VAR=value`, `export VAR=value` or `env VAR=value`. `value` should use quotes if it's a string.
 `export VAR=value` is most common. It's bash-syntax. `VAR=value` doesn't expose the set variable to other programs like `grep`. `env` works like `export` but is a program in itself. (https://askubuntu.com/questions/205688/whats-the-difference-between-set-export-and-env-and-when-should-i-use-each)
 
-#### Why don't I need quotes for strings when setting shell variables?
+### Why don't I need quotes for strings when setting shell variables?
 
 In the `VAR=value` syntax, value is taken to be a string _by default_ when there are no spaces in it. If there are spaces, you need to enclose the string in quotes.
 
+### What is CI/CD?
+
+### What is Continuous Integration?
+
+### What is Continuous Delivery?
+
+### What are the most important CI/CD technologies?
+
+[CircleCI](https://circleci.com/) is recommended for small projects for fast setup.
+
+[TravisCI](https://travis-ci.org/) is recommended for open-source projects for testing in different environments.
+
+[Jenkins](https://jenkins.io/) is recommended for the big projects for customizations. You need to setup your own server.
+
 ## Git
 
-#### What are some common commands?
+### What are some common commands?
 
 `git diff HEAD~1 HEAD` - View differences between this commit and the previous.
 
-#### How do I track the history of a file?
+### How do I track the history of a file?
 
 `gitk (filename)` or `git log -p (filename)`.
 
-#### How do I overwrite the remote after making a mistake?
+### How do I overwrite the remote after making a mistake?
 
 `git push --force`
 
-#### How do I reset my local branch to copy the remote?
+### How do I reset my local branch to copy the remote?
 
 `git reset --hard origin/(your_branch_name)`
+
+## Github
+
+### What is Github?
+
+A place to store code, which integrates well with git<sup>[?](#git)</sup>.
 
 ## Glossary - Coding and computing in general
 
