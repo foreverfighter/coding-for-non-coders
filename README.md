@@ -107,7 +107,7 @@ rm -rf my_folder
 
 ### What are exit codes / return codes?
 
-https://shapeshed.com/unix-exit-codes/
+[Tutorial](https://shapeshed.com/unix-exit-codes/)
 
 A number from 0-255 returned to the shell after a program ends. On Unix-like systems, 0 represents success and any number from 1 to 255 for anything else.
 
