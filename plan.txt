@@ -5,3 +5,7 @@ there's no good reason to have two different styles in the same document.
 separate 
 external links | normal link styling
 internal links <sup>[?](#what-is-posix)</sup>.
+
+----------------
+
+structure the document better

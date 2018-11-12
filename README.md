@@ -7,7 +7,10 @@ A big list of likely questions from non coders, my answers and some relevant res
 ## Contents
 
 - Coding
+- Languages
+- Data
 - Python
+- Documentation
 - Computing
 - Text Editors
 - Software
@@ -59,7 +62,39 @@ Below are my picks ranked in order.
 3. For server-side programming, **PHP** is the most [popular](https://w3techs.com/technologies/history_overview/programming_language) language by far.
 4. Other good languages to learn are **Java**, and **C#**, because they are popular.
 
+## Languages
+
+### What is JSON?
+
+JSON(JavaScript Object Notation)[(cheatstart)](https://learnxinyminutes.com/docs/json/) is a popular language for storing data. It operates very well with many programming languages, especially JavaScript.
+
+### What is YAML?
+
+YAML(YAML Ain't Markup Language)[(cheatstart)](https://learnxinyminutes.com/docs/yaml/) is a very readable language for storing data, which allows comments.
+
+### What is Markdown?
+
+A way to write formatted text.
+
+### What is reStructuredText?
+
+A fancier way to write formatted text.
+
+## Data
+
+### What is scalar data vs vector data?
+
+Scalar data has a single value. For example, the number 5 is scalar.
+
+Vector data can have any number of values. For example, a list of two numbers 4 and 6 is vector.
+
 ## Python
+
+### How do I save the requirements of my current project?
+
+```bash
+pip freeze > requirements.txt
+```
 
 ### How do I write a docstring?
 
@@ -70,6 +105,30 @@ Below are my picks ranked in order.
 ```bash
 find . -name '*.pyc' -delete
 ```
+
+## Documentation
+
+### What is documentation?
+
+It's the manual for a software.
+
+### How do you write Python documentation?
+
+A good way is to use Sphinx and write it in reStructuredText(.rst). Some documentation can be generated automatically from your docstrings using Sphinx's autodoc and [napoleon](http://www.sphinx-doc.org/en/master/usage/extensions/napoleon.html#module-sphinx.ext.napoleon).
+
+### How do you write reStructuredText(.rst)?
+
+It's like Markdown([cheat sheet](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet)) but with:
+
+- [Directives](http://docutils.sourceforge.net/docs/ref/rst/directives.html)
+- [Definition Lists](http://docutils.sourceforge.net/docs/user/rst/quickref.html#definition-lists)
+- [Different code block formatting syntax](http://docutils.sourceforge.net/docs/user/rst/quickref.html#literal-blocks)
+- [Sections instead of h1,h2,h3](http://docutils.sourceforge.net/docs/user/rst/quickref.html#section-structure)
+- [Document title and subtitle](http://docutils.sourceforge.net/docs/user/rst/quickstart.html#document-title-subtitle)
+- [Different image syntax](http://docutils.sourceforge.net/docs/user/rst/quickstart.html#images)
+
+[A primer](http://docutils.sourceforge.net/docs/user/rst/quickstart.html)
+TODO
 
 ## Computing
 
@@ -89,6 +148,14 @@ Computing is about two aspects of computations: Speed(time efficiency) and stora
 - You can replace selections with an empty string to delete the selections.
 
 ## Software
+
+### What is Agile?
+
+### What is Test Driven Development(TDD)?
+
+### What is Behavior Driven Development(BDD)?
+
+[source](https://dannorth.net/introducing-bdd/)
 
 ### How do I add a license to my software?
 
@@ -161,6 +228,45 @@ These can be set with `VAR=value`, `export VAR=value` or `env VAR=value`. `value
 
 In the `VAR=value` syntax, value is taken to be a string _by default_ when there are no spaces in it. If there are spaces, you need to enclose the string in quotes.
 
+## Tests
+
+### What are tests?
+
+Tests are functions separate from your software, which tell you whether your code works the way it's supposed to.
+
+### What are the main types of tests?
+
+**Unit tests** test functions. They only test the code that is being tested, also known as CUT(Code Under Test), and nothing else. They are fast and any interaction with outside systems is [mocked or stubbed](https://martinfowler.com/articles/mocksArentStubs.html).
+**Functional tests**(or acceptance tests, UI tests, systems tests) simulate user behavior on the software as a whole from the perspective of the user.
+
+### Why write tests? Why not just run the code and test it manually?
+
+1. Software can have too many functions to test manually.
+2. Software can have too many test cases to test manually.
+3. Written tests can run more quickly than manual testing.
+4. Even if you find something wrong, running the code does not tell you exactly which functions are not working correctly. Unit tests tell you exactly which function fails.
+5. Written tests can be executed automatically without human attention with CI/CD tools and tools like pytest-watch.
+6. Written tests can be run by others collaborating with you, so that they can contribute code while being confident of not breaking existing functionality.
+7. Written tests can be run by users(or potential buyers) of your code, to ensure that your code works as advertised.
+
+### What is mocking and stubbing?
+
+Mocks use behavior verification, ie. which functions were called, with what arguments, how many times, and what was returned. They are pre-programmed with expectations which form a specification of the calls they are expected to receive.
+
+Stubs provide canned answers to calls made during the test, usually not responding at all to anything outside what's programmed in for the test.
+
+Spies are stubs that also record some information based on how they were called. One form of this might be an email service that records how many messages it was sent.
+
+[source](https://martinfowler.com/articles/mocksArentStubs.html)
+
+### How do I write tests for Python?
+
+Pytest is the most popular testing framework. Learn how to use it [here](https://docs.pytest.org/en/latest/getting-started.html).
+
+### How do I write tests for JavaScript?
+
+Mocha is the most popular framework. Learn to use it [here](https://mochajs.org/#getting-started). Other tools to use with it are Chai and Sinon.
+
 ### What is CI/CD?
 
 ### What is Continuous Integration?
@@ -177,6 +283,20 @@ In the `VAR=value` syntax, value is taken to be a string _by default_ when there
 
 ## Git
 
+### What is Git?
+
+A version control system. It helps collaboration, works as a form of backup, and more.
+
+### How do remotes repositories work?
+
+A remote repository first exists at a remote location; often, a github repo. When you `git clone` the repo, you create a **local copy** of the repo and the branches which **track** the remote repo's branches. You also create a **reference** to the remote repo and its branches.
+
+### What is the difference between `git fetch` and `git pull`?
+
+`git fetch` accesses the remote repo and updates your **reference** to the remote repo. `git pull` does a `git fetch` and also does a `git merge` to merge your reference to the remote branch with your local copy of the remote branch.
+
+See [above](#how-do-remotes-repositories-work) to understand how remote repositories work.
+
 ### What are some common commands?
 
 `git diff HEAD~1 HEAD` - View differences between this commit and the previous.
@@ -192,6 +312,14 @@ In the `VAR=value` syntax, value is taken to be a string _by default_ when there
 ### How do I reset my local branch to copy the remote?
 
 `git reset --hard origin/(your_branch_name)`
+
+### How do I find a commit by the message?
+
+`git log --all --grep='your search string'`
+
+### How do I delete a local branch?
+
+`git branch -D branch_name`
 
 ## Github
 
