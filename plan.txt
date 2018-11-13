@@ -4,4 +4,17 @@ there's no good reason to have two different styles in the same document.
 use this style for 'what is (foo)'
 [foo<sup>?</sup>](#foo-header)
 
-structure the document better
+structure the document
+
+philosophy: mention the lingo as an afterthought. use simple, organized structures and words.
+
+Documentation
+Goals (Requirements analysis)
+Architecture
+
+Testing
+Coding
+Debugging
+Deployment
+
+Maintenance

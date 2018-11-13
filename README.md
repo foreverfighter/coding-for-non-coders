@@ -4,7 +4,7 @@
 
 ## Contents
 
-- Coding
+- Software development
 - Job
 - Languages
 - Data
@@ -21,13 +21,19 @@
 - Github
 - Glossary
 
-## Coding
+## Software development
+
+### What is software development?
+
+Creating computer programs. This involves coding, testing, debugging, design, maintaining.
 
 ### What is coding?
 
 Coding is giving instructions to a computer using a programming languages.
 
-### Why do we code?
+### What are the different types of software?
+
+TODO: to rewrite this.
 
 Computers can communicate with other computers(through the internet), store, process and output information(and graphics and music), run games, move(through robotics), make predictions and create new information(through machine learning). Coding is telling the computer how to do these things.
 
