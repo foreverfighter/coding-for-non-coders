@@ -1,14 +1,16 @@
-# coding-for-non-coders &middot; [![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)](https://github.com/siowyisheng/coding-for-non-coders/blob/master/LICENSE) [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](https://reactjs.org/docs/how-to-contribute.html#your-first-pull-request)
+# coding-for-non-coders &middot; [![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)](https://github.com/siowyisheng/coding-for-non-coders/blob/master/LICENSE) ![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)
 
 <!-- [![Coverage Status](https://img.shields.io/coveralls/facebook/react/master.svg?style=flat)](https://coveralls.io/github/facebook/react?branch=master) [![CircleCI Status](https://circleci.com/gh/facebook/react.svg?style=shield&circle-token=:circle-token)](https://circleci.com/gh/facebook/react) -->
 
-A big list of likely questions from non coders, my answers and some relevant resources.
+I give simple answers to questions about coding.
 
 ## Contents
 
 - Coding
+- Job
 - Languages
 - Data
+- Javascript
 - Python
 - Documentation
 - Computing
@@ -62,6 +64,22 @@ Below are my picks ranked in order.
 3. For server-side programming, **PHP** is the most [popular](https://w3techs.com/technologies/history_overview/programming_language) language by far.
 4. Other good languages to learn are **Java**, and **C#**, because they are popular.
 
+## Jobs
+
+### What is a developer?
+
+Someone who writes code.
+
+### What do developers do on a day-to-day basis?
+
+### What is a data analyst?
+
+Someone who works primarily with data. This usually involves collecting, manipulating, visualizing and analyzing the data.
+
+### What is a data scientist?
+
+Someone who does machine learning. They often also need to do the work of a data analyst.
+
 ## Languages
 
 ### What is JSON?
@@ -88,7 +106,17 @@ Scalar data has a single value. For example, the number 5 is scalar.
 
 Vector data can have any number of values. For example, a list of two numbers 4 and 6 is vector.
 
+## Javascript
+
+### What is Javascript used for?
+
+Primarily front-end(with jQuery/React/Angular/Vue) and back-end(with MongoDB/Express/Node) app development. However, it can also do many other things like machine learning, data visualization and more.
+
 ## Python
+
+### What is Python used for?
+
+Primarily data work(Data Science, Data Analysis, Data Visualization), working with [natural language](https://en.wikipedia.org/wiki/Natural_language_processing) and back-end web development. However, it can also do many other things like desktop app development, image manipulation and more.
 
 ### How do I save the requirements of my current project?
 
@@ -249,15 +277,16 @@ Tests are functions separate from your software, which tell you whether your cod
 6. Written tests can be run by others collaborating with you, so that they can contribute code while being confident of not breaking existing functionality.
 7. Written tests can be run by users(or potential buyers) of your code, to ensure that your code works as advertised.
 
-### What is mocking and stubbing?
+### What are mocks, stubs and spies?
 
-Mocks use behavior verification, ie. which functions were called, with what arguments, how many times, and what was returned. They are pre-programmed with expectations which form a specification of the calls they are expected to receive.
+**Stubs override a function/object** and provide canned answers to calls made during the test. Their purpose is to allow you to run your test.
 
-Stubs provide canned answers to calls made during the test, usually not responding at all to anything outside what's programmed in for the test.
+**Mocks are stubs with in-built tests**. They specify expectations of how the mock is called. This can include with what arguments, how many times, and what was returned.
 
-Spies are stubs that also record some information based on how they were called. One form of this might be an email service that records how many messages it was sent.
+**Spies do not override functionality**. They record how the spied functions were called.
 
 [source](https://martinfowler.com/articles/mocksArentStubs.html)
+[source 2](https://stackoverflow.com/questions/3459287/whats-the-difference-between-a-mock-stub/17810004#17810004)
 
 ### How do I write tests for Python?
 
