@@ -2,8 +2,6 @@
 
 <!-- [![Coverage Status](https://img.shields.io/coveralls/facebook/react/master.svg?style=flat)](https://coveralls.io/github/facebook/react?branch=master) [![CircleCI Status](https://circleci.com/gh/facebook/react.svg?style=shield&circle-token=:circle-token)](https://circleci.com/gh/facebook/react) -->
 
-I give simple answers to questions about coding.
-
 ## Contents
 
 - Coding
@@ -203,7 +201,7 @@ Simply copy a LICENSE file to your repo.
 
 ### What is Unix?
 
-An operating system, just like Windows.
+An operating system, like Windows or MacOS.
 
 ### Why is Unix important?
 
@@ -217,11 +215,9 @@ rm -rf my_folder
 
 ### What are exit codes / return codes?
 
-[Tutorial](https://shapeshed.com/unix-exit-codes/)
-
 A number returned to the shell after a program ends. 0 indicates that the program ran successfully. On Unix-like systems, it goes up to 255. On Windows systems, it goes up to 15999.
 
-Exit codes can be interpreted by machine scripts to adapt in the event of successes of failures. If exit codes are not set the exit code will be the exit code of the last run command.
+[Tutorial](https://shapeshed.com/unix-exit-codes/)
 
 ### What is POSIX?
 
