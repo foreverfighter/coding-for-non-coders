@@ -96,7 +96,11 @@ Below are my picks ranked in order.
 | ------------------------------------------------------- | ---------------------------------------------- | -------------------------------- | ------------------------------------------------- |
 | [analog](#what-is-analog-data)                          | [csv](#what-is-a-csv-file)                     | [digital](#what-is-digital-data) | [dbms](#what-is-a-database-management-systemdbms) |
 | [mysql](#what-is-mysql)                                 | [query](#what-does-it-mean-to-query-something) | [orm](#what-is-an-orm)           | [sql](#what-is-sql)                               |
-| [scalar vs vector](#what-is-scalar-data-vs-vector-data) | [microsoft access](#what-is-microsoft-access)  |                                  |                                                   |
+| [scalar vs vector](#what-is-scalar-data-vs-vector-data) | [microsoft access](#what-is-microsoft-access)  | [data](#what-is-data)            |                                                   |
+
+#### What is data?
+
+Information.
 
 #### What is scalar data vs vector data?
 
