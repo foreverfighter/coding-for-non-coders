@@ -92,13 +92,11 @@ Below are my picks ranked in order.
 
 ### Data
 
-|                                                   |                                     |                                                      |                                                    |
-| ------------------------------------------------- | ----------------------------------- | ---------------------------------------------------- | -------------------------------------------------- |
-| [analog](#what-is-software-development)           | [csv](#what-is-coding)              | [digital](#what-are-the-different-types-of-software) | [dbms](#what-programming-languages-should-i-learn) |
-| [mysql](#what-is-software-development)            | [query](#what-is-coding)            | [orm](#what-are-the-different-types-of-software)     | [sql](#what-programming-languages-should-i-learn)  |
-| [scalar vs vector](#what-is-software-development) | [microsoft access](#what-is-coding) |                                                      |                                                    |
-
-
+|                                                         |                                                |                                  |                                                   |
+| ------------------------------------------------------- | ---------------------------------------------- | -------------------------------- | ------------------------------------------------- |
+| [analog](#what-is-analog-data)                          | [csv](#what-is-a-csv-file)                     | [digital](#what-is-digital-data) | [dbms](#what-is-a-database-management-systemdbms) |
+| [mysql](#what-is-mysql)                                 | [query](#what-does-it-mean-to-query-something) | [orm](#what-is-an-orm)           | [sql](#what-is-sql)                               |
+| [scalar vs vector](#what-is-scalar-data-vs-vector-data) | [microsoft access](#what-is-microsoft-access)  |                                  |                                                   |
 
 #### What is scalar data vs vector data?
 
@@ -125,6 +123,8 @@ A human-readable file format for data in rows and columns.
 #### What is a Database Management System(DBMS)?
 
 A way to store a lot of data efficiently.
+
+#### What is an ORM?
 
 #### What is MySQL?
 
