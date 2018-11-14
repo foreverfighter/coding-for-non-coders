@@ -81,10 +81,14 @@ Below are my picks ranked in order.
 
 1. To do anything web-related, you need to learn **JavaScript**. It's also very very popular.
 2. For general purpose programming, **Python** is very popular and easy.
-3. For server-side programming, **PHP** is the most [popular](https://w3techs.com/technologies/history_overview/programming_language) language by far.
+3. For [server-side programming<sup>?</sup>](#what-is-serverside-programming), **PHP** is the most [popular](https://w3techs.com/technologies/history_overview/programming_language) language by far.
 4. Other good languages to learn are **Java**, and **C#**, because they are popular.
 
 ### The Web
+
+#### What is server-side programming?
+
+The code that is run on the computer serving the web app to users. It usually includes the business logic for the application and the code to interact with the database (if any). ! TO IMPROVE !
 
 #### What are some good free resources for learning?
 
@@ -92,11 +96,11 @@ Below are my picks ranked in order.
 
 ### Data
 
-|                                                         |                                                |                                  |                                                   |
-| ------------------------------------------------------- | ---------------------------------------------- | -------------------------------- | ------------------------------------------------- |
-| [analog](#what-is-analog-data)                          | [csv](#what-is-a-csv-file)                     | [digital](#what-is-digital-data) | [dbms](#what-is-a-database-management-systemdbms) |
-| [mysql](#what-is-mysql)                                 | [query](#what-does-it-mean-to-query-something) | [orm](#what-is-an-orm)           | [sql](#what-is-sql)                               |
-| [scalar vs vector](#what-is-scalar-data-vs-vector-data) | [microsoft access](#what-is-microsoft-access)  | [data](#what-is-data)            |                                                   |
+|                                                         |                                                |                                       |                                                   |
+| ------------------------------------------------------- | ---------------------------------------------- | ------------------------------------- | ------------------------------------------------- |
+| [analog data](#what-is-analog-data)                     | [csv](#what-is-a-csv-file)                     | [digital data](#what-is-digital-data) | [dbms](#what-is-a-database-management-systemdbms) |
+| [mysql](#what-is-mysql)                                 | [query](#what-does-it-mean-to-query-something) | [orm](#what-is-an-orm)                | [sql](#what-is-sql)                               |
+| [scalar vs vector](#what-is-scalar-data-vs-vector-data) | [microsoft access](#what-is-microsoft-access)  | [data](#what-is-data)                 |                                                   |
 
 #### What is data?
 
