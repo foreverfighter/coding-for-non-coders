@@ -96,9 +96,9 @@
 
 ### Software Development
 
-| Topics                                                  |                             |                                                                  |                                                                     |
-| ------------------------------------------------------- | --------------------------- | ---------------------------------------------------------------- | ------------------------------------------------------------------- |
-| [software development]((#what-is-software-development)) | [coding]((#what-is-coding)) | [types of software]((#what-are-the-different-types-of-software)) | [choosing a language]((#what-programming-languages-should-i-learn)) |
+| Topics                                                |                           |                                                                |                                                                   |
+| ----------------------------------------------------- | ------------------------- | -------------------------------------------------------------- | ----------------------------------------------------------------- |
+| [software development](#what-is-software-development) | [coding](#what-is-coding) | [types of software](#what-are-the-different-types-of-software) | [choosing a language](#what-programming-languages-should-i-learn) |
 
 #### What is software development?
 
