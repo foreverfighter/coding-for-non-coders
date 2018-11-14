@@ -6,82 +6,23 @@
 
 - [Ideas](#ideas)
   - [Software Development](#software-development)
-    - [What is software development?](#what-is-software-development)
-    - [What is coding?](#what-is-coding)
-    - [What are the different types of software?](#what-are-the-different-types-of-software)
-    - [What programming languages should I learn?](#what-programming-languages-should-i-learn)
   - [The Web](#the-web)
-    - [What are some good free resources for learning?](#what-are-some-good-free-resources-for-learning)
   - [Data](#data)
-    - [What is scalar data vs vector data?](#what-is-scalar-data-vs-vector-data)
-    - [Glossary](#glossary)
   - [Computing](#computing)
-    - [What is computing about?](#what-is-computing-about)
   - [Documentation](#documentation)
-    - [What is documentation?](#what-is-documentation)
-    - [How do you write Python documentation?](#how-do-you-write-python-documentation)
-    - [How do you write reStructuredText(.rst)?](#how-do-you-write-restructuredtextrst)
   - [Tests](#tests)
-    - [What are tests?](#what-are-tests)
-    - [What are the main types of tests?](#what-are-the-main-types-of-tests)
-    - [Why write tests? Why not just run the code and test it manually?](#why-write-tests-why-not-just-run-the-code-and-test-it-manually)
-    - [What are mocks, stubs and spies?](#what-are-mocks-stubs-and-spies)
-    - [How do I write tests for Python?](#how-do-i-write-tests-for-python)
-    - [How do I write tests for JavaScript?](#how-do-i-write-tests-for-javascript)
-    - [What is CI/CD?](#what-is-cicd)
-    - [What is Continuous Integration?](#what-is-continuous-integration)
-    - [What is Continuous Delivery?](#what-is-continuous-delivery)
-    - [What are the most important CI/CD technologies?](#what-are-the-most-important-cicd-technologies)
 - [Tools](#tools)
   - [Languages](#languages)
-    - [Glossary](#glossary-1)
   - [Javascript](#javascript)
-    - [What is Javascript used for?](#what-is-javascript-used-for)
   - [Python](#python)
-    - [What is Python used for?](#what-is-python-used-for)
-    - [How do I save the requirements of my current project?](#how-do-i-save-the-requirements-of-my-current-project)
-    - [How do I write a docstring?](#how-do-i-write-a-docstring)
-    - [How do I remove all .pyc files in my project?](#how-do-i-remove-all-pyc-files-in-my-project)
   - [Text Editors](#text-editors)
-    - [VSCode](#vscode)
-    - [Atom](#atom)
-    - [What are some useful regex for find and replace?](#what-are-some-useful-regex-for-find-and-replace)
   - [Git](#git)
-    - [What is Git?](#what-is-git)
-    - [How do remotes repositories work?](#how-do-remotes-repositories-work)
-    - [What is the difference between `git fetch` and `git pull`?](#what-is-the-difference-between-git-fetch-and-git-pull)
-    - [What are some common commands?](#what-are-some-common-commands)
-    - [How do I track the history of a file?](#how-do-i-track-the-history-of-a-file)
-    - [How do I overwrite the remote after making a mistake?](#how-do-i-overwrite-the-remote-after-making-a-mistake)
-    - [How do I reset my local branch to copy the remote?](#how-do-i-reset-my-local-branch-to-copy-the-remote)
-    - [How do I find a commit by the message?](#how-do-i-find-a-commit-by-the-message)
-    - [How do I delete a local branch?](#how-do-i-delete-a-local-branch)
-    - [How do I remove references to branches on the remote?](#how-do-i-remove-references-to-branches-on-the-remote)
   - [Github](#github)
-    - [What is Github?](#what-is-github)
   - [Unix](#unix)
-    - [What is Unix?](#what-is-unix)
-    - [Why is Unix important?](#why-is-unix-important)
-    - [How to delete a folder?](#how-to-delete-a-folder)
-    - [What are exit codes / return codes?](#what-are-exit-codes--return-codes)
-    - [What is POSIX?](#what-is-posix)
-    - [What is bash?](#what-is-bash)
-    - [What are some common bash commands?](#what-are-some-common-bash-commands)
-    - [What is an shell/environment variable?](#what-is-an-shellenvironment-variable)
-    - [Why don't I need quotes for strings when setting shell variables?](#why-dont-i-need-quotes-for-strings-when-setting-shell-variables)
 - [Meta](#meta)
   - [Jobs](#jobs)
-    - [What is a developer?](#what-is-a-developer)
-    - [What do developers do on a day-to-day basis?](#what-do-developers-do-on-a-day-to-day-basis)
-    - [What is a data analyst?](#what-is-a-data-analyst)
-    - [What is a data scientist?](#what-is-a-data-scientist)
   - [Ways](#ways)
-    - [What is Agile?](#what-is-agile)
-    - [What is Test Driven Development(TDD)?](#what-is-test-driven-developmenttdd)
-    - [What is Behavior Driven Development(BDD)?](#what-is-behavior-driven-developmentbdd)
   - [Licensing](#licensing)
-    - [How do I add a license to my software?](#how-do-i-add-a-license-to-my-software)
-    - [What software licenses should I choose?](#what-software-licenses-should-i-choose)
 - [Glossary - Coding and computing in general](#glossary---coding-and-computing-in-general)
 - [Glossary - Operating systems](#glossary---operating-systems)
 - [Glossary - Python](#glossary---python)
@@ -151,23 +92,51 @@ Below are my picks ranked in order.
 
 ### Data
 
+|                                                   |                                     |                                                      |                                                    |
+| ------------------------------------------------- | ----------------------------------- | ---------------------------------------------------- | -------------------------------------------------- |
+| [analog](#what-is-software-development)           | [csv](#what-is-coding)              | [digital](#what-are-the-different-types-of-software) | [dbms](#what-programming-languages-should-i-learn) |
+| [mysql](#what-is-software-development)            | [query](#what-is-coding)            | [orm](#what-are-the-different-types-of-software)     | [sql](#what-programming-languages-should-i-learn)  |
+| [scalar vs vector](#what-is-software-development) | [microsoft access](#what-is-coding) |                                                      |                                                    |
+
+
+
 #### What is scalar data vs vector data?
 
 Scalar data has a single value. For example, the number 5 is scalar.
 
 Vector data can have any number of values. For example, a list of two numbers 4 and 6 is vector.
 
-#### Glossary
+#### What is Microsoft Access?
 
-- **access** - A proprietary dbms for windows.
-- **analog** - Data stored electrically or in some tactile form.
-- **csv** - A human-readable file format for data in rows and columns.
-- **digital** - Data stored in 0s and 1s.
-- **dbms database management system** - A way to store a lot of data efficiently.
-- **mysql** - A free relational database management system.
-- **query** - To get data from (something).
-- **orm** -
-- **sql** - A way to select data from a database management system. aka Structured Query Language.
+A proprietary DBMS for Windows.
+
+#### What is analog data?
+
+Data stored electrically or in some tactile form.
+
+#### What is digital data?
+
+Data stored in 0s and 1s.
+
+#### What is a csv file?
+
+A human-readable file format for data in rows and columns.
+
+#### What is a Database Management System(DBMS)?
+
+A way to store a lot of data efficiently.
+
+#### What is MySQL?
+
+A free relational database management system.
+
+#### What does it mean to 'query' something?
+
+To get data from (something).
+
+#### What is SQL?
+
+A way to select data from a database management system. aka Structured Query Language.
 
 ### Computing
 
