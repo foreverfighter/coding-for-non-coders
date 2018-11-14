@@ -1,4 +1,4 @@
-# simple software development &middot; [![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)](https://github.com/siowyisheng/simple-software-development/blob/master/LICENSE) ![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg) <!-- omit in toc -->
+# Simple Software Development &middot; [![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)](https://github.com/siowyisheng/simple-software-development/blob/master/LICENSE) ![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)
 
 <!-- [![Coverage Status](https://img.shields.io/coveralls/facebook/react/master.svg?style=flat)](https://coveralls.io/github/facebook/react?branch=master) [![CircleCI Status](https://circleci.com/gh/facebook/react.svg?style=shield&circle-token=:circle-token)](https://circleci.com/gh/facebook/react) -->
 
@@ -25,7 +25,6 @@
   - [Licensing](#licensing)
 - [Glossary - Coding and computing in general](#glossary---coding-and-computing-in-general)
 - [Glossary - Operating systems](#glossary---operating-systems)
-- [Glossary - Python](#glossary---python)
 - [Glossary - Hardware](#glossary---hardware)
 - [Glossary - Security and encryption](#glossary---security-and-encryption)
 - [Glossary - Images](#glossary---images)
@@ -234,41 +233,70 @@ Mocha is the most popular framework. Learn to use it [here](https://mochajs.org/
 
 ### Languages
 
-#### Glossary
+#### What is JSON?
 
-**_What is JSON?_** --> A popular language for storing data. Learn it [here](https://learnxinyminutes.com/docs/json/).
+A popular language for storing data. Learn it [here](https://learnxinyminutes.com/docs/json/).
 
-**_What is YAML?_** --> A very readable language for storing data, which allows comments. Learn it [here](https://learnxinyminutes.com/docs/yaml/).
+#### What is YAML?
 
-**_What is Markdown?_** --> A way to write formatted text.
+A very readable language for storing data, which allows comments. Learn it [here](https://learnxinyminutes.com/docs/yaml/).
 
-**_What is reStructuredText?_** --> A fancier way to write formatted text.
+#### What is Markdown?
 
-**_What is C#?_** --> A programming language commonly used writing windows apps.
+A way to write formatted text.
 
-**_What is C++?_** --> A programming language commonly used for computing performance and embedded systems.
+#### What is reStructuredText(rst)?
 
-**_What is Java?_** --> A programming language that can be easily deployed on many types of computers.
+A fancier way to write formatted text.
 
-**_What is Javascript?_** -->
+#### What is C#?
 
-**_What is Python?_** -->
+A programming language commonly used writing windows apps.
 
-**_What is a programming paradigm?_** --> A set of features about a programming language.
+#### What is C++?
 
-**_What is php?_** --> A programming language commonly used for server-side programming.
+A programming language commonly used for computing performance and embedded systems.
 
-**_What is Ruby?_** --> A high-level, clean programming language, commonly used for web development.
+#### What is Java?
 
-**_What is Rust?_** -->
+A programming language that can be easily deployed on many types of computers.
 
-**_What is a scripting language?_** --> [wiki](https://en.wikipedia.org/wiki/Scripting_language)
+#### What is Javascript?
 
-**_What is a statically-typed language?_** --> [overflow](https://stackoverflow.com/questions/2690544/what-is-the-difference-between-a-strongly-typed-language-and-a-statically-typed)
 
-**_What is a strongly-typed language?_** --> [overflow](https://stackoverflow.com/questions/2690544/what-is-the-difference-between-a-strongly-typed-language-and-a-statically-typed)
+#### What is Python?
 
-**_What is a weakly-typed language?_** --> [overflow](https://stackoverflow.com/questions/2690544/what-is-the-difference-between-a-strongly-typed-language-and-a-statically-typed)
+An easy programming language to learn. It is commonly used for data work and [server-side programming](#what-is-server-side-programming).
+
+#### What is a programming paradigm?
+
+A set of features about a programming language.
+
+#### What is php?
+
+A programming language commonly used for server-side programming.
+
+#### What is Ruby?
+
+ A high-level, clean programming language, commonly used for web development.
+
+#### What is Rust?
+
+#### What is a scripting language?
+
+[wiki](https://en.wikipedia.org/wiki/Scripting_language)
+
+#### What is a statically-typed language?
+
+[overflow](https://stackoverflow.com/questions/2690544/what-is-the-difference-between-a-strongly-typed-language-and-a-statically-typed)
+
+#### What is a strongly-typed language?
+
+[overflow](https://stackoverflow.com/questions/2690544/what-is-the-difference-between-a-strongly-typed-language-and-a-statically-typed)
+
+#### What is a weakly-typed language?
+
+[overflow](https://stackoverflow.com/questions/2690544/what-is-the-difference-between-a-strongly-typed-language-and-a-statically-typed)
 
 ### Javascript
 
@@ -297,6 +325,51 @@ pip freeze > requirements.txt
 ```bash
 find . -name '*.pyc' -delete
 ```
+
+#### What is Pythonic code?
+
+Code that is clear, concise and follows conventions of the Python community.
+
+#### Glossary - Python
+
+- **argument parameter** - Input.
+- **attribute** - Feature, property.
+- **boolean** - A value which is either True or False.
+- **class** - A custom type.
+- **comprehension** -
+- **dictionary** -
+- **element** - Item.
+- **float** - Number with a decimal point.
+- **for loop** - A way to run some code multiple times.
+- **function** - A bunch of code.
+- **generator** - An object that can be looped over, without being run first.
+- **generator function** - A function used to create generators, just like classes are used to make class instances.
+- **if statement** -
+- **index** - Address.
+- **iterable** - An object you can loop over.
+- **library module** - Someone else's code(usually).
+- **key/value** - 
+- **list** - 
+- **list slice** - 
+- **method** - A function, owned by a type. For example, strings have a `.format` method.
+- **return value** - 
+- **standard library** - Someone else's code, pre-installed with python.
+- **string** - 
+- **variable** - 
+- **while** - 
+- **write** - To write to a file is to create the file.
+  decorators
+  context managers
+  descriptors
+  import hooks
+  metaclasses
+  AST transformations
+  pythonic/idiomatic
+  zen of python
+
+
+- **append** - Add to the back.
+- **instantiate** -
 
 ### Text Editors
 
@@ -506,46 +579,6 @@ Simply copy a LICENSE file to your repo.
 - **shell** -
 - **partition** - A part of a hard disk, which can have its own operating system.
 
-## Glossary - Python
-
-- **append** - Add to the back.
-- **argument parameter** - Input.
-- **attribute** - Feature, property.
-- **boolean** - Item.
-- **call run execute** - Item.
-- **comprehension** -
-- **class** - A custom type.
-- **dictionary** - Item.
-- **element** - Item.
-- **float** - To get data from (something).
-- **for loop** - Item.
-- **function** - Item.
-- **generator** - An object that can be looped over, without being run first.
-- **generator function** - A function used to create generators, just like classes are used to make class instances.
-- **if statement** - Item.
-- **index** - Address.
-- **instantiate** -
-- **integer** - To get data from (something).
-- **iterable** - Item.
-- **key/value** - Item.
-- **library module** - Someone else's code(usually).
-- **list slice** - Item.
-- **list** - Item.
-- **method** - A function, owned by a type. For example, strings have a `.format` method.
-- **return value** - Item.
-- **standard library** - Someone else's code, pre-installed with python.
-- **string** - To get data from (something).
-- **variable** - To get data from (something).
-- **while** - Item.
-- **write** - To write to a file is to create the file.
-  decorators
-  context managers
-  descriptors
-  import hooks
-  metaclasses
-  AST transformations
-  pythonic/idiomatic
-  zen of python
 
 ## Glossary - Hardware
 
