@@ -1,37 +1,115 @@
-# simple software development &middot; [![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)](https://github.com/siowyisheng/simple-software-development/blob/master/LICENSE) ![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)
+# simple software development &middot; [![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)](https://github.com/siowyisheng/simple-software-development/blob/master/LICENSE) ![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg) <!-- omit in toc -->
 
 <!-- [![Coverage Status](https://img.shields.io/coveralls/facebook/react/master.svg?style=flat)](https://coveralls.io/github/facebook/react?branch=master) [![CircleCI Status](https://circleci.com/gh/facebook/react.svg?style=shield&circle-token=:circle-token)](https://circleci.com/gh/facebook/react) -->
 
-## Contents
+## Contents <!-- omit in toc -->
 
-- Software development
-- Job
-- Languages
-- Data
-- Javascript
-- Python
-- Documentation
-- Computing
-- Text Editors
-- Software
-- The Web
-- Unix
-- Tests
-- Git
-- Github
-- Glossary
+- [Ideas](#ideas)
+  - [Software Development](#software-development)
+    - [What is software development?](#what-is-software-development)
+    - [What is coding?](#what-is-coding)
+    - [What are the different types of software?](#what-are-the-different-types-of-software)
+    - [What programming languages should I learn?](#what-programming-languages-should-i-learn)
+  - [The Web](#the-web)
+    - [What are some good free resources for learning?](#what-are-some-good-free-resources-for-learning)
+  - [Data](#data)
+    - [What is scalar data vs vector data?](#what-is-scalar-data-vs-vector-data)
+    - [Glossary](#glossary)
+  - [Computing](#computing)
+    - [What is computing about?](#what-is-computing-about)
+  - [Documentation](#documentation)
+    - [What is documentation?](#what-is-documentation)
+    - [How do you write Python documentation?](#how-do-you-write-python-documentation)
+    - [How do you write reStructuredText(.rst)?](#how-do-you-write-restructuredtextrst)
+  - [Tests](#tests)
+    - [What are tests?](#what-are-tests)
+    - [What are the main types of tests?](#what-are-the-main-types-of-tests)
+    - [Why write tests? Why not just run the code and test it manually?](#why-write-tests-why-not-just-run-the-code-and-test-it-manually)
+    - [What are mocks, stubs and spies?](#what-are-mocks-stubs-and-spies)
+    - [How do I write tests for Python?](#how-do-i-write-tests-for-python)
+    - [How do I write tests for JavaScript?](#how-do-i-write-tests-for-javascript)
+    - [What is CI/CD?](#what-is-cicd)
+    - [What is Continuous Integration?](#what-is-continuous-integration)
+    - [What is Continuous Delivery?](#what-is-continuous-delivery)
+    - [What are the most important CI/CD technologies?](#what-are-the-most-important-cicd-technologies)
+- [Tools](#tools)
+  - [Languages](#languages)
+    - [Glossary](#glossary-1)
+  - [Javascript](#javascript)
+    - [What is Javascript used for?](#what-is-javascript-used-for)
+  - [Python](#python)
+    - [What is Python used for?](#what-is-python-used-for)
+    - [How do I save the requirements of my current project?](#how-do-i-save-the-requirements-of-my-current-project)
+    - [How do I write a docstring?](#how-do-i-write-a-docstring)
+    - [How do I remove all .pyc files in my project?](#how-do-i-remove-all-pyc-files-in-my-project)
+  - [Text Editors](#text-editors)
+    - [VSCode](#vscode)
+    - [Atom](#atom)
+    - [What are some useful regex for find and replace?](#what-are-some-useful-regex-for-find-and-replace)
+  - [Git](#git)
+    - [What is Git?](#what-is-git)
+    - [How do remotes repositories work?](#how-do-remotes-repositories-work)
+    - [What is the difference between `git fetch` and `git pull`?](#what-is-the-difference-between-git-fetch-and-git-pull)
+    - [What are some common commands?](#what-are-some-common-commands)
+    - [How do I track the history of a file?](#how-do-i-track-the-history-of-a-file)
+    - [How do I overwrite the remote after making a mistake?](#how-do-i-overwrite-the-remote-after-making-a-mistake)
+    - [How do I reset my local branch to copy the remote?](#how-do-i-reset-my-local-branch-to-copy-the-remote)
+    - [How do I find a commit by the message?](#how-do-i-find-a-commit-by-the-message)
+    - [How do I delete a local branch?](#how-do-i-delete-a-local-branch)
+    - [How do I remove references to branches on the remote?](#how-do-i-remove-references-to-branches-on-the-remote)
+  - [Github](#github)
+    - [What is Github?](#what-is-github)
+  - [Unix](#unix)
+    - [What is Unix?](#what-is-unix)
+    - [Why is Unix important?](#why-is-unix-important)
+    - [How to delete a folder?](#how-to-delete-a-folder)
+    - [What are exit codes / return codes?](#what-are-exit-codes--return-codes)
+    - [What is POSIX?](#what-is-posix)
+    - [What is bash?](#what-is-bash)
+    - [What are some common bash commands?](#what-are-some-common-bash-commands)
+    - [What is an shell/environment variable?](#what-is-an-shellenvironment-variable)
+    - [Why don't I need quotes for strings when setting shell variables?](#why-dont-i-need-quotes-for-strings-when-setting-shell-variables)
+- [Meta](#meta)
+  - [Jobs](#jobs)
+    - [What is a developer?](#what-is-a-developer)
+    - [What do developers do on a day-to-day basis?](#what-do-developers-do-on-a-day-to-day-basis)
+    - [What is a data analyst?](#what-is-a-data-analyst)
+    - [What is a data scientist?](#what-is-a-data-scientist)
+  - [Ways](#ways)
+    - [What is Agile?](#what-is-agile)
+    - [What is Test Driven Development(TDD)?](#what-is-test-driven-developmenttdd)
+    - [What is Behavior Driven Development(BDD)?](#what-is-behavior-driven-developmentbdd)
+  - [Licensing](#licensing)
+    - [How do I add a license to my software?](#how-do-i-add-a-license-to-my-software)
+    - [What software licenses should I choose?](#what-software-licenses-should-i-choose)
+- [Glossary - Coding and computing in general](#glossary---coding-and-computing-in-general)
+- [Glossary - Operating systems](#glossary---operating-systems)
+- [Glossary - Python](#glossary---python)
+- [Glossary - Hardware](#glossary---hardware)
+- [Glossary - Security and encryption](#glossary---security-and-encryption)
+- [Glossary - Images](#glossary---images)
+- [Glossary - The Web](#glossary---the-web)
+- [Glossary - Linux](#glossary---linux)
+- [Glossary - Git](#glossary---git)
 
-## Software development
+## Ideas
 
-### What is software development?
+### Software Development
+
+- [What is software development?](#what-is-software-development)
+- [What is coding?](#what-is-coding)
+- [What are the different types of software?](#what-are-the-different-types-of-software)
+- [What programming languages should I learn?](#what-programming-languages-should-i-learn)
+
+#### What is software development?
 
 Creating computer programs. This involves coding, testing, debugging, design, maintaining.
 
-### What is coding?
+#### What is coding?
 
 Coding is giving instructions to a computer using a programming languages.
 
-### What are the different types of software?
+#### What are the different types of software?
 
 TODO: to rewrite this.
 
@@ -53,9 +131,7 @@ Some common coding applications are:
 - Cryptography
 - Hacking
 
-### What can we use coding for?
-
-### What programming languages should I learn?
+#### What programming languages should I learn?
 
 A language is good to learn if it has a lot of community support(ie. it's popular) and provides career opportunities. Ideally, it should also be easy to use.
 
@@ -68,87 +144,49 @@ Below are my picks ranked in order.
 3. For server-side programming, **PHP** is the most [popular](https://w3techs.com/technologies/history_overview/programming_language) language by far.
 4. Other good languages to learn are **Java**, and **C#**, because they are popular.
 
-## Jobs
+### The Web
 
-### What is a developer?
+#### What are some good free resources for learning?
 
-Someone who writes code.
+- [Google networking course](https://www.coursera.org/learn/computer-networking)
 
-### What do developers do on a day-to-day basis?
+### Data
 
-### What is a data analyst?
-
-Someone who works primarily with data. This usually involves collecting, manipulating, visualizing and analyzing the data.
-
-### What is a data scientist?
-
-Someone who does machine learning. They often also need to do the work of a data analyst.
-
-## Languages
-
-### What is JSON?
-
-JSON(JavaScript Object Notation)[(cheatstart)](https://learnxinyminutes.com/docs/json/) is a popular language for storing data. It operates very well with many programming languages, especially JavaScript.
-
-### What is YAML?
-
-YAML(YAML Ain't Markup Language)[(cheatstart)](https://learnxinyminutes.com/docs/yaml/) is a very readable language for storing data, which allows comments.
-
-### What is Markdown?
-
-A way to write formatted text.
-
-### What is reStructuredText?
-
-A fancier way to write formatted text.
-
-## Data
-
-### What is scalar data vs vector data?
+#### What is scalar data vs vector data?
 
 Scalar data has a single value. For example, the number 5 is scalar.
 
 Vector data can have any number of values. For example, a list of two numbers 4 and 6 is vector.
 
-## Javascript
+#### Glossary
 
-### What is Javascript used for?
+- **access** - A proprietary dbms for windows.
+- **analog** - Data stored electrically or in some tactile form.
+- **csv** - A human-readable file format for data in rows and columns.
+- **digital** - Data stored in 0s and 1s.
+- **dbms database management system** - A way to store a lot of data efficiently.
+- **mysql** - A free relational database management system.
+- **query** - To get data from (something).
+- **orm** -
+- **sql** - A way to select data from a database management system. aka Structured Query Language.
 
-Primarily front-end(with jQuery/React/Angular/Vue) and back-end(with MongoDB/Express/Node) app development. However, it can also do many other things like machine learning, data visualization and more.
+### Computing
 
-## Python
+#### What is computing about?
 
-### What is Python used for?
+Computing is about two aspects of computations: Speed(time efficiency) and storage efficiency. Computing problems can be solved in many ways, but the field strives towards time- and space-efficient solutions.
 
-Primarily data work(Data Science, Data Analysis, Data Visualization), working with [natural language](https://en.wikipedia.org/wiki/Natural_language_processing) and back-end web development. However, it can also do many other things like desktop app development, image manipulation and more.
+### Documentation
 
-### How do I save the requirements of my current project?
-
-```bash
-pip freeze > requirements.txt
-```
-
-### How do I write a docstring?
-
-[overflow](https://stackoverflow.com/questions/3898572/what-is-the-standard-python-docstring-format)
-
-#### How do I remove all .pyc files in my project?
-
-```bash
-find . -name '*.pyc' -delete
-```
-
-## Documentation
-
-### What is documentation?
+#### What is documentation?
 
 It's the manual for a software.
 
-### How do you write Python documentation?
+#### How do you write Python documentation?
 
 A good way is to use Sphinx and write it in reStructuredText(.rst). Some documentation can be generated automatically from your docstrings using Sphinx's autodoc and [napoleon](http://www.sphinx-doc.org/en/master/usage/extensions/napoleon.html#module-sphinx.ext.napoleon).
 
-### How do you write reStructuredText(.rst)?
+#### How do you write reStructuredText(.rst)?
 
 It's like Markdown([cheat sheet](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet)) but with:
 
@@ -162,76 +200,218 @@ It's like Markdown([cheat sheet](https://github.com/adam-p/markdown-here/wiki/Ma
 [A primer](http://docutils.sourceforge.net/docs/user/rst/quickstart.html)
 TODO
 
-## Computing
+### Tests
 
-### What is computing about?
+#### What are tests?
 
-Computing is about two aspects of computations: Speed(time efficiency) and storage efficiency. Computing problems can be solved in many ways, but the field strives towards time- and space-efficient solutions.
+Tests are functions separate from your software, which tell you whether your code works the way it's supposed to.
 
-## Text Editors
+#### What are the main types of tests?
 
-### VSCode
+**Unit tests** test functions. They only test the code that is being tested, also known as CUT(Code Under Test), and nothing else. They are fast and any interaction with outside systems is [mocked or stubbed](https://martinfowler.com/articles/mocksArentStubs.html).
+**Functional tests**(or acceptance tests, UI tests, systems tests) simulate user behavior on the software as a whole from the perspective of the user.
 
-### Atom
+#### Why write tests? Why not just run the code and test it manually?
 
-### What are some useful regex for find and replace?
+1. Software can have too many functions to test manually.
+2. Software can have too many test cases to test manually.
+3. Written tests can run more quickly than manual testing.
+4. Even if you find something wrong, running the code does not tell you exactly which functions are not working correctly. Unit tests tell you exactly which function fails.
+5. Written tests can be executed automatically without human attention with CI/CD tools and tools like pytest-watch.
+6. Written tests can be run by others collaborating with you, so that they can contribute code while being confident of not breaking existing functionality.
+7. Written tests can be run by users(or potential buyers) of your code, to ensure that your code works as advertised.
+
+#### What are mocks, stubs and spies?
+
+**Stubs override a function/object** and provide canned answers to calls made during the test. Their purpose is to allow you to run your test.
+
+**Mocks are stubs with in-built tests**. They specify expectations of how the mock is called. This can include with what arguments, how many times, and what was returned.
+
+**Spies do not override functionality**. They record how the spied functions were called.
+
+[source](https://martinfowler.com/articles/mocksArentStubs.html)
+[source 2](https://stackoverflow.com/questions/3459287/whats-the-difference-between-a-mock-stub/17810004#17810004)
+
+#### How do I write tests for Python?
+
+Pytest is the most popular testing framework. Learn how to use it [here](https://docs.pytest.org/en/latest/getting-started.html).
+
+#### How do I write tests for JavaScript?
+
+Mocha is the most popular framework. Learn to use it [here](https://mochajs.org/#getting-started). Other tools to use with it are Chai and Sinon.
+
+#### What is CI/CD?
+
+#### What is Continuous Integration?
+
+#### What is Continuous Delivery?
+
+#### What are the most important CI/CD technologies?
+
+[CircleCI](https://circleci.com/) is recommended for small projects for fast setup.
+
+[TravisCI](https://travis-ci.org/) is recommended for open-source projects for testing in different environments.
+
+[Jenkins](https://jenkins.io/) is recommended for the big projects for customizations. You need to setup your own server.
+
+## Tools
+
+### Languages
+
+#### Glossary
+
+**_What is JSON?_** --> A popular language for storing data. Learn it [here](https://learnxinyminutes.com/docs/json/).
+
+**_What is YAML?_** --> A very readable language for storing data, which allows comments. Learn it [here](https://learnxinyminutes.com/docs/yaml/).
+
+**_What is Markdown?_** --> A way to write formatted text.
+
+**_What is reStructuredText?_** --> A fancier way to write formatted text.
+
+**_What is C#?_** --> A programming language commonly used writing windows apps.
+
+**_What is C++?_** --> A programming language commonly used for computing performance and embedded systems.
+
+**_What is Java?_** --> A programming language that can be easily deployed on many types of computers.
+
+**_What is Javascript?_** -->
+
+**_What is Python?_** -->
+
+**_What is a programming paradigm?_** --> A set of features about a programming language.
+
+**_What is php?_** --> A programming language commonly used for server-side programming.
+
+**_What is Ruby?_** --> A high-level, clean programming language, commonly used for web development.
+
+**_What is Rust?_** -->
+
+**_What is a scripting language?_** --> [wiki](https://en.wikipedia.org/wiki/Scripting_language)
+
+**_What is a statically-typed language?_** --> [overflow](https://stackoverflow.com/questions/2690544/what-is-the-difference-between-a-strongly-typed-language-and-a-statically-typed)
+
+**_What is a strongly-typed language?_** --> [overflow](https://stackoverflow.com/questions/2690544/what-is-the-difference-between-a-strongly-typed-language-and-a-statically-typed)
+
+**_What is a weakly-typed language?_** --> [overflow](https://stackoverflow.com/questions/2690544/what-is-the-difference-between-a-strongly-typed-language-and-a-statically-typed)
+
+### Javascript
+
+#### What is Javascript used for?
+
+Primarily front-end(with jQuery/React/Angular/Vue) and back-end(with MongoDB/Express/Node) app development. However, it can also do many other things like machine learning, data visualization and more.
+
+### Python
+
+#### What is Python used for?
+
+Primarily data work(Data Science, Data Analysis, Data Visualization), working with [natural language](https://en.wikipedia.org/wiki/Natural_language_processing) and back-end web development. However, it can also do many other things like desktop app development, image manipulation and more.
+
+#### How do I save the requirements of my current project?
+
+```bash
+pip freeze > requirements.txt
+```
+
+#### How do I write a docstring?
+
+[overflow](https://stackoverflow.com/questions/3898572/what-is-the-standard-python-docstring-format)
+
+#### How do I remove all .pyc files in my project?
+
+```bash
+find . -name '*.pyc' -delete
+```
+
+### Text Editors
+
+#### VSCode
+
+#### Atom
+
+#### What are some useful regex for find and replace?
 
 - ^\s.\*\n selects all lines which start with a whitespace character.
 - You can replace selections with an empty string to delete the selections.
 
-## Software
+### Git
 
-### What is Agile?
+#### What is Git?
 
-### What is Test Driven Development(TDD)?
+A version control system. It helps collaboration, works as a form of backup, and more.
 
-### What is Behavior Driven Development(BDD)?
+#### How do remotes repositories work?
 
-[source](https://dannorth.net/introducing-bdd/)
+A remote repository first exists at a remote location; often, a github repo. When you `git clone` the repo, you create a **local copy** of the repo and the branches which **track** the remote repo's branches. You also create a **reference** to the remote repo and its branches.
 
-### How do I add a license to my software?
+#### What is the difference between `git fetch` and `git pull`?
 
-Simply copy a LICENSE file to your repo.
+`git fetch` accesses the remote repo and updates your **reference** to the remote repo. `git pull` does a `git fetch` and also does a `git merge` to merge your reference to the remote branch with your local copy of the remote branch.
 
-### What software licenses should I choose?
+See [above](#how-do-remotes-repositories-work) to understand how remote repositories work.
 
-[Choose a license](https://choosealicense.com/)
+#### What are some common commands?
 
-## The Web
+`git diff HEAD~1 HEAD` - View differences between this commit and the previous.
 
-### What are some good free resources for learning?
+#### How do I track the history of a file?
 
-- [Google networking course](https://www.coursera.org/learn/computer-networking)
+`gitk (filename)` or `git log -p (filename)`.
 
-## Unix
+#### How do I overwrite the remote after making a mistake?
 
-### What is Unix?
+`git push --force`
+
+#### How do I reset my local branch to copy the remote?
+
+`git reset --hard origin/(your_branch_name)`
+
+#### How do I find a commit by the message?
+
+`git log --all --grep='your search string'`
+
+#### How do I delete a local branch?
+
+`git branch -D branch_name`
+
+#### How do I remove references to branches on the remote?
+
+`git fetch --prune`
+
+### Github
+
+#### What is Github?
+
+A place to store code, which integrates well with [git<sup>?</sup>](#git).
+
+### Unix
+
+#### What is Unix?
 
 An operating system, like Windows or MacOS.
 
-### Why is Unix important?
+#### Why is Unix important?
 
 MacOS terminal is based on Unix. Webservers mainly use Unix. We can interact with the computer filesystem more efficiently with some useful Unix commands.
 
-### How to delete a folder?
+#### How to delete a folder?
 
 ```bash
 rm -rf my_folder
 ```
 
-### What are exit codes / return codes?
+#### What are exit codes / return codes?
 
 A number returned to the shell after a program ends. 0 indicates that the program ran successfully. On Unix-like systems, it goes up to 255. On Windows systems, it goes up to 15999.
 
 [Tutorial](https://shapeshed.com/unix-exit-codes/)
 
-### What is POSIX?
+#### What is POSIX?
 
-### What is bash?
+#### What is bash?
 
 The most important shell. It is the default shell for many operating system distributions.
 
-### What are some common bash commands?
+#### What are some common bash commands?
 
 ```bash
 cd
@@ -246,7 +426,7 @@ cat
 grep
 ```
 
-### What is an shell/environment variable?
+#### What is an shell/environment variable?
 
 `$ export` shows all shell variables.
 Environment variables also often refers to shell variables, but can also refer to variables used by applications other than a shell.
@@ -254,117 +434,51 @@ Environment variables also often refers to shell variables, but can also refer t
 These can be set with `VAR=value`, `export VAR=value` or `env VAR=value`. `value` should use quotes if it's a string.
 `export VAR=value` is most common. It's bash-syntax. `VAR=value` doesn't expose the set variable to other programs like `grep`. `env` works like `export` but is a program in itself. (https://askubuntu.com/questions/205688/whats-the-difference-between-set-export-and-env-and-when-should-i-use-each)
 
-### Why don't I need quotes for strings when setting shell variables?
+#### Why don't I need quotes for strings when setting shell variables?
 
 In the `VAR=value` syntax, value is taken to be a string _by default_ when there are no spaces in it. If there are spaces, you need to enclose the string in quotes.
 
-## Tests
+## Meta
 
-### What are tests?
+### Jobs
 
-Tests are functions separate from your software, which tell you whether your code works the way it's supposed to.
+#### What is a developer?
 
-### What are the main types of tests?
+Someone who writes code.
 
-**Unit tests** test functions. They only test the code that is being tested, also known as CUT(Code Under Test), and nothing else. They are fast and any interaction with outside systems is [mocked or stubbed](https://martinfowler.com/articles/mocksArentStubs.html).
-**Functional tests**(or acceptance tests, UI tests, systems tests) simulate user behavior on the software as a whole from the perspective of the user.
+#### What do developers do on a day-to-day basis?
 
-### Why write tests? Why not just run the code and test it manually?
+#### What is a data analyst?
 
-1. Software can have too many functions to test manually.
-2. Software can have too many test cases to test manually.
-3. Written tests can run more quickly than manual testing.
-4. Even if you find something wrong, running the code does not tell you exactly which functions are not working correctly. Unit tests tell you exactly which function fails.
-5. Written tests can be executed automatically without human attention with CI/CD tools and tools like pytest-watch.
-6. Written tests can be run by others collaborating with you, so that they can contribute code while being confident of not breaking existing functionality.
-7. Written tests can be run by users(or potential buyers) of your code, to ensure that your code works as advertised.
+Someone who works primarily with data. This usually involves collecting, manipulating, visualizing and analyzing the data.
 
-### What are mocks, stubs and spies?
+#### What is a data scientist?
 
-**Stubs override a function/object** and provide canned answers to calls made during the test. Their purpose is to allow you to run your test.
+Someone who does machine learning. They often also need to do the work of a data analyst.
 
-**Mocks are stubs with in-built tests**. They specify expectations of how the mock is called. This can include with what arguments, how many times, and what was returned.
+### Ways
 
-**Spies do not override functionality**. They record how the spied functions were called.
+#### What is Agile?
 
-[source](https://martinfowler.com/articles/mocksArentStubs.html)
-[source 2](https://stackoverflow.com/questions/3459287/whats-the-difference-between-a-mock-stub/17810004#17810004)
+#### What is Test Driven Development(TDD)?
 
-### How do I write tests for Python?
+#### What is Behavior Driven Development(BDD)?
 
-Pytest is the most popular testing framework. Learn how to use it [here](https://docs.pytest.org/en/latest/getting-started.html).
+[source](https://dannorth.net/introducing-bdd/)
 
-### How do I write tests for JavaScript?
+### Licensing
 
-Mocha is the most popular framework. Learn to use it [here](https://mochajs.org/#getting-started). Other tools to use with it are Chai and Sinon.
+#### How do I add a license to my software?
 
-### What is CI/CD?
+Simply copy a LICENSE file to your repo.
 
-### What is Continuous Integration?
+#### What software licenses should I choose?
 
-### What is Continuous Delivery?
-
-### What are the most important CI/CD technologies?
-
-[CircleCI](https://circleci.com/) is recommended for small projects for fast setup.
-
-[TravisCI](https://travis-ci.org/) is recommended for open-source projects for testing in different environments.
-
-[Jenkins](https://jenkins.io/) is recommended for the big projects for customizations. You need to setup your own server.
-
-## Git
-
-### What is Git?
-
-A version control system. It helps collaboration, works as a form of backup, and more.
-
-### How do remotes repositories work?
-
-A remote repository first exists at a remote location; often, a github repo. When you `git clone` the repo, you create a **local copy** of the repo and the branches which **track** the remote repo's branches. You also create a **reference** to the remote repo and its branches.
-
-### What is the difference between `git fetch` and `git pull`?
-
-`git fetch` accesses the remote repo and updates your **reference** to the remote repo. `git pull` does a `git fetch` and also does a `git merge` to merge your reference to the remote branch with your local copy of the remote branch.
-
-See [above](#how-do-remotes-repositories-work) to understand how remote repositories work.
-
-### What are some common commands?
-
-`git diff HEAD~1 HEAD` - View differences between this commit and the previous.
-
-### How do I track the history of a file?
-
-`gitk (filename)` or `git log -p (filename)`.
-
-### How do I overwrite the remote after making a mistake?
-
-`git push --force`
-
-### How do I reset my local branch to copy the remote?
-
-`git reset --hard origin/(your_branch_name)`
-
-### How do I find a commit by the message?
-
-`git log --all --grep='your search string'`
-
-### How do I delete a local branch?
-
-`git branch -D branch_name`
-
-### How do I remove references to branches on the remote?
-
-`git fetch --prune`
-
-## Github
-
-### What is Github?
-
-A place to store code, which integrates well with git<sup>[?](#git)</sup>.
+[Choose a license](https://choosealicense.com/)
 
 ## Glossary - Coding and computing in general
 
-- **.net** - A framework needed for running or writing newer windows apps.
+- **What is .net?** - A framework needed for running or writing newer windows apps.
 - **algorithm** - A way to do something.
 - **api** - The set of instructions that a program understands.
 - **atom** - A text editor.
@@ -416,18 +530,6 @@ A place to store code, which integrates well with git<sup>[?](#git)</sup>.
 - **shell** -
 - **partition** - A part of a hard disk, which can have its own operating system.
 
-## Glossary - Databases and data
-
-- **access** - A proprietary dbms for windows.
-- **analog** - Data stored electrically or in some tactile form.
-- **csv** - A human-readable file format for data in rows and columns.
-- **digital** - Data stored in 0s and 1s.
-- **dbms database management system** - A way to store a lot of data efficiently.
-- **mysql** - A free relational database management system.
-- **query** - To get data from (something).
-- **orm** -
-- **sql** - A way to select data from a database management system. aka Structured Query Language.
-
 ## Glossary - Python
 
 - **append** - Add to the back.
@@ -478,21 +580,6 @@ A place to store code, which integrates well with git<sup>[?](#git)</sup>.
 
 - **public key certificate** -
 - **public key encryption** - A way to give data safely. A message is encrypted with a public key, and can only be decrypted by the matching private key. (not sure)
-
-## Glossary - Programming Languages
-
-- **c#** - A programming language commonly used writing windows apps.
-- **c++** - A programming language commonly used for computing performance and embedded systems.
-- **java** - A programming language that can be easily deployed on many types of computers.
-- **javascript** -
-- **paradigm** - A set of features about a programming language.
-- **php** - A programming language commonly used for server-side programming.
-- **ruby** - A high-level, clean programming language, commonly used for web development.
-- **rust** -
-- **scripting language** - [wiki](https://en.wikipedia.org/wiki/Scripting_language)
-- **statically-typed** - [overflow](https://stackoverflow.com/questions/2690544/what-is-the-difference-between-a-strongly-typed-language-and-a-statically-typed)
-- **strongly-typed** - [overflow](https://stackoverflow.com/questions/2690544/what-is-the-difference-between-a-strongly-typed-language-and-a-statically-typed)
-- **weakly-typed** - [overflow](https://stackoverflow.com/questions/2690544/what-is-the-difference-between-a-strongly-typed-language-and-a-statically-typed)
 
 ## Glossary - Images
 

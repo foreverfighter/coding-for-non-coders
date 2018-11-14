@@ -6,11 +6,23 @@ use this style for 'what is (foo)'
 
 structure the document
 
-philosophy: mention the lingo as an afterthought. use simple, organized structures and words.
+philosophy: 
+1. mention the lingo as an afterthought. use simple, organized structures and words.
+2. do not link to other entries unless it's part of the best explanation.
+3. intuitive question and answer format
+4. all questions should be put into headers.
+5. each section should have a list or table of terms/questions
 
+types of questions?
+1. what is some-lingo-or-technology?
+2. what should i use/learn?
+3. why should we do xxxx?
+4. what do developers do on a day to day basis?
+
+Steps in software development
+
+Planning
 Documentation
-Goals (Requirements analysis)
-Architecture
 
 Testing
 Coding
@@ -18,3 +30,44 @@ Debugging
 Deployment
 
 Maintenance
+
+
+Is a glossary a good idea?
++ it's an easy way to format 'What is foo?' questions
+- it's not consistent with the rest of the question format
+
+! Have a glossary for each section
+
+I like this format below instead of a glossary. space efficient. readable. clearly separates question and answer.
+
+**_What is an algorithm?_** --> A way to do something.
+
+**_What is an API?_** --> The set of instructions that a program understands.
+
+**_What is Atom?_** --> A text editor.
+
+- this doesn't allow header anchors. header anchors are great.
+
+
+
+concepts
+- The Web
+- Data
+- Computing
+- Documentation
+- Tests
+
+
+tools/technologies
+- Languages
+    - Javascript
+    - Python
+- Text Editors
+- Git
+- Github
+- Unix
+
+
+real world
+- Jobs
+- Ways of working
