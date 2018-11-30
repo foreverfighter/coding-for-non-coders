@@ -11,8 +11,10 @@
   - [Computing](#computing)
   - [Documentation](#documentation)
   - [Tests](#tests)
+  - [Profiling](#profiling)
 - [Tools](#tools)
   - [Languages](#languages)
+  - [Bootstrap](#bootstrap)
   - [Javascript](#javascript)
   - [Python](#python)
   - [Text Editors](#text-editors)
@@ -79,15 +81,31 @@ Support/popularity is important because more tools are developed by developers o
 Below are my picks ranked in order.
 
 1. To do anything web-related, you need to learn **JavaScript**. It's also very very popular.
-2. For general purpose programming, **Python** is very popular and easy.
+2. For general purpose programming and data work, **Python** is very popular and easy.
 3. For [server-side programming<sup>?</sup>](#what-is-server-side-programming), **PHP** is the most [popular](https://w3techs.com/technologies/history_overview/programming_language) language by far.
 4. Other good languages to learn are **Java**, and **C#**, because they are popular.
+
+#### What are dependencies?
+
+Code that code **imports**(depends on). This includes code written by us, standard library packages, or third-party packages.
+
+#### What is a dependency tree?
+
+The dependencies for some code, together with the dependencies of those dependencies and so on. The dependency tree needs to be **resolved** so that suitable versions are determined for installation.
+
+#### What is integration?
+
+Making two systems work together.
 
 ### The Web
 
 #### What is server-side programming?
 
 The code that is run on the computer serving the web app to users. It usually includes the business logic for the application and the code to interact with the database (if any). ! TO IMPROVE !
+
+#### What are some free APIs for exploring?
+
+https://randomuser.me/ is a good one.
 
 #### What are some good free resources for learning?
 
@@ -211,6 +229,10 @@ Tests are functions separate from your software, which tell you whether your cod
 
 Pytest is the most popular testing framework. Learn how to use it [here](https://docs.pytest.org/en/latest/getting-started.html).
 
+#### What is tox?
+
+A testing tool that tests code against different Python versions.
+
 #### How do I write tests for JavaScript?
 
 Mocha is the most popular framework. Learn to use it [here](https://mochajs.org/#getting-started). Other tools to use with it are Chai and Sinon.
@@ -229,6 +251,39 @@ Mocha is the most popular framework. Learn to use it [here](https://mochajs.org/
 
 [Jenkins](https://jenkins.io/) is recommended for the big projects for customizations. You need to setup your own server.
 
+### Profiling
+
+#### What is Profiling?
+
+Measuring the speed and memory cost of a program.
+
+#### How do I do profiling in Python?
+
+```python
+# for short snippets
+>>> import timeit
+>>> timeit.timeit('"-".join(str(n) for n in range(100))', number=10000)
+0.3018611848820001
+
+# for functions/programs runnable independently
+>>> import cProfile
+>>> cProfile.run('my_function_to_profile()', globals(), locals())
+
+# for functions run within another system
+from profilehooks import coverage, profile, timecall
+
+@coverage # for looking at line coverage
+@timecall # for just timing
+@profile # for full profiling
+def my_function():
+    ...
+```
+
+```bash
+$ python3 -m timeit '"-".join(str(n) for n in range(100))'
+10000 loops, best of 5: 30.2 usec per loop
+```
+
 ## Tools
 
 ### Languages
@@ -240,6 +295,10 @@ A popular language for storing data. Learn it [here](https://learnxinyminutes.co
 #### What is YAML?
 
 A very readable language for storing data, which allows comments. Learn it [here](https://learnxinyminutes.com/docs/yaml/).
+
+#### What is TOML?
+
+**Tom's Obvious, Minimal Language** is a language for configuration files. Learn it [here](https://github.com/toml-lang/toml).
 
 #### What is Markdown?
 
@@ -298,6 +357,14 @@ A programming language commonly used for server-side programming.
 
 [overflow](https://stackoverflow.com/questions/2690544/what-is-the-difference-between-a-strongly-typed-language-and-a-statically-typed)
 
+### Bootstrap
+
+#### How do I center an image?
+
+```html
+<img class="center-block" src="logo.png" />
+```
+
 ### Javascript
 
 #### What is Javascript used for?
@@ -309,6 +376,47 @@ Primarily front-end(with jQuery/React/Angular/Vue) and back-end(with MongoDB/Exp
 #### What is Python used for?
 
 Primarily data work(Data Science, Data Analysis, Data Visualization), working with [natural language](https://en.wikipedia.org/wiki/Natural_language_processing) and back-end web development. However, it can also do many other things like desktop app development, image manipulation and more.
+
+#### What is 'Pythonic' code?
+
+Code that is clear, concise and follows conventions of the Python community.
+
+#### How do I create 'requirements.txt'?
+
+`requirements.txt' is a common way to log dependencies used in a project. You can create it with:
+
+```bash
+pip freeze > requirements.txt
+```
+
+#### What is a decorator?
+
+A way to extend functions.
+
+```python
+# defining a decorator
+def timeit(func):
+
+  def wrapper(*arg):
+      t = time.clock()
+      res = func(*arg)
+      print(func.func_name, time.clock() - t)
+      return res
+
+  return wrapper
+
+# this prints the runtime of function when it is run
+@timeit
+def myFunction(n):
+    ...
+```
+
+#### How do I check if a substring exists within a string?
+
+```python
+'star' in 'star wars'
+# returns True
+```
 
 #### How do I save the requirements of my current project?
 
@@ -326,9 +434,105 @@ pip freeze > requirements.txt
 find . -name '*.pyc' -delete
 ```
 
-#### What is Pythonic code?
+#### What does if __name__ == “__main__”: do?
 
-Code that is clear, concise and follows conventions of the Python community.
+It protects code from being run when imported. The code within the `if __name__ == “__main__”:` only runs when the file is directly run instead of also when it is imported.
+
+#### How can I run a shell command within Python?
+
+This runs `ls -l` in the shell:
+
+```python
+from subprocess import call
+call(["ls", "-l"])
+```
+
+#### How do I merge two dictionaries?
+
+```python
+# in place
+dict1.update(dict2)
+
+# returned (for python > 3.4)
+dict_merged = {**dict1, **dict2}
+```
+
+#### How do I safely create a nested directory?
+
+```python
+import pathlib
+pathlib.Path('/my/directory').mkdir(parents=True, exist_ok=True) 
+```
+
+#### How do I create a list of all files in a directory?
+
+```python
+from os import listdir
+from os.path import isfile, join
+onlyfiles = [f for f in listdir(mypath) if isfile(join(mypath, f))]
+```
+
+#### How do I check if a list is empty?
+
+Empty lists evaluate to `False`.
+
+```python
+if not my_list:
+  print("List is empty")
+```
+
+#### How do I access the count within a for loop?
+
+```python
+for index, value in enumerate(my_list):
+  print(index, value)
+```
+
+#### What is duck typing?
+
+#### How do I check the type of an object?
+
+```python
+# returns the type of the object
+type(a)
+
+# checks for type inheritance
+isinstance(a, SomeType) 
+```
+
+#### Does Python have a ternary operator?
+
+Yes. `a if condition else b` returns a if condition evaluates to True, else b is returned.
+
+#### What does the “yield” keyword do?
+
+It's a word [generators<sup>?</sup>](#what-are-generators) use.
+
+#### What are generators?
+
+They are like lists, but they generate their elements only when we need them, saving us memory and time.
+
+#### What are metaclasses in Python?
+
+A metaclass is a custom type of class.
+
+#### How do I show print messages when running pytest?
+
+```bash
+py.test -s my_test.py
+```
+
+#### How do I use type hints?
+
+[Learn it here.](https://mypy.readthedocs.io/en/latest/cheat_sheet_py3.html#functions)
+
+#### Should I group my pytest tests into classes?
+
+There are pros and cons.
+
+Module-level tests have omit the meaningless `self` argument and are flatter.
+
+Grouping tests into classes(one class per class tested in the module) allows us to use the same test name when two classes have the same function name to be tested. It also forces us to group our tests by the class they are testing (and also enables automatic grouping using a text editor).
 
 #### Glossary - Python
 
@@ -446,6 +650,12 @@ MacOS terminal is based on Unix. Webservers mainly use Unix. We can interact wit
 
 ```bash
 rm -rf my_folder
+```
+
+#### How to clean up the disk?
+
+```bash
+sudo ncdu
 ```
 
 #### What are exit codes / return codes?
