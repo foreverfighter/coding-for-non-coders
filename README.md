@@ -1,30 +1,30 @@
-# Simple Software Development &middot; [![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)](https://github.com/siowyisheng/simple-software-development/blob/master/LICENSE) ![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)
+# The Simple Guide To Software Development
 
-<!-- [![Coverage Status](https://img.shields.io/coveralls/facebook/react/master.svg?style=flat)](https://coveralls.io/github/facebook/react?branch=master) [![CircleCI Status](https://circleci.com/gh/facebook/react.svg?style=shield&circle-token=:circle-token)](https://circleci.com/gh/facebook/react) -->
+_Concepts explained simply._
 
-## Contents <!-- omit in toc -->
+[![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)](https://github.com/siowyisheng/simple-software-development/blob/master/LICENSE) ![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)
 
-- [Ideas](#ideas)
-  - [Software Development](#software-development)
-  - [The Web](#the-web)
-  - [Data](#data)
-  - [Computing](#computing)
-  - [Documentation](#documentation)
-  - [Tests](#tests)
-  - [Profiling](#profiling)
-- [Tools](#tools)
-  - [Languages](#languages)
-  - [Bootstrap](#bootstrap)
-  - [Javascript](#javascript)
-  - [Python](#python)
-  - [Text Editors](#text-editors)
-  - [Git](#git)
-  - [Github](#github)
-  - [Unix](#unix)
-- [Meta](#meta)
-  - [Jobs](#jobs)
-  - [Ways](#ways)
-  - [Licensing](#licensing)
+## Table of Contents <!-- omit in toc -->
+
+1. [Software Development](#software-development)
+2. [The Web](#the-web)
+3. [Data](#data)
+4. [Computing](#computing)
+5. [Documentation](#documentation)
+6. [Tests](#tests)
+7. [Profiling](#profiling)
+8. [Languages](#languages)
+9. [Bootstrap](#bootstrap)
+10. [Javascript](#javascript)
+11. [Python](#python)
+12. [Text Editors](#text-editors)
+13. [Git](#git)
+14. [Github](#github)
+15. [Unix](#unix)
+16. [Jobs](#jobs)
+17. [Ways](#ways)
+18. [Licensing](#licensing)
+
 - [Glossary - Coding and computing in general](#glossary---coding-and-computing-in-general)
 - [Glossary - Operating systems](#glossary---operating-systems)
 - [Glossary - Hardware](#glossary---hardware)
@@ -34,23 +34,21 @@
 - [Glossary - Linux](#glossary---linux)
 - [Glossary - Git](#glossary---git)
 
-## Ideas
+## Software Development
 
-### Software Development
+### What is software development?
 
-|                                                       |                           |                                                                |                                                                   |
-| ----------------------------------------------------- | ------------------------- | -------------------------------------------------------------- | ----------------------------------------------------------------- |
-| [software development](#what-is-software-development) | [coding](#what-is-coding) | [types of software](#what-are-the-different-types-of-software) | [choosing a language](#what-programming-languages-should-i-learn) |
+Creating computer programs.
 
-#### What is software development?
+This involves writing, testing, debugging and maintaining [code](#what-is-code).
 
-Creating computer programs. This involves coding, testing, debugging, design, maintaining.
+### What is code?
 
-#### What is coding?
+Code is instruction for a computer, written in a programming language.
 
-Coding is giving instructions to a computer using a programming languages.
+It is usually written in a [text editor](#what-is-a-text-editor) or [IDE](#what-is-an-ide).
 
-#### What are the different types of software?
+### What are the different types of software?
 
 TODO: to rewrite this.
 
@@ -72,114 +70,106 @@ Some common coding applications are:
 - Cryptography
 - Hacking
 
-#### What programming languages should I learn?
+### What programming languages should I learn?
 
-A language is good to learn if it has a lot of community support(ie. it's popular) and provides career opportunities. Ideally, it should also be easy to use.
+A language is good to learn if it has a lot of community support (ie. it's popular) and provides career opportunities. Ideally, it should also be easy to use.
 
 Support/popularity is important because more tools are developed by developers of popular languages. For example, Javascript is known mainly for being the language of the web, but because the web is so popular and important, Javascript is also really popular, and tools for Machine Learning are also developed for Javascript.
-
-Below are my picks ranked in order.
 
 1. To do anything web-related, you need to learn **JavaScript**. It's also very very popular.
 2. For general purpose programming and data work, **Python** is very popular and easy.
 3. For [server-side programming<sup>?</sup>](#what-is-server-side-programming), **PHP** is the most [popular](https://w3techs.com/technologies/history_overview/programming_language) language by far.
 4. Other good languages to learn are **Java**, and **C#**, because they are popular.
 
-#### What are dependencies?
+### What are dependencies?
 
 Code that code **imports**(depends on). This includes code written by us, standard library packages, or third-party packages.
 
-#### What is a dependency tree?
+### What is a dependency tree?
 
 The dependencies for some code, together with the dependencies of those dependencies and so on. The dependency tree needs to be **resolved** so that suitable versions are determined for installation.
 
-#### What is integration?
+### What is integration?
 
 Making two systems work together.
 
-### The Web
+## The Web
 
-#### What is server-side programming?
+### What is server-side programming?
 
 The code that is run on the computer serving the web app to users. It usually includes the business logic for the application and the code to interact with the database (if any). ! TO IMPROVE !
 
-#### What are some free APIs for exploring?
+### What are some free APIs for exploring?
 
 https://randomuser.me/ is a good one.
 
-#### What are some good free resources for learning?
+### What are some good free resources for learning?
 
 - [Google networking course](https://www.coursera.org/learn/computer-networking)
 
-### Data
+## Data
 
-|                                                         |                                                |                                       |                                                   |
-| ------------------------------------------------------- | ---------------------------------------------- | ------------------------------------- | ------------------------------------------------- |
-| [analog data](#what-is-analog-data)                     | [csv](#what-is-a-csv-file)                     | [digital data](#what-is-digital-data) | [dbms](#what-is-a-database-management-systemdbms) |
-| [mysql](#what-is-mysql)                                 | [query](#what-does-it-mean-to-query-something) | [orm](#what-is-an-orm)                | [sql](#what-is-sql)                               |
-| [scalar vs vector](#what-is-scalar-data-vs-vector-data) | [microsoft access](#what-is-microsoft-access)  | [data](#what-is-data)                 |                                                   |
-
-#### What is data?
+### What is data?
 
 Information.
 
-#### What is scalar data vs vector data?
+### What is scalar data vs vector data?
 
 Scalar data has a single value. For example, the number 5 is scalar.
 
 Vector data can have any number of values. For example, a list of two numbers 4 and 6 is vector.
 
-#### What is Microsoft Access?
+### What is Microsoft Access?
 
 A proprietary DBMS for Windows.
 
-#### What is analog data?
+### What is analog data?
 
 Data stored electrically or in some tactile form.
 
-#### What is digital data?
+### What is digital data?
 
 Data stored in 0s and 1s.
 
-#### What is a csv file?
+### What is a csv file?
 
 A human-readable file format for data in rows and columns.
 
-#### What is a Database Management System(DBMS)?
+### What is a Database Management System(DBMS)?
 
 A way to store a lot of data efficiently.
 
-#### What is an ORM?
+### What is an ORM?
 
-#### What is MySQL?
+### What is MySQL?
 
 A free relational database management system.
 
-#### What does it mean to 'query' something?
+### What does it mean to 'query' something?
 
 To get data from (something).
 
-#### What is SQL?
+### What is SQL?
 
 A way to select data from a database management system. aka Structured Query Language.
 
-### Computing
+## Computing
 
-#### What is computing about?
+### What is computing about?
 
 Computing is about two aspects of computations: Speed(time efficiency) and storage efficiency. Computing problems can be solved in many ways, but the field strives towards time- and space-efficient solutions.
 
-### Documentation
+## Documentation
 
-#### What is documentation?
+### What is documentation?
 
 It's the manual for a software.
 
-#### How do you write Python documentation?
+### How do you write Python documentation?
 
 A good way is to use Sphinx and write it in reStructuredText(.rst). Some documentation can be generated automatically from your docstrings using Sphinx's autodoc and [napoleon](http://www.sphinx-doc.org/en/master/usage/extensions/napoleon.html#module-sphinx.ext.napoleon).
 
-#### How do you write reStructuredText(.rst)?
+### How do you write reStructuredText(.rst)?
 
 It's like Markdown([cheat sheet](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet)) but with:
 
@@ -193,18 +183,18 @@ It's like Markdown([cheat sheet](https://github.com/adam-p/markdown-here/wiki/Ma
 [A primer](http://docutils.sourceforge.net/docs/user/rst/quickstart.html)
 TODO
 
-### Tests
+## Tests
 
-#### What are tests?
+### What are tests?
 
 Tests are functions separate from your software, which tell you whether your code works the way it's supposed to.
 
-#### What are the main types of tests?
+### What are the main types of tests?
 
 **Unit tests** test functions. They only test the code that is being tested, also known as CUT(Code Under Test), and nothing else. They are fast and any interaction with outside systems is [mocked or stubbed](https://martinfowler.com/articles/mocksArentStubs.html).
 **Functional tests**(or acceptance tests, UI tests, systems tests) simulate user behavior on the software as a whole from the perspective of the user.
 
-#### Why write tests? Why not just run the code and test it manually?
+### Why write tests? Why not just run the code and test it manually?
 
 1. Software can have too many functions to test manually.
 2. Software can have too many test cases to test manually.
@@ -214,7 +204,7 @@ Tests are functions separate from your software, which tell you whether your cod
 6. Written tests can be run by others collaborating with you, so that they can contribute code while being confident of not breaking existing functionality.
 7. Written tests can be run by users(or potential buyers) of your code, to ensure that your code works as advertised.
 
-#### What are mocks, stubs and spies?
+### What are mocks, stubs and spies?
 
 **Stubs override a function/object** and provide canned answers to calls made during the test. Their purpose is to allow you to run your test.
 
@@ -223,27 +213,28 @@ Tests are functions separate from your software, which tell you whether your cod
 **Spies do not override functionality**. They record how the spied functions were called.
 
 [source](https://martinfowler.com/articles/mocksArentStubs.html)
+
 [source 2](https://stackoverflow.com/questions/3459287/whats-the-difference-between-a-mock-stub/17810004#17810004)
 
-#### How do I write tests for Python?
+### How do I write tests for Python?
 
 Pytest is the most popular testing framework. Learn how to use it [here](https://docs.pytest.org/en/latest/getting-started.html).
 
-#### What is tox?
+### What is tox?
 
 A testing tool that tests code against different Python versions.
 
-#### How do I write tests for JavaScript?
+### How do I write tests for JavaScript?
 
 Mocha is the most popular framework. Learn to use it [here](https://mochajs.org/#getting-started). Other tools to use with it are Chai and Sinon.
 
-#### What is CI/CD?
+### What is CI/CD?
 
-#### What is Continuous Integration?
+### What is Continuous Integration?
 
-#### What is Continuous Delivery?
+### What is Continuous Delivery?
 
-#### What are the most important CI/CD technologies?
+### What are the most important CI/CD technologies?
 
 [CircleCI](https://circleci.com/) is recommended for small projects for fast setup.
 
@@ -251,13 +242,13 @@ Mocha is the most popular framework. Learn to use it [here](https://mochajs.org/
 
 [Jenkins](https://jenkins.io/) is recommended for the big projects for customizations. You need to setup your own server.
 
-### Profiling
+## Profiling
 
-#### What is Profiling?
+### What is Profiling?
 
 Measuring the speed and memory cost of a program.
 
-#### How do I do profiling in Python?
+### How do I do profiling in Python?
 
 ```python
 # for short snippets
@@ -284,104 +275,101 @@ $ python3 -m timeit '"-".join(str(n) for n in range(100))'
 10000 loops, best of 5: 30.2 usec per loop
 ```
 
-## Tools
+## Languages
 
-### Languages
-
-#### What is JSON?
+### What is JSON?
 
 A popular language for storing data. Learn it [here](https://learnxinyminutes.com/docs/json/).
 
-#### What is YAML?
+### What is YAML?
 
 A very readable language for storing data, which allows comments. Learn it [here](https://learnxinyminutes.com/docs/yaml/).
 
-#### What is TOML?
+### What is TOML?
 
 **Tom's Obvious, Minimal Language** is a language for configuration files. Learn it [here](https://github.com/toml-lang/toml).
 
-#### What is Markdown?
+### What is Markdown?
 
 A way to write formatted text.
 
-#### What is reStructuredText(rst)?
+### What is reStructuredText(rst)?
 
 A fancier way to write formatted text.
 
-#### What is C#?
+### What is C#?
 
 A programming language commonly used writing windows apps.
 
-#### What is C++?
+### What is C++?
 
 A programming language commonly used for computing performance and embedded systems.
 
-#### What is Java?
+### What is Java?
 
 A programming language that can be easily deployed on many types of computers.
 
-#### What is Javascript?
+### What is Javascript?
 
-
-#### What is Python?
+### What is Python?
 
 An easy programming language to learn. It is commonly used for data work and [server-side programming](#what-is-server-side-programming).
 
-#### What is a programming paradigm?
+### What is a programming paradigm?
 
 A set of features about a programming language.
 
-#### What is php?
+### What is php?
 
 A programming language commonly used for server-side programming.
 
-#### What is Ruby?
+### What is Ruby?
 
- A high-level, clean programming language, commonly used for web development.
+A high-level, clean programming language, commonly used for web development.
 
-#### What is Rust?
+### What is Rust?
 
-#### What is a scripting language?
+### What is a scripting language?
 
 [wiki](https://en.wikipedia.org/wiki/Scripting_language)
 
-#### What is a statically-typed language?
+### What is a statically-typed language?
 
 [overflow](https://stackoverflow.com/questions/2690544/what-is-the-difference-between-a-strongly-typed-language-and-a-statically-typed)
 
-#### What is a strongly-typed language?
+### What is a strongly-typed language?
 
 [overflow](https://stackoverflow.com/questions/2690544/what-is-the-difference-between-a-strongly-typed-language-and-a-statically-typed)
 
-#### What is a weakly-typed language?
+### What is a weakly-typed language?
 
 [overflow](https://stackoverflow.com/questions/2690544/what-is-the-difference-between-a-strongly-typed-language-and-a-statically-typed)
 
-### Bootstrap
+## Bootstrap
 
-#### How do I center an image?
+### How do I center an image?
 
 ```html
 <img class="center-block" src="logo.png" />
 ```
 
-### Javascript
+## Javascript
 
-#### What is Javascript used for?
+### What is Javascript used for?
 
 Primarily front-end(with jQuery/React/Angular/Vue) and back-end(with MongoDB/Express/Node) app development. However, it can also do many other things like machine learning, data visualization and more.
 
-### Python
+## Python
 
-#### What is Python used for?
+### What is Python used for?
 
 Primarily data work(Data Science, Data Analysis, Data Visualization), working with [natural language](https://en.wikipedia.org/wiki/Natural_language_processing) and back-end web development. However, it can also do many other things like desktop app development, image manipulation and more.
 
-#### What is 'Pythonic' code?
+### What is 'Pythonic' code?
 
 Code that is clear, concise and follows conventions of the Python community.
 
-#### How do I create 'requirements.txt'?
+### How do I create 'requirements.txt'?
 
 `requirements.txt' is a common way to log dependencies used in a project. You can create it with:
 
@@ -389,7 +377,7 @@ Code that is clear, concise and follows conventions of the Python community.
 pip freeze > requirements.txt
 ```
 
-#### What is a decorator?
+### What is a decorator?
 
 A way to extend functions.
 
@@ -411,34 +399,34 @@ def myFunction(n):
     ...
 ```
 
-#### How do I check if a substring exists within a string?
+### How do I check if a substring exists within a string?
 
 ```python
 'star' in 'star wars'
 # returns True
 ```
 
-#### How do I save the requirements of my current project?
+### How do I save the requirements of my current project?
 
 ```bash
 pip freeze > requirements.txt
 ```
 
-#### How do I write a docstring?
+### How do I write a docstring?
 
 [overflow](https://stackoverflow.com/questions/3898572/what-is-the-standard-python-docstring-format)
 
-#### How do I remove all .pyc files in my project?
+### How do I remove all .pyc files in my project?
 
 ```bash
 find . -name '*.pyc' -delete
 ```
 
-#### What does if __name__ == “__main__”: do?
+### What does if **name** == “**main**”: do?
 
 It protects code from being run when imported. The code within the `if __name__ == “__main__”:` only runs when the file is directly run instead of also when it is imported.
 
-#### How can I run a shell command within Python?
+### How can I run a shell command within Python?
 
 This runs `ls -l` in the shell:
 
@@ -447,7 +435,7 @@ from subprocess import call
 call(["ls", "-l"])
 ```
 
-#### How do I merge two dictionaries?
+### How do I merge two dictionaries?
 
 ```python
 # in place
@@ -457,14 +445,14 @@ dict1.update(dict2)
 dict_merged = {**dict1, **dict2}
 ```
 
-#### How do I safely create a nested directory?
+### How do I safely create a nested directory?
 
 ```python
 import pathlib
-pathlib.Path('/my/directory').mkdir(parents=True, exist_ok=True) 
+pathlib.Path('/my/directory').mkdir(parents=True, exist_ok=True)
 ```
 
-#### How do I create a list of all files in a directory?
+### How do I create a list of all files in a directory?
 
 ```python
 from os import listdir
@@ -472,7 +460,7 @@ from os.path import isfile, join
 onlyfiles = [f for f in listdir(mypath) if isfile(join(mypath, f))]
 ```
 
-#### How do I check if a list is empty?
+### How do I check if a list is empty?
 
 Empty lists evaluate to `False`.
 
@@ -481,52 +469,52 @@ if not my_list:
   print("List is empty")
 ```
 
-#### How do I access the count within a for loop?
+### How do I access the count within a for loop?
 
 ```python
 for index, value in enumerate(my_list):
   print(index, value)
 ```
 
-#### What is duck typing?
+### What is duck typing?
 
-#### How do I check the type of an object?
+### How do I check the type of an object?
 
 ```python
 # returns the type of the object
 type(a)
 
 # checks for type inheritance
-isinstance(a, SomeType) 
+isinstance(a, SomeType)
 ```
 
-#### Does Python have a ternary operator?
+### Does Python have a ternary operator?
 
 Yes. `a if condition else b` returns a if condition evaluates to True, else b is returned.
 
-#### What does the “yield” keyword do?
+### What does the “yield” keyword do?
 
 It's a word [generators<sup>?</sup>](#what-are-generators) use.
 
-#### What are generators?
+### What are generators?
 
 They are like lists, but they generate their elements only when we need them, saving us memory and time.
 
-#### What are metaclasses in Python?
+### What are metaclasses in Python?
 
 A metaclass is a custom type of class.
 
-#### How do I show print messages when running pytest?
+### How do I show print messages when running pytest?
 
 ```bash
 py.test -s my_test.py
 ```
 
-#### How do I use type hints?
+### How do I use type hints?
 
 [Learn it here.](https://mypy.readthedocs.io/en/latest/cheat_sheet_py3.html#functions)
 
-#### Should I group my pytest tests into classes?
+### Should I group my pytest tests into classes?
 
 There are pros and cons.
 
@@ -534,7 +522,7 @@ Module-level tests have omit the meaningless `self` argument and are flatter.
 
 Grouping tests into classes(one class per class tested in the module) allows us to use the same test name when two classes have the same function name to be tested. It also forces us to group our tests by the class they are testing (and also enables automatic grouping using a text editor).
 
-#### Glossary - Python
+### Glossary - Python
 
 - **argument parameter** - Input.
 - **attribute** - Feature, property.
@@ -552,15 +540,15 @@ Grouping tests into classes(one class per class tested in the module) allows us 
 - **index** - Address.
 - **iterable** - An object you can loop over.
 - **library module** - Someone else's code(usually).
-- **key/value** - 
-- **list** - 
-- **list slice** - 
+- **key/value** -
+- **list** -
+- **list slice** -
 - **method** - A function, owned by a type. For example, strings have a `.format` method.
-- **return value** - 
+- **return value** -
 - **standard library** - Someone else's code, pre-installed with python.
-- **string** - 
-- **variable** - 
-- **while** - 
+- **string** -
+- **variable** -
+- **while** -
 - **write** - To write to a file is to create the file.
   decorators
   context managers
@@ -571,106 +559,115 @@ Grouping tests into classes(one class per class tested in the module) allows us 
   pythonic/idiomatic
   zen of python
 
+* **append** - Add to the back.
+* **instantiate** -
 
-- **append** - Add to the back.
-- **instantiate** -
+## Text Editors
 
-### Text Editors
+### What is a text editor?
 
-#### VSCode
+It is like Notepad (on Windows) or Notes (on Mac). It allows us to type and save code as plain text.
 
-#### Atom
+### What is an IDE?
 
-#### What are some useful regex for find and replace?
+A text editor with many tools to help development.
+
+_Short for: integrated development environment._
+
+### VSCode
+
+### Atom
+
+### What are some useful regex for find and replace?
 
 - ^\s.\*\n selects all lines which start with a whitespace character.
 - You can replace selections with an empty string to delete the selections.
 
-### Git
+## Git
 
-#### What is Git?
+### What is Git?
 
 A version control system. It helps collaboration, works as a form of backup, and more.
 
-#### How do remotes repositories work?
+### How do remotes repositories work?
 
 A remote repository first exists at a remote location; often, a github repo. When you `git clone` the repo, you create a **local copy** of the repo and the branches which **track** the remote repo's branches. You also create a **reference** to the remote repo and its branches.
 
-#### What is the difference between `git fetch` and `git pull`?
+### What is the difference between `git fetch` and `git pull`?
 
 `git fetch` accesses the remote repo and updates your **reference** to the remote repo. `git pull` does a `git fetch` and also does a `git merge` to merge your reference to the remote branch with your local copy of the remote branch.
 
 See [above](#how-do-remotes-repositories-work) to understand how remote repositories work.
 
-#### What are some common commands?
+### What are some common commands?
 
 `git diff HEAD~1 HEAD` - View differences between this commit and the previous.
 
-#### How do I track the history of a file?
+### How do I track the history of a file?
 
 `gitk (filename)` or `git log -p (filename)`.
 
-#### How do I overwrite the remote after making a mistake?
+### How do I overwrite the remote after making a mistake?
 
 `git push --force`
 
-#### How do I reset my local branch to copy the remote?
+### How do I reset my local branch to copy the remote?
 
 `git reset --hard origin/(your_branch_name)`
 
-#### How do I find a commit by the message?
+### How do I find a commit by the message?
 
 `git log --all --grep='your search string'`
 
-#### How do I delete a local branch?
+### How do I delete a local branch?
 
 `git branch -D branch_name`
 
-#### How do I remove references to branches on the remote?
+### How do I remove references to branches on the remote?
 
 `git fetch --prune`
 
-### Github
+## Github
 
-#### What is Github?
+### What is Github?
 
 A place to store code, which integrates well with [git<sup>?</sup>](#git).
 
-### Unix
+## Unix
 
-#### What is Unix?
+### What is Unix?
 
 An operating system, like Windows or MacOS.
 
-#### Why is Unix important?
+### Why is Unix important?
 
 MacOS terminal is based on Unix. Webservers mainly use Unix. We can interact with the computer filesystem more efficiently with some useful Unix commands.
 
-#### How to delete a folder?
+### How to delete a folder?
 
 ```bash
 rm -rf my_folder
 ```
 
-#### How to clean up the disk?
+### How to clean up the disk?
 
 ```bash
 sudo ncdu
 ```
 
-#### What are exit codes / return codes?
+### What are exit codes / return codes?
 
 A number returned to the shell after a program ends. 0 indicates that the program ran successfully. On Unix-like systems, it goes up to 255. On Windows systems, it goes up to 15999.
 
 [Tutorial](https://shapeshed.com/unix-exit-codes/)
 
-#### What is POSIX?
+### What is POSIX?
 
-#### What is bash?
+### What is bash?
 
 The most important shell. It is the default shell for many operating system distributions.
 
-#### What are some common bash commands?
+### What are some common bash commands?
 
 ```bash
 cd
@@ -685,7 +682,7 @@ cat
 grep
 ```
 
-#### What is an shell/environment variable?
+### What is an shell/environment variable?
 
 `$ export` shows all shell variables.
 Environment variables also often refers to shell variables, but can also refer to variables used by applications other than a shell.
@@ -693,45 +690,43 @@ Environment variables also often refers to shell variables, but can also refer t
 These can be set with `VAR=value`, `export VAR=value` or `env VAR=value`. `value` should use quotes if it's a string.
 `export VAR=value` is most common. It's bash-syntax. `VAR=value` doesn't expose the set variable to other programs like `grep`. `env` works like `export` but is a program in itself. (https://askubuntu.com/questions/205688/whats-the-difference-between-set-export-and-env-and-when-should-i-use-each)
 
-#### Why don't I need quotes for strings when setting shell variables?
+### Why don't I need quotes for strings when setting shell variables?
 
 In the `VAR=value` syntax, value is taken to be a string _by default_ when there are no spaces in it. If there are spaces, you need to enclose the string in quotes.
 
-## Meta
+## Jobs
 
-### Jobs
-
-#### What is a developer?
+### What is a developer?
 
 Someone who writes code.
 
-#### What do developers do on a day-to-day basis?
+### What do developers do on a day-to-day basis?
 
-#### What is a data analyst?
+### What is a data analyst?
 
 Someone who works primarily with data. This usually involves collecting, manipulating, visualizing and analyzing the data.
 
-#### What is a data scientist?
+### What is a data scientist?
 
 Someone who does machine learning. They often also need to do the work of a data analyst.
 
-### Ways
+## Ways
 
-#### What is Agile?
+### What is Agile?
 
-#### What is Test Driven Development(TDD)?
+### What is Test Driven Development(TDD)?
 
-#### What is Behavior Driven Development(BDD)?
+### What is Behavior Driven Development(BDD)?
 
 [source](https://dannorth.net/introducing-bdd/)
 
 ### Licensing
 
-#### How do I add a license to my software?
+### How do I add a license to my software?
 
 Simply copy a LICENSE file to your repo.
 
-#### What software licenses should I choose?
+### What software licenses should I choose?
 
 [Choose a license](https://choosealicense.com/)
 
@@ -788,7 +783,6 @@ Simply copy a LICENSE file to your repo.
 - **relative path** - A path defined from wherever the current directory is. This usually means it is shorter than a comparable absolute path.
 - **shell** -
 - **partition** - A part of a hard disk, which can have its own operating system.
-
 
 ## Glossary - Hardware
 
