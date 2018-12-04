@@ -1,3 +1,4 @@
+<<<<<<< Updated upstream
 # The Simple Guide To Software Development
 
 _Concepts explained simply._
@@ -25,6 +26,35 @@ _Concepts explained simply._
 17. [Ways](#ways)
 18. [Licensing](#licensing)
 
+=======
+# Simple Software Development &middot; [![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)](https://github.com/siowyisheng/simple-software-development/blob/master/LICENSE) ![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)
+
+<!-- [![Coverage Status](https://img.shields.io/coveralls/facebook/react/master.svg?style=flat)](https://coveralls.io/github/facebook/react?branch=master) [![CircleCI Status](https://circleci.com/gh/facebook/react.svg?style=shield&circle-token=:circle-token)](https://circleci.com/gh/facebook/react) -->
+
+## Contents <!-- omit in toc -->
+
+- [Ideas](#ideas)
+  - [Software Development](#software-development)
+  - [The Web](#the-web)
+  - [Data](#data)
+  - [Computing](#computing)
+  - [Documentation](#documentation)
+  - [Tests](#tests)
+  - [Profiling](#profiling)
+- [Tools](#tools)
+  - [Languages](#languages)
+  - [Bootstrap](#bootstrap)
+  - [Javascript](#javascript)
+  - [Python](#python)
+  - [Text Editors / IDEs](#text-editors--ides)
+  - [Git](#git)
+  - [Github](#github)
+  - [Unix](#unix)
+- [Meta](#meta)
+  - [Jobs](#jobs)
+  - [Ways](#ways)
+  - [Licensing](#licensing)
+>>>>>>> Stashed changes
 - [Glossary - Coding and computing in general](#glossary---coding-and-computing-in-general)
 - [Glossary - Operating systems](#glossary---operating-systems)
 - [Glossary - Hardware](#glossary---hardware)
@@ -89,11 +119,27 @@ Code that code **imports**(depends on). This includes code written by us, standa
 
 The dependencies for some code, together with the dependencies of those dependencies and so on. The dependency tree needs to be **resolved** so that suitable versions are determined for installation.
 
+<<<<<<< Updated upstream
 ### What is integration?
 
 Making two systems work together.
 
 ## The Web
+=======
+#### What is a function signature?
+
+A definition of the parameters and return values (and their types) of a function.
+
+#### What is integration?
+
+Making two systems work together.
+
+#### What is YAGNI?
+
+"You Aren't Gonna Need It" is the idea that software shouldn't be built until it becomes apparent that it is necessary. This has parallels to idea of JIT(Just-in-time) in manufacturing.
+
+### The Web
+>>>>>>> Stashed changes
 
 ### What is server-side programming?
 
@@ -189,7 +235,27 @@ TODO
 
 Tests are functions separate from your software, which tell you whether your code works the way it's supposed to.
 
+<<<<<<< Updated upstream
 ### What are the main types of tests?
+=======
+Tests have 3 or 4 parts.
+
+1. Setup the test.
+2. Exercise the test function.
+3. Assert the expected results.
+4. Teardown the test.
+
+#### What are some common testing pitfalls?
+
+Tests should test inputs from the public interface and returns to the public interface.
+
+TEST YOUR API. THAT IS YOUR BEHAVIOR. DON'T TEST YOUR INTERNAL FUNCTIONS.
+
+For every internal function in your software, the set of possible valid input to the function is larger than the set your software is actually going to pass to the function.
+This is obvious but important.
+
+#### What are the main types of tests?
+>>>>>>> Stashed changes
 
 **Unit tests** test functions. They only test the code that is being tested, also known as CUT(Code Under Test), and nothing else. They are fast and any interaction with outside systems is [mocked or stubbed](https://martinfowler.com/articles/mocksArentStubs.html).
 **Functional tests**(or acceptance tests, UI tests, systems tests) simulate user behavior on the software as a whole from the perspective of the user.
@@ -204,7 +270,11 @@ Tests are functions separate from your software, which tell you whether your cod
 6. Written tests can be run by others collaborating with you, so that they can contribute code while being confident of not breaking existing functionality.
 7. Written tests can be run by users(or potential buyers) of your code, to ensure that your code works as advertised.
 
+<<<<<<< Updated upstream
 ### What are mocks, stubs and spies?
+=======
+#### What is a mock, stub or spy?
+>>>>>>> Stashed changes
 
 **Stubs override a function/object** and provide canned answers to calls made during the test. Their purpose is to allow you to run your test.
 
@@ -212,11 +282,21 @@ Tests are functions separate from your software, which tell you whether your cod
 
 **Spies do not override functionality**. They record how the spied functions were called.
 
+However, definitions vary between systems.
+
 [source](https://martinfowler.com/articles/mocksArentStubs.html)
 
 [source 2](https://stackoverflow.com/questions/3459287/whats-the-difference-between-a-mock-stub/17810004#17810004)
 
+<<<<<<< Updated upstream
 ### How do I write tests for Python?
+=======
+#### What is monkey patching?
+
+Changing the code at runtime, often to isolate code for testing.
+
+#### How do I write tests for Python?
+>>>>>>> Stashed changes
 
 Pytest is the most popular testing framework. Learn how to use it [here](https://docs.pytest.org/en/latest/getting-started.html).
 
@@ -510,11 +590,38 @@ A metaclass is a custom type of class.
 py.test -s my_test.py
 ```
 
+<<<<<<< Updated upstream
 ### How do I use type hints?
 
 [Learn it here.](https://mypy.readthedocs.io/en/latest/cheat_sheet_py3.html#functions)
 
 ### Should I group my pytest tests into classes?
+=======
+#### Should my classes inherit from `object`?
+
+`class MyClass(object):` is used for Python 2 compatibility. If this is not important, use `class MyClass:` instead.
+
+#### What are type hints?
+
+Optional notes which add code clarity by specifying the intended types for variables and function definitions. Static analysis tools like mypy can also catch type errors in code before it is run. Some text editors and IDEs can also provide type information during code completion when type hints are provided.
+
+Since they are optional, only add them as necessary. They are especially useful for [function signatures<sup>?</sup>](#what-is-a-function-signature).
+
+#### How do I use type hints?
+
+[Learn it here.](https://mypy.readthedocs.io/en/latest/cheat_sheet_py3.html#functions)
+
+```python
+from typing import Dict, Tuple, List, Callable, Mapping, Sequence, Iterable, Any, IO, NoReturn, Union, Optional
+
+def null_aware_func(x: Optional[float]) -> Optional[float]:
+    if x is None:
+        return None
+    return 2.2*x**1.05
+```
+
+#### Should I group my pytest tests into classes?
+>>>>>>> Stashed changes
 
 There are pros and cons.
 
@@ -522,7 +629,30 @@ Module-level tests have omit the meaningless `self` argument and are flatter.
 
 Grouping tests into classes(one class per class tested in the module) allows us to use the same test name when two classes have the same function name to be tested. It also forces us to group our tests by the class they are testing (and also enables automatic grouping using a text editor).
 
+<<<<<<< Updated upstream
 ### Glossary - Python
+=======
+#### What are magic methods/dunders?
+
+#### Should I use Mock or MagicMock when mocking?
+
+[The docs](https://docs.python.org/dev/library/unittest.mock.html) recommend to use MagicMocks by default. It saves time defining magic methods.
+
+A MagicMock is just Mock with [magic methods<sup>?</sup>](#what-are-magic-methodsdunders) which don't raise exceptions.
+
+```python
+>>> int(Mock())
+TypeError: int() argument must be a string or a number, not 'Mock'
+>>> int(MagicMock())
+1
+>>> len(Mock())
+TypeError: object of type 'Mock' has no len()
+>>> len(MagicMock())
+0
+```
+
+#### Glossary - Python
+>>>>>>> Stashed changes
 
 - **argument parameter** - Input.
 - **attribute** - Feature, property.
@@ -564,7 +694,15 @@ Grouping tests into classes(one class per class tested in the module) allows us 
 
 ## Text Editors
 
+<<<<<<< Updated upstream
 ### What is a text editor?
+=======
+### Text Editors / IDEs
+
+#### What is a text editor?
+
+#### What is an IDE?
+>>>>>>> Stashed changes
 
 It is like Notepad (on Windows) or Notes (on Mac). It allows us to type and save code as plain text.
 
@@ -627,7 +765,21 @@ See [above](#how-do-remotes-repositories-work) to understand how remote reposito
 
 `git fetch --prune`
 
+<<<<<<< Updated upstream
 ## Github
+=======
+#### How do I move recent commits to a new branch?
+
+Scenario: You made 5 commits to `master` although you were supposed to work on a new branch.
+
+```bash
+git branch newbranch
+git reset --hard HEAD~5
+git checkout newbranch
+```
+
+### Github
+>>>>>>> Stashed changes
 
 ### What is Github?
 
