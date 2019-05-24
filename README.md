@@ -40,13 +40,13 @@ _Software development concepts explained simply._
 
 Creating computer programs.
 
-This involves writing, testing, debugging and maintaining [code](#what-is-code).
+This involves writing, testing, debugging and maintaining [code<sup>?</sup>](#what-is-code).
 
 ### What is code?
 
 Code is instruction for a computer, written in a programming language.
 
-It is usually written in a [text editor](#what-is-a-text-editor) or [IDE](#what-is-an-ide).
+It is usually written in a [text editor<sup>?</sup>](#what-is-a-text-editor) or [IDE<sup>?</sup>](#what-is-an-ide), which can be downloaded free.
 
 ### What are the different types of software?
 
@@ -79,6 +79,8 @@ A language's popularity is important because developers build tools for the lang
 
 ### What is Stack Overflow?
 
+The main question and answer website used by software developers.
+
 ### What is open source?
 
 ### What are dependencies?
@@ -87,17 +89,85 @@ Code that code **imports**(depends on). This includes code written by us, standa
 
 ### What is a dependency tree?
 
-The dependencies for some code, together with the dependencies of those dependencies and so on. The dependency tree needs to be **resolved** so that suitable versions are determined for installation.
+The [dependencies<sup>?</sup>](#what-are-dependencies) for some code, together with the dependencies of those dependencies and so on. The dependency tree needs to be **resolved** so that suitable versions are determined for installation.
 
 ### What is a function signature?
 
-A definition of the [parameters<sup>?</sup>](#what-is-a-parameter) and [return values<sup>?</sup>](#what-is-a-return-value) (and their types) of a function.
+A definition of the name, [parameters<sup>?</sup>](#what-is-a-parameter) and [return values<sup>?</sup>](#what-is-a-return-value) (and their types) of a function.
 
-### What is a parameter?
+In [Python<sup>?</sup>](#what-is-python), a function signature can look like this:
 
-An input to a function.
+```python
+def write_readme(repo: str, length: int) -> bool:
+```
 
-### What is introspection?
+The function name is `write_readme`, the first argument is a [string<sup>?</sup>](#what-is-a-string), the second argument is an [integer<sup>?</sup>](#what-is-an-integer) and it returns a [boolean<sup>?</sup>](#what-is-a-boolean).
+
+### What is a string?
+
+A sequence (string) of [characters<sup>?</sup>](#what-is-a-character). In many programming languages, strings are surrounded by double quotes like `"cow"` or single quotes like `'cat'` or sometimes backticks like `` `dog` ``.
+
+### What is a character?
+
+A character is any letter (like `'g'`), number (like `'5'`), space (`' '`), punctuation mark (like `'.'`), or symbol (like `'\'`) that can be typed on a computer.
+
+### What is an integer?
+
+A positive or negative number (like `42`) without decimal places. An integer holds mathematical meaning, and so is different from the string representation of the integer, which has no mathematical meaning.
+
+### What is a boolean?
+
+A type of data with only two possibilities. One represents a true value, and the other, false.
+
+In [Python<sup>?</sup>](#what-is-python), they are written as `True` and `False` while in [Javascript<sup>?</sup>](#what-is-javascript) they are written as `true` and `false`.
+
+### What is a function or method?
+
+Some lines of code. It can take in inputs known as [parameters<sup>?</sup>](#what-is-a-parameter-or-argument) and spit out output known as [return values<sup>?</sup>](#what-is-a-return-value) when it finishes.
+
+### What is a parameter or argument?
+
+An input to a function. The function should use the input in its code.
+
+Technically, an argument is the data passed into the function's parameter.
+
+### What is indirection?
+
+Referencing something using a name instead of the value itself. Also called `dereferencing`.
+
+### What is type introspection?
+
+Checking the type or properties of an object when code is run.
+
+For example, in Python, `dir(pig)` lists every name in `pig`'s [namespace<sup>?</sup>](#what-is-a-namespace) and `type(cat)` returns `cat`'s type.
+
+### What is a namespace?
+
+### What is object-oriented programming?
+
+A [programming paradigm<sup>?</sup>](#what-is-a-programming-paradigm) using "objects", which have attributes and methods. In most languages, objects are instances of [classes<sup>?</sup>](#what-is-a-class).
+
+### What is boilerplate?
+
+### What is a hook?
+
+A place in packaged code to insert custom code.
+
+### What is a programming paradigm?
+
+### What is a driver?
+
+### What is thread-safe?
+
+### What is connection-pooling?
+
+### What is character encoding?
+
+### What is a class?
+
+A custom [data type<sup>?</sup>](#what-is-a-data-type). It defines what an object (ie. instance) of that class should have as attributes or methods.
+
+### What is a data type?
 
 ### What is tightly coupled code? What is loosely coupled code?
 
@@ -123,7 +193,157 @@ This has parallels to idea of JIT(Just-in-time) in manufacturing.
 
 _Short for: You Aren't Gonna Need It._
 
+### What is Extreme Programming?
+
 ## The Web
+
+### What is Docker?
+
+### What are Containers?
+
+Containers offer a logical packaging mechanism in which applications can be abstracted from the environment in which they actually run. This decoupling allows container-based applications to be deployed easily and consistently, regardless of whether the target environment is a private data center, the public cloud, or even a developer’s personal laptop. Containerization provides a clean separation of concerns, as developers focus on their application logic and dependencies, while IT operations teams can focus on deployment and management without bothering with application details such as specific software versions and configurations specific to the app.
+
+For those coming from virtualized environments, containers are often compared with virtual machines (VMs). You might already be familiar with VMs: a guest operating system such as Linux or Windows runs on top of a host operating system with virtualized access to the underlying hardware. Like virtual machines, containers allow you to package your application together with libraries and other dependencies, providing isolated environments for running your software services. As you’ll see below however, the similarities end here as containers offer a far more lightweight unit for developers and IT Ops teams to work with, carrying a myriad of benefits.
+
+source: https://cloud.google.com/containers/
+
+### What are Client-Side Rendering and Server-Side Rendering?
+
+### What is Universal Javascript?
+
+apps where JavaScript runs on both client and server. This is great both for performance in first-page load and SEO purposes, as we'll see in a moment.
+
+isomorphism.
+
+### What is pre-rendering?
+
+Store cached version of pages.
+
+### What is a server?
+
+### What is a browser?
+
+### What is Prettier?
+
+### What is minifying?
+
+### What is uglifying?
+
+### What is compression?
+
+### What is bundling?
+
+Combining modules, css, images, fonts and other static assets into a single file.
+
+### What is transpiling?
+
+Translating ES6+ Javascript back to ES5 for compatibility with older browsers.
+
+### What is linting?
+
+Statically analyzing code for style and logical errors.
+
+### What is a live server?
+
+A development server that watches files, recompiles and auto-reloads as they change.
+
+### What is a service worker?
+
+Something that sits between your device and the web, that redirects you to your cache when the network is poor. It only helps for the second load onwards.
+
+It makes web apps behave more like native apps.
+
+### What is workbox?
+
+A collection of libraries for PWA development.
+
+### What is a native app?
+
+### What is a path?
+
+### What is a slug?
+
+### What is HTTPS?
+
+Having a secure connection. The user can trust that the site is owned by the proper owner, that no one has tampered with the page and that no one is listening in on the connection.
+
+### What is SSH?
+
+Remotely accessing another computer, often using an [ssh key<sup>?</sup>](#what-is-an-ssh-key).
+
+```bash
+ssh -i deployment_key.txt demo@192.237.248.66
+```
+
+```bash
+# to copy a file
+scp file.txt 10.10.10.10:/root/
+
+# to copy a folder
+scp -r foldername 10.10.10.10:/root/
+```
+
+### What is an SSH key?
+
+A two-key system that authenticates a user for SSH. It often uses the RSA algorithm.
+
+### What is a Web App Manifest?
+
+A configuration file to determines how the app behaves and looks on mobile.
+
+### What is a Progressive Web App?
+
+Push notifications, placement on the home screen, service worker, opens as a separate app.
+
+Removes high-friction step of getting users to install a native app.
+
+Opens reliably, user never sees a network error.
+
+Use Lighthouse to check if an app meets the requirements of a Progressive Web App.
+
+### What is Lighthouse?
+
+### What is Redux?
+
+### What is an API?
+
+### What is the DOM?
+
+### What are routes?
+
+### What is lazy-loading?
+
+### What is chunking?
+
+### What is code splitting?
+
+### What is a CDN?
+
+### What is nginx?
+
+Open source software for web serving, reverse proxying, caching, load balancing, media streaming and more.
+
+nginx [engine x] is an HTTP and reverse proxy server, a mail proxy server, and a generic TCP/UDP proxy server, originally written by Igor Sysoev.
+
+https://nginx.org/en/
+
+### What is Apache?
+
+### What is uWSGI?
+
+A fast, self-healing application container server.
+
+### What is mod_wsgi?
+
+### What does “sudo apt-get update” do?
+
+https://askubuntu.com/questions/222348/what-does-sudo-apt-get-update-do
+
+### What are CSRF attacks?
+
+### What is a Virtual Machine?
+
+### What is a hypervisor?
 
 ### What is GraphQL?
 
@@ -200,7 +420,7 @@ A way to select data from a database management system. aka Structured Query Lan
 
 ### What is computing about?
 
-Computing is about two aspects of computations: Speed(time efficiency) and storage efficiency. Computing problems can be solved in many ways, but the field strives towards time- and space-efficient solutions.
+Computing cares about two things: Speed(time efficiency) and memory efficiency. Computing problems can be solved in many ways, but the field strives towards time- and memory-efficient solutions.
 
 ## Documentation
 
@@ -753,6 +973,14 @@ cat
 grep
 ```
 
+### How to find a file?
+
+`*` is a wildcard.
+
+```bash
+find /home/username/ -name "*.err"
+```
+
 ### What is an shell/environment variable?
 
 `$ export` shows all shell variables.
@@ -782,6 +1010,10 @@ Someone who works primarily with data. This usually involves collecting, manipul
 Someone who does machine learning. They often also need to do the work of a data analyst.
 
 ## Ways
+
+### What is the principle of least astonishment?
+
+If a necessary feature has a high astonishment factor, it may be necessary to redesign the feature. It is applied to user interface and software design.
 
 ### What is Agile?
 
