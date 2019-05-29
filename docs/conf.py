@@ -19,6 +19,7 @@
 project = 'Simple Software Development'
 copyright = '2019, Yi Sheng Siow'
 author = 'Yi Sheng Siow'
+master_doc = 'index'
 
 # -- General configuration ---------------------------------------------------
 
