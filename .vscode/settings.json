@@ -1,0 +1,4 @@
+{
+    "restructuredtext.confPath": "${workspaceFolder}/docs",
+    "python.pythonPath": "/Users/yisheng/.virtualenvs/playground/bin/python"
+}
