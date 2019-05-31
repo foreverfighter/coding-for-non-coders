@@ -2,7 +2,7 @@ Simple Sphinx
 ===============
 
 Sphinx generates project documentation, which can be hosted easily at
-`readthedocs <https://readthedocs.org/>`_.
+`readthedocs <https://readthedocs.org/>`_. 
 
 Your project should be in a `github <https://github.com/>`_ repository. Then,
 sign up for a `readthedocs account <https://readthedocs.org/accounts/signup/>`_ with
@@ -108,6 +108,14 @@ You can view the HTML locally. Within your ``docs`` folder::
 
     $ make html
     $ open _build/html/index.html
+
+Deploy documentation
+---------------------
+
+If your github project was imported into readthedocs, your
+documentation will be automatically built and deployed when a changed
+version is pushed to github. Find the URL from your `readthedocs dashboard <https://readthedocs.org/dashboard/>`_.
+
 
 *(Optional)* Setup RTD Theme
 -----------------------------
