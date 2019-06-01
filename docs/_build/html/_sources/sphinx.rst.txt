@@ -2,7 +2,7 @@ Simple Sphinx
 ===============
 
 Sphinx generates project documentation, which can be hosted easily at
-`readthedocs <https://readthedocs.org/>`_. 
+`readthedocs <https://readthedocs.org/>`_.
 
 Your project should be in a `github <https://github.com/>`_ repository. Then,
 sign up for a `readthedocs account <https://readthedocs.org/accounts/signup/>`_ with

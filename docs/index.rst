@@ -6,3 +6,4 @@ Simple software development
    :caption: Topics:
 
    Sphinx<sphinx>
+   Git<git>
