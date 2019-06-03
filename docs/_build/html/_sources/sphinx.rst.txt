@@ -50,11 +50,13 @@ To make a sub-header, use a different special character::
     My Sub-header
     *************
 
-To make a link, follow this syntax. Note the space before < and the _ after the `::
+To make a link, follow this syntax::
 
     `My Link <http://www.cutestpaw.com/tag/cats/>`_
 
-To show code, one way is to use literal blocks like this. Note the empty line after the double colons::
+.. warning:: Note the space before ``<`` and the ``_`` after the `````.
+
+To show code, one way is to use literal blocks::
 
     ::
 
@@ -64,6 +66,8 @@ To show code, one way is to use literal blocks like this. Note the empty line af
 
         for i in range(5):
             print(i)
+
+.. warning:: Note the empty line after ``::``.
 
 To make a list::
 

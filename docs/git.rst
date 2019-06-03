@@ -17,8 +17,8 @@ stable version and a version for each new feature or bug fix.
 Versions are also called **branches**. Changes to branches are saved
 as **commits**, which are like checkpoints, and the entire project folder is a
 **repository**/**repo**. Repos on your computer are **local**. Repos
-living on github are **remote**. The main branch of a repo is often
-called **master**.
+living on github are **remote**. The initial (and usually main) branch of a
+repo is often called **master**.
 
 Git allows us to:
 
@@ -92,10 +92,9 @@ Then::
 
     $ git commit -m 'feat: adds commenting feature'
 
-The part within the quotes is the **commit message** and
-it's important for tracking the effect of each commit later on.
+.. note:: The part within the quotes is the **commit message**, which is important for logging. One best practice is to use `semantic commits <https://seesparkbox.com/foundry/semantic_commit_messages>`_.
 
-If you want a longer commit message::
+For a longer commit message::
 
     $ git commit
 
@@ -120,8 +119,7 @@ In situation (B), we can use::
 
     $ git push --force-with-lease
 
-It could also fail if you don't have push permission, in which case
-you should make a pull request.
+.. warning:: It could also fail if you don't have push permission, in which case you should make a pull request.
 
 Pull changes from remote
 =========================
@@ -181,19 +179,34 @@ View commit history
 
 ::
 
-    git log
+    $ git log --oneline
+
+Or with more details::
+
+    $ git log
+
 
 Compare two commits
 ===================
 
 ::
 
-    git diff commit_ref_1 commit_ref_2
+    git diff base_commit_reference new_commit_reference
 
-A commit ref can look like 1fc2cd7, or it could be HEAD.
-It can also have a suffix like ~1, which means 1 commit
-*before* that commit.
+A commit reference can be:
 
+* a partial commit hash like ``1fc2cd7``, which you can find from the `commit history <#view-commit-history>`_,
+* ``HEAD``, which is a reference to the last commit in the current branch
+* a branch name like ``master``, which points to the latest commit in that branch
+
+.. note::  A commit ref can also have a suffix like ``~1``, which means 1 commit *before* that commit.
+
+Example to compare the second last commit with the latest commit::
+
+    $ git diff HEAD~1 HEAD
+
+More usage
+-----------
 
 TODO:
 
