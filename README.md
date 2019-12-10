@@ -932,7 +932,11 @@ An operating system, like Windows or MacOS.
 
 ### Why is Unix important?
 
-MacOS terminal is based on Unix. Webservers mainly use Unix. We can interact with the computer filesystem more efficiently with some useful Unix commands.
+MacOS terminal is based on Unix. Webservers mainly use Unix. We can interact with the computer filesystem more efficiently with some useful Unix commands. 
+
+### What is a Makefile?
+
+A file that lets you compile a program from source code. [This is a good explanation.](https://opensource.com/article/18/8/what-how-makefile)
 
 ### How to delete a folder?
 
