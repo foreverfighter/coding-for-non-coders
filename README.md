@@ -1004,6 +1004,45 @@ In the `VAR=value` syntax, value is taken to be a string _by default_ when there
 
 An app that allows the deployment of software in independent containers. 
 
+It allows you to build lightweight _containers_ which run apps, from _images_ which are like recipes or blueprints for containers.
+
+Docker has its own public collection of images called *DockerHub*.
+
+### How do I run a container?
+
+```
+docker container run -it -p 81:80 nginx
+```
+
+This would download (if not already available) and run an nginx container, showing logs from the container (because of `-it`), making the container available at port 81 on the local computer, and exposing port 80 from the container.
+
+An image includes a *Dockerfile* which are the instructions for part of a stack, and a `docker-compose.yml`, which can run multiple Dockerfiles.
+
+### What are some common docker commands?
+
+```
+// runs a container
+docker container run my_image
+docker container run -it my_image
+
+// runs a container in the background
+docker container run -d my_image
+
+// lists running containers (below are equivalent)
+docker container ls 
+docker ps
+
+// lists all containers (below are equivalent)
+docker container ls -a
+docker ps -a
+
+// removes a container
+docker container rm my_partial_container_id
+
+// lists all local images
+docker images
+```
+
 ## Jobs
 
 ### What is a developer?
