@@ -1006,17 +1006,18 @@ An app that allows the deployment of software in independent containers.
 
 It allows you to build lightweight _containers_ which run apps, from _images_ which are like recipes or blueprints for containers.
 
+An image includes a *Dockerfile* which are the instructions for part of a stack, and a `docker-compose.yml`, which can run multiple Dockerfiles.
+
 Docker has its own public collection of images called *DockerHub*.
 
 ### How do I run a container?
 
 ```
-docker container run -it -p 81:80 nginx
+docker container run -d -p 8080:80 nginx
+// this would download (if not already available) and run an nginx container in the background (because of `-d`), making the container available at port 8080 on the local computer, and exposing port 80 from the container.
+
+docker container run -d -p 3306:3306 --env MYSQL_ROOT_PASSWORD=123456 mysql
 ```
-
-This would download (if not already available) and run an nginx container, showing logs from the container (because of `-it`), making the container available at port 81 on the local computer, and exposing port 80 from the container.
-
-An image includes a *Dockerfile* which are the instructions for part of a stack, and a `docker-compose.yml`, which can run multiple Dockerfiles.
 
 ### What are some common docker commands?
 
