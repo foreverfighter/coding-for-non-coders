@@ -1040,8 +1040,17 @@ docker ps -a
 // removes a container
 docker container rm my_partial_container_id
 
+// stops a container
+docker container stop container_name
+
 // lists all local images
 docker images
+
+// run and mirror a container directory on the local machine
+$ docker container run  -p 80:80 -v $(pwd):/usr/share/nginx/html nginx
+
+// access a running container
+$ docker container exec -it nginx bash
 ```
 
 ## Jobs
