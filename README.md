@@ -21,9 +21,10 @@ _Software development concepts explained simply._
 13. [Git](#git)
 14. [Github](#github)
 15. [Unix](#unix)
-16. [Jobs](#jobs)
-17. [Ways](#ways)
-18. [Licensing](#licensing)
+16. [Docker](#docker)
+17. [Jobs](#jobs)
+18. [Ways](#ways)
+19. [Licensing](#licensing)
 
 - [Glossary - Coding and computing in general](#glossary---coding-and-computing-in-general)
 - [Glossary - Operating systems](#glossary---operating-systems)
@@ -996,6 +997,12 @@ These can be set with `VAR=value`, `export VAR=value` or `env VAR=value`. `value
 ### Why don't I need quotes for strings when setting shell variables?
 
 In the `VAR=value` syntax, value is taken to be a string _by default_ when there are no spaces in it. If there are spaces, you need to enclose the string in quotes.
+
+## Docker
+
+### What is docker?
+
+An app that allows the deployment of software in independent containers. 
 
 ## Jobs
 
