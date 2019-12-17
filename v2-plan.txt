@@ -1,0 +1,5 @@
+1. reduce sections to 7
+2. explicitly say that it is meant to be used with ctrl+f, find
+3. increase number of cross-references
+4. standardise [?] and [↗] for internal and external links
+5. add more entries
