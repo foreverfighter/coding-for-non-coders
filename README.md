@@ -4,71 +4,111 @@ _Software development concepts explained simply._
 
 [![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)](https://github.com/siowyisheng/simple-software-development/blob/master/LICENSE) ![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)
 
-## Table of Contents <!-- omit in toc -->
+## Entry Points
 
-1. [Software Development](#software-development)
-2. [The Web](#the-web)
-3. [Data](#data)
-4. [Computing](#computing)
-5. [Documentation](#documentation)
-6. [Tests](#tests)
-7. [Profiling](#profiling)
-8. [Languages](#languages)
-9. [Bootstrap](#bootstrap)
-10. [Javascript](#javascript)
-11. [Python](#python)
-12. [Text Editors / IDEs](#text-editors--ides)
-13. [Git](#git)
-14. [Github](#github)
-15. [Unix](#unix)
-16. [Docker](#docker)
-17. [Jobs](#jobs)
-18. [Ways](#ways)
-19. [Licensing](#licensing)
-
-- [Glossary - Coding and computing in general](#glossary---coding-and-computing-in-general)
-- [Glossary - Operating systems](#glossary---operating-systems)
-- [Glossary - Hardware](#glossary---hardware)
-- [Glossary - Security and encryption](#glossary---security-and-encryption)
-- [Glossary - Images](#glossary---images)
-- [Glossary - The Web](#glossary---the-web)
-- [Glossary - Linux](#glossary---linux)
-- [Glossary - Git](#glossary---git)
-
-## Software Development
+1. Ctrl/Cmd + f, search for what you're looking for!
+2. [What is software development?](#what-is-software-development)
+3. [What is the web?](#what-is-the-web)
 
 ### What is software development?
 
 Creating computer programs.
 
-This involves writing, testing, debugging and maintaining [code<sup>?↗</sup>](#what-is-code).
+This involves [planning out programs<sup>?</sup>](#how-is-a-program-created), [writing<sup>?</sup>](#how-is-code-usually-written), [testing<sup>?</sup>](#what-is-code-testing), [debugging<sup>?</sup>](#what-is-code-debugging), [refactoring<sup>?</sup>](#what-is-code-refactoring), [documenting<sup>?</sup>](#what-is-code-documentation) and [maintaining](#what-is-code-maintenance) [code<sup>?</sup>](#what-is-code).
+
+### How is a program created?
+
+After deciding what we want to make, we need to consider what technologies to use (which frameworks, programming languages, platforms). We also need to think about what features to include in the MVP (minimum viable product, ie. most basic first version). We should also do a mockup of what the user will see (if anything) and prepare a timeline for each planned version.
 
 ### What is code?
 
-Code is instruction for a computer, written in a programming language.
+Code is instruction for a computer, written in a programming language. Also called source code.
 
-It is usually written in a [text editor<sup>?</sup>](#what-is-a-text-editor) or [IDE<sup>?</sup>](#what-is-an-ide), which can be downloaded free.
+### How is code written?
 
-### What are the different types of software?
+Code is usually written in a [text editor<sup>?</sup>](#what-is-a-text-editor) like [vscode<sup>?</sup>](#what-is-vscode) or [IDE<sup>?</sup>](#what-is-an-ide) like [pycharm<sup>?</sup>](#what-is-pycharm), which can be downloaded free.
 
-Computers can store information, create video, graphics or music, run games, make movements (through embedded systems), make predictions, solve problems and communicate with other computers. Software development is telling the computer how to do these things.
+### What is VSCode?
 
-Some common software development fields are:
+The [most popular text editor<sup>↗</sup>](https://code.visualstudio.com/) (2019).
 
-- Web development
-- Desktop app development
-- Mobile app development
-- Game development
-- Embedded systems / Robotics
-- Internet of things
-- Natural language processing
-- Machine learning
-- Image processing
-- Computer vision
-- Big data
-- Cryptography
-- Security hacking
-- Operating systems
+### What is PyCharm?
+
+A [popular IDE<sup>↗</sup>](https://www.jetbrains.com/pycharm/) for [Python<sup>?</sup>](#what-is-python) (2019).
+
+### What is code testing?
+
+Running the [code<sup>?</sup>](#what-is-code) and making sure it works. If something doesn't work the way it's supposed to, we say there is a [bug<sup>?</sup>](#what-is-a-bug) and the code needs to be [debugged<sup>?</sup>](#what-is-code-debugging).
+
+Automated tests can be written and run to make the process more efficient, especially for larger programs.
+
+### What is a feature?
+
+Something that a program can do. If the feature doesn't work, there is a [bug<sup>?</sup>](#what-is-a-bug).
+
+### What is a bug?
+
+A part of a program which doesn't work as intended. Buggy programs need to be [debugged<sup>?</sup>](#what-is-code-debugging).
+
+### What is code debugging?
+
+Fixing [bugs<sup>?</sup>](#what-is-a-bug) in programs.
+
+First, we will try to replicate/reproduce the bug, usually in the [local environment<sup>?</sup>](#what-is-the-local-environment). Next, we try to understand the cause of the bug, either through hypothesis (guessing the cause), reading logs or reading the relevant [source code<sup>?</sup>](#what-is-code). Then, we attempt to fix the bug by editing the code. After the bug is fixed, a regression test may be written to detect if the same bug appears again in future.
+
+### What is code refactoring?
+
+Changing the source code without changing what it does.
+
+Refactoring can make code more performant (faster), use less memory, look more readable and be easier to add on to (more extensible).
+
+### What is code maintenance?
+
+Code maintenance includes fixing bugs in the code as they appear and updating the code to work with current technologies in use so that the program can continue to be used properly.
+
+Maintaining code is also called supporting the code.
+
+### What is deprecated code?
+
+Deprecated code is code which is old and is not recommended for use.
+
+It may still work but may be removed in a future version of the program. Usually, code is deprecated because there is a better alternative available.
+
+### What is the local environment?
+
+The local environment refers to your own computer. Running a website or program locally means running it on your own computer, where it can only be accessed by you.
+
+### What is web development?
+
+[Creating<sup>?</sup>](#how-is-a-program-created), [maintaining<sup>?</sup>](#what-is-code-maintenance) and improving [web apps<sup>?</sup>](#what-is-a-web-app-or-website).
+
+### What is desktop app development?
+
+### What is mobile app development?
+
+### What is game development?
+
+### What are embedded systems?
+
+### What is the Internet of Things (IoT)?
+
+### What is natural language processing (NLP)?
+
+### What is machine learning?
+
+### What is data science?
+
+### What is image processing?
+
+### What is computer vision?
+
+### What is big data?
+
+### What is cryptography?
+
+### What is security hacking?
+
+### What are operating systems?
 
 ### What programming languages should I learn?
 
@@ -80,9 +120,15 @@ A language's popularity is important because developers build tools for the lang
 
 ### What is Stack Overflow?
 
-The main question and answer website used by software developers.
+The [main question and answer website used by software developers<sup>↗</sup>](https://stackoverflow.com/).
 
-### What is open source?
+### What is open source code?
+
+Open source code is code that anyone can see. Anyone can copy the code, ask about it, complain about it, comment on it, and make suggested changes (in [pull requests<sup>?</sup>](#what-is-a-pull-request)) to it. Also called open-source code.
+
+### What is a pull request?
+
+A request for someone with authority to accept some changes to some [code<sup>?</sup>](#what-is-code).
 
 ### What are dependencies?
 
@@ -110,11 +156,11 @@ A sequence (string) of [characters<sup>?</sup>](#what-is-a-character). In many p
 
 ### What is a character?
 
-A character is any letter (like `'g'`), number (like `'5'`), space (`' '`), punctuation mark (like `'.'`), or symbol (like `'\'`) that can be typed on a computer.
+A character is any letter (like `'g'`), number (like `'5'`), space (`' '`), punctuation mark (like `'.'`), or symbol (like `'\'`) that can be typed on a computer. Multiple characters make a [string<sup>?</sup>](#what-is-a-string).
 
 ### What is an integer?
 
-A positive or negative number (like `42`) without decimal places. An integer holds mathematical meaning, and so is different from the string representation of the integer, which has no mathematical meaning.
+A positive or negative number (like `42`) without decimal places. An integer holds mathematical meaning, and so is different from the [string<sup>?</sup>](#what-is-a-string) representation of the integer, which has no mathematical meaning.
 
 ### What is a boolean?
 
@@ -128,7 +174,7 @@ Some lines of code. It can take in inputs known as [parameters<sup>?</sup>](#wha
 
 ### What is a parameter or argument?
 
-An input to a function. The function should use the input in its code.
+An input to a [function<sup>?</sup>](#what-is-a-function-or-method). The function should use the input in its code.
 
 Technically, an argument is the data passed into the function's parameter.
 
@@ -140,25 +186,109 @@ Referencing something using a name instead of the value itself. Also called `der
 
 Checking the type or properties of an object when code is run.
 
-For example, in Python, `dir(pig)` lists every name in `pig`'s [namespace<sup>?</sup>](#what-is-a-namespace) and `type(cat)` returns `cat`'s type.
+For example, in Python, `dir(dog)` lists every name in `dog`'s [namespace<sup>?</sup>](#what-is-a-namespace) and `type(cat)` returns `cat`'s type.
 
 ### What is a namespace?
 
+A space in which names must be unique. Here are a few examples in [JavaScript<sup>?</sup>](#what-is-javascript).
+
+Here, `name` is in the global namespace.
+
+```javascript
+const name = 'bruno'
+```
+
+Here, `name` is in `dog`'s namespace.
+
+```javascript
+const dog = {}
+dog.name = 'bruno'
+```
+
+Here, `name` exists only in the for-of loop's namespace.
+
+```javascript
+const names = ['bruno', 'alfred', 'doggo']
+for (const name of names) {
+  console.log(name)
+}
+```
+
 ### What is object-oriented programming?
 
-A [programming paradigm<sup>?</sup>](#what-is-a-programming-paradigm) using "objects", which have attributes and methods. In most languages, objects are instances of [classes<sup>?</sup>](#what-is-a-class).
+A style of programming (programming paradigm) using "objects", which have attributes and methods. In most languages, objects are instances of [classes<sup>?</sup>](#what-is-a-class).
 
 ### What is boilerplate?
+
+Sections of reusable code meant to be used with few or no changes.
 
 ### What is a hook?
 
 A place in packaged code to insert custom code.
 
-### What is a programming paradigm?
+This is different from a [React hook<sup>?</sup>](#what-are-react-hooks).
+
+### What are React hooks?
+
+Functions in React which allow access to some React API within functional components, without using classes and lifecycle methods.
+
+### What is React?
+
+The [most popular front-end development framework<sup>↗</sup>](https://reactjs.org/) (2019).
 
 ### What is a driver?
 
-### What is thread-safe?
+Usually, it is some code that allows a device to communicate with an operating system.
+
+It can also refer to a software driver, some code that allows a program to communicate with an operating system in kernel mode.
+
+### What is AWS?
+
+Amazon Web Services, a suite of services for developing web apps.
+
+### What is Kubernetes?
+
+### What are microservices?
+
+### What is OpenShift?
+
+### What is .NET?
+
+Also called dotnet.
+
+### What is Serverless?
+
+### What is Kafka?
+
+### What is Flink?
+
+### What is Spark?
+
+### What is Angular?
+
+### What is a PWA?
+
+A Progressive Web App is a
+
+### What is a thread?
+
+A run of some code. Multiple threads can exist in one process.
+
+### What is multithreading?
+
+Having multiple [threads<sup>?</sup>](#what-is-a-thread) at the same time.
+
+### What is implementation?
+
+Implementing a [feature<sup>?</sup>](#what-is-a-feature) involves writing it and including it in released code.
+
+### What is thread-safe code?
+
+Code which is safe from [race conditions<sup>?</sup>](#what-are-race-conditions) when run in multiple [threads<sup>?</sup>](#what-is-a-thread).
+
+### What are race conditions?
+
+An error which happens when multiple [threads<sup>?</sup>](#what-is-a-thread) use a shared variable, which is changed by one thread while another thread is checking it.
 
 ### What is connection-pooling?
 
@@ -175,6 +305,20 @@ A custom [data type<sup>?</sup>](#what-is-a-data-type). It defines what an objec
 ### What is idempotence?
 
 When an idempotent function is run multiple times on an input, only the first run changes the input.
+
+This [Python<sup>?</sup>](#what-is-python) code is idempotent. No matter how many times you call it, the end result is that `dogs` is set to `5`, and only the first run did anything.
+
+```python
+dogs = 5
+```
+
+This code is NOT idempotent.
+
+```python
+dogs = dogs + 1
+```
+
+`dogs` keeps increasing as we run the code multiple times.
 
 ### What is a return value?
 
@@ -197,6 +341,24 @@ _Short for: You Aren't Gonna Need It._
 ### What is Extreme Programming?
 
 ## The Web
+
+### What is the web?
+
+Also called the internet.
+
+### What is a web app or website?
+
+A program that can be accessed with a [browser<sup>?</sup>](#what-is-a-browser). It usually requires an internet connection. Web app is the modern term for modern websites. A single web app can serve many [web pages<sup>?</sup>](#what-is-a-web-page).
+
+Also called a web application.
+
+### What is a web page?
+
+A page that can be accessed with a [browser<sup>?</sup>](#what-is-a-browser). One web page is saved as one html file (and some other supporting files).
+
+### What is a static web page?
+
+A web page that is delivered to the user's web browser exactly as stored, in contrast to dynamic web pages. Also called a static webpage.
 
 ### What is Docker?
 
@@ -417,15 +579,13 @@ To get data from (something).
 
 A way to select data from a database management system. aka Structured Query Language.
 
-## Computing
-
 ### What is computing about?
 
 Computing cares about two things: Speed(time efficiency) and memory efficiency. Computing problems can be solved in many ways, but the field strives towards time- and memory-efficient solutions.
 
 ## Documentation
 
-### What is documentation?
+### What is code documentation?
 
 It's the manual for a software.
 
@@ -903,8 +1063,6 @@ It is like Notepad (on Windows) or Notes (on Mac). It allows us to type and save
 A text editor with many tools to help development.
 
 _Short for: integrated development environment._
-
-### VSCode
 
 ### Atom
 
