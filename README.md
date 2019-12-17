@@ -41,7 +41,7 @@ _Software development concepts explained simply._
 
 Creating computer programs.
 
-This involves writing, testing, debugging and maintaining [code<sup>?</sup>](#what-is-code).
+This involves writing, testing, debugging and maintaining [code<sup>?↗</sup>](#what-is-code).
 
 ### What is code?
 
