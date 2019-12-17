@@ -74,7 +74,7 @@ Some common software development fields are:
 
 A good programming language to learn (1) allows you to do what you want to do, (2) has a lot of community support, ie. it's popular.
 
-Regarding (1), different systems use different languages for their software. Mac and iOS apps are written in Swift. C# is a popular language for writing Windows apps. C, C++, Rust are popular for embedded systems. Python is popular for machine learning. It's best to read about the different domains in programming to decide what you want to do, and then find the language(s)most suitable for that purpose.
+Regarding (1), different systems use different languages for their software. Mac and iOS apps are written in Swift. C# is a popular language for writing Windows apps. C, C++, Rust are popular for embedded systems. Python is popular for machine learning. It's best to read about the different domains in programming to decide what you want to do, and then find the language(s) most suitable for that purpose.
 
 A language's popularity is important because developers build tools for the languages that they use, and popular languages have more and better tools. For example, Javascript is known mainly for being the language of the web, but because the web is so popular and important, Javascript is also really popular, and great tools for Machine Learning have also been developed for Javascript.
 
@@ -94,7 +94,7 @@ The [dependencies<sup>?</sup>](#what-are-dependencies) for some code, together w
 
 ### What is a function signature?
 
-A definition of the name, [parameters<sup>?</sup>](#what-is-a-parameter) and [return values<sup>?</sup>](#what-is-a-return-value) (and their types) of a function.
+A definition of the name, [parameters<sup>?</sup>](#what-is-a-parameter-or-argument) and [return values<sup>?</sup>](#what-is-a-return-value) (and their types) of a function.
 
 In [Python<sup>?</sup>](#what-is-python), a function signature can look like this:
 
