@@ -933,7 +933,7 @@ An operating system, like Windows or MacOS.
 
 ### Why is Unix important?
 
-MacOS terminal is based on Unix. Webservers mainly use Unix. We can interact with the computer filesystem more efficiently with some useful Unix commands. 
+MacOS terminal is based on Unix. Webservers mainly use Unix. We can interact with the computer filesystem more efficiently with some useful Unix commands.
 
 ### What is a Makefile?
 
@@ -1002,13 +1002,13 @@ In the `VAR=value` syntax, value is taken to be a string _by default_ when there
 
 ### What is docker?
 
-An app that allows the deployment of software in independent containers. 
+An app that allows the deployment of software in independent containers.
 
 It allows you to build lightweight _containers_ which run apps, from _images_ which are like recipes or blueprints for containers.
 
-An image includes a *Dockerfile* which are the instructions for part of a stack, and a `docker-compose.yml`, which can run multiple Dockerfiles.
+An image includes a _Dockerfile_ which are the instructions for part of a stack, and a `docker-compose.yml`, which can run multiple Dockerfiles.
 
-Docker has its own public collection of images called *DockerHub*.
+Docker has its own public collection of images called _DockerHub_.
 
 ### How do I run a container?
 
@@ -1030,7 +1030,7 @@ docker container run -it my_image
 docker container run -d my_image
 
 // lists running containers (below are equivalent)
-docker container ls 
+docker container ls
 docker ps
 
 // lists all containers (below are equivalent)
@@ -1101,7 +1101,7 @@ Simply copy a LICENSE file to your repo.
 - **atom** - A text editor.
 - **authenticate** -
 - **batch file** - A script run on windows, usually executing commands like running other programs, copying, moving or renaming files and directories.
-- **binary** -
+- **binary** - An executable file, ie. one that doesn't need to be installed or compiled.
 - **compile** -
 - **daemon** - A program that runs in the background.
 - **data type** - A form of data. Running a function using data of an unintended type is a common source of bugs. Eg, integer, string, object.
