@@ -90,6 +90,8 @@ The local environment refers to your own computer. Running a website or program 
 
 ### What are embedded systems?
 
+Putting code into a physical device that is more than just a computer, like a camera, or toy.
+
 ### What is the Internet of Things (IoT)?
 
 ### What is natural language processing (NLP)?
@@ -248,7 +250,7 @@ Amazon Web Services, a suite of services for developing web apps.
 
 ### What is Kubernetes?
 
-### What are microservices?
+### What is microservice?
 
 ### What is OpenShift?
 
@@ -339,8 +341,6 @@ This has parallels to idea of JIT(Just-in-time) in manufacturing.
 _Short for: You Aren't Gonna Need It._
 
 ### What is Extreme Programming?
-
-## The Web
 
 ### What is the web?
 
@@ -729,7 +729,7 @@ A popular language for storing data. Learn it [here](https://learnxinyminutes.co
 
 ### What is YAML?
 
-A very readable language for storing data, which allows comments. Learn it [here](https://learnxinyminutes.com/docs/yaml/).
+A very readable language for storing data, which allows comments. Learn it [here](https://learnxinyminutes.com/docs/yaml/). The file extension is `.yml`.
 
 ### What is TOML?
 
@@ -757,9 +757,11 @@ A programming language that can be easily deployed on many types of computers.
 
 ### What is Javascript?
 
+An easy programming language to learn. It is the primary language of code that runs on web pages, but it is also suitable for many other types of code.
+
 ### What is Python?
 
-An easy programming language to learn. It is commonly used for data work and [server-side programming](#what-is-server-side-programming).
+An easy programming language to learn. It is commonly used for data work (data gathering, data analysis, data science) and [server-side programming](#what-is-server-side-programming).
 
 ### What is a programming paradigm?
 
@@ -774,6 +776,22 @@ A programming language commonly used for server-side programming.
 A high-level, clean programming language, commonly used for web development.
 
 ### What is Rust?
+
+### What is Flutter?
+
+### What is Go?
+
+### What is Ruby?
+
+### What is PHP?
+
+### What is TypeScript?
+
+### What is Kotlin?
+
+### What is Scala?
+
+### What is Clojure?
 
 ### What is a scripting language?
 
@@ -791,21 +809,9 @@ A high-level, clean programming language, commonly used for web development.
 
 [overflow](https://stackoverflow.com/questions/2690544/what-is-the-difference-between-a-strongly-typed-language-and-a-statically-typed)
 
-## Bootstrap
-
-### How do I center an image?
-
-```html
-<img class="center-block" src="logo.png" />
-```
-
-## Javascript
-
 ### What is Javascript used for?
 
 Primarily front-end(with jQuery/React/Angular/Vue) and back-end(with MongoDB/Express/Node) app development. However, it can also do many other things like machine learning, data visualization and more.
-
-## Python
 
 ### What is Python used for?
 
@@ -1010,7 +1016,6 @@ TypeError: object of type 'Mock' has no len()
 
 ### Glossary - Python
 
-- **argument parameter** - Input.
 - **attribute** - Feature, property.
 - **boolean** - A value which is either True or False.
 - **class** - A custom type.
@@ -1048,10 +1053,6 @@ TypeError: object of type 'Mock' has no len()
 * **append** - Add to the back.
 * **instantiate** -
 
-## Text Editors
-
-### Text Editors / IDEs
-
 ### What is a text editor?
 
 ### What is an IDE?
@@ -1064,7 +1065,7 @@ A text editor with many tools to help development.
 
 _Short for: integrated development environment._
 
-### Atom
+### What is Atom?
 
 ### What are some useful regex for find and replace?
 
@@ -1227,8 +1228,6 @@ Someone who works primarily with data. This usually involves collecting, manipul
 
 Someone who does machine learning. They often also need to do the work of a data analyst.
 
-## Ways
-
 ### What is the principle of least astonishment?
 
 If a necessary feature has a high astonishment factor, it may be necessary to redesign the feature. It is applied to user interface and software design.
@@ -1241,8 +1240,6 @@ If a necessary feature has a high astonishment factor, it may be necessary to re
 
 [source](https://dannorth.net/introducing-bdd/)
 
-### Licensing
-
 ### How do I add a license to my software?
 
 Simply copy a LICENSE file to your repo.
@@ -1251,69 +1248,165 @@ Simply copy a LICENSE file to your repo.
 
 [Choose a license](https://choosealicense.com/)
 
-## Glossary - Coding and computing in general
+### What is .NET?
 
-- **What is .net?** - A framework needed for running or writing newer windows apps.
-- **algorithm** - A way to do something.
-- **api** - The set of instructions that a program understands.
-- **atom** - A text editor.
-- **authenticate** -
-- **batch file** - A script run on windows, usually executing commands like running other programs, copying, moving or renaming files and directories.
-- **binary** - An executable file, ie. one that doesn't need to be installed or compiled.
-- **compile** -
-- **daemon** - A program that runs in the background.
-- **data type** - A form of data. Running a function using data of an unintended type is a common source of bugs. Eg, integer, string, object.
-- **dynamically-typed** - [overflow](https://stackoverflow.com/questions/2690544/what-is-the-difference-between-a-strongly-typed-language-and-a-statically-typed)
-- **embed embedded** - Put into a physical device that is more than just a computer, like a camera, or toy.
-- **framework** - A way to do something.
-- **github** -
-- **hard disk** -
-- **high-level** -
-- **ide** -
-- **interpret** -
-- **jre** - A program which runs java programs. aka Java Runtime Environment.
-- **keylogger** - A program that records all keys pressed on a computer's keyboard.
-- **library** - A bunch of code to help do something.
-- **low-level** -
-- **manifest file** - A file with data about some other files that it comes together with.
-- **markup** -
-- **microservice** -
-- **rsa** - A public-key encryption technology. (to simplify)
-- **parse** - To read.
-- **pipeline** -
-- **program** - Code that constitutes some system. It is usually compiled.
-- **proprietary** - (Usually) A software you have to pay for.
-- **script** - Code that references some system. It is usually interpreted.
-- **sublime** - A light text editor.
-- **syntax** - The grammar for coding something, which needs to be correct for it to work.
-- **tests** -
-- **vim** - A powerful shell text editor.
-- **xml** -
+A framework needed for running or writing newer windows apps.
 
-## Glossary - Operating systems
+### What is an algorithm?
 
-- **absolute path** - A path defined from a fixed point, usually root directory.
-- **android** - Google's mobile operating system.
-- **directory** -
-- **file** -
-- **file extension** - The part of the filename after the period. Eg, for 'zen.txt', the extension is 'txt'(or '.txt'). The operating system uses the extension to decide what program to open this file with. Changing the extension of a file doesn't change the actual content of the file.
-- **file system** - Something that keeps your files organized. Windows uses NTFS or FAT32(old). Mac uses HFS+ or HFS(old).
-- **ios** - Apple's mobile operating system.
-- **operating system** -
-- **path** - An address for a file or directory. Looks like this ~/Music/iTunes/ or this C:\\My Documents\\zen.txt or this ../../assets/zen.jpg. See **absolute path** and **relative path**.
-- **relative path** - A path defined from wherever the current directory is. This usually means it is shorter than a comparable absolute path.
-- **shell** -
-- **partition** - A part of a hard disk, which can have its own operating system.
+A way to solve a problem by repeating a set of instructions.
 
-## Glossary - Hardware
+### What is an API?
 
-- **hdmi** - A way to transmit audio and video data in a single cable.
-- **parallel port** - A port for an old type of cable.
+The set of instructions that a program understands.
 
-## Glossary - Security and encryption
+### What is vim?
 
-- **public key certificate** -
-- **public key encryption** - A way to give data safely. A message is encrypted with a public key, and can only be decrypted by the matching private key. (not sure)
+A powerful shell text editor.
+
+### What is a batch file?
+
+A script run on windows, usually executing commands like running other programs, copying, moving or renaming files and directories.
+
+### What is a binary?
+
+Often it is used to refer to an executable file, ie. one that doesn't need to be installed or compiled.
+
+Technically, it is any file which has non-text information and cannot be understood by humans.
+
+### What is code compiling?
+
+### What is a daemon?
+
+A program that runs in the background.
+
+### What is a data type?
+
+A form of data. Running a function using data of an unintended type is a common source of bugs. Eg, integer, string, object.
+
+### What is a framework?
+
+A way to do something, which usually comes with its API and sometimes its own folder structure and configuration files. For example, React is a front-end web framework and Django is a back-end web framework.
+
+### What is a hard disk?
+
+### What is high level code?
+
+Also called high-level.
+
+### What is an interpreter?
+
+A program that directly executes instructions, without requiring them to be [compiled<sup>?</sup>](#what-is-code-compiling) first.
+
+### What is the JRE?
+
+The Java Runtime Environment is a program which runs [Java<sup>?</sup>](#what-is-java) programs.
+
+### What is a keylogger?
+
+A program that records all keys pressed on a computer's keyboard.
+
+### What is a library?
+
+A bunch of code to help do something.
+
+### What is low level code?
+
+### What is a manifest file?
+
+A file with data about some other files that it comes together with.
+
+### What is markup?
+
+### What is RSA?
+
+A public-key encryption technology. (to simplify)
+
+### What is code parsing?
+
+To parse code is to read it.
+
+### What is a pipeline?
+
+### What is a program?
+
+Code that makes up some system. It is usually compiled.
+
+### What is a proprietary software?
+
+(Usually) A software you have to pay for.
+
+### What is a script?
+
+Code that references some system. It is usually interpreted.
+
+### What is Sublime Text?
+
+A popular, lightweight text editor.
+
+### What is a lightweight program?
+
+One that is small in size and consumes less memory than other similar programs.
+
+### What is syntax?
+
+The grammar for coding something, which needs to be correct for it to work.
+
+### What is XML?
+
+### What is an absolute path?
+
+A path defined from a fixed point, usually root directory.
+
+### What is Android?
+
+Google's mobile operating system.
+
+### What is a directory?
+
+### What is a file?
+
+### What is a file extension?
+
+The part of the filename after the period. Eg, for 'zen.txt', the extension is 'txt'(or '.txt'). The operating system uses the extension to decide what program to open this file with. Changing the extension of a file doesn't change the actual content of the file.
+
+### What is a file system?
+
+Something that keeps your files organized. Windows uses NTFS or FAT32(old). Mac uses HFS+ or HFS(old).
+
+### What is iOS?
+
+Apple's mobile operating system.
+
+### What is an operating system?
+
+### What is a path?
+
+An address for a file or directory. Looks like this ~/Music/iTunes/ or this C:\\My Documents\\zen.txt or this ../../assets/zen.jpg. See **absolute path** and **relative path**.
+
+### What is a relative path?
+
+A path defined from wherever the current directory is. This usually means it is shorter than a comparable absolute path.
+
+### What is a shell?
+
+### What is a partition?
+
+A part of a hard disk, which can have its own operating system.
+
+### What is HDMI?
+
+A way to transmit audio and video data in a single cable.
+
+### What is a parallel port?
+
+A port for an old type of cable.
+
+### What is a public key certificate?
+
+### What is public key encryption?
+
+A way to give data safely. A message is encrypted with a public key, and can only be decrypted by the matching private key. (not sure)
 
 ## Glossary - Images
 
@@ -1466,7 +1559,6 @@ socket.io
 sql
 sqlite
 stripe
-sublime
 swift
 tinydb
 tkinkter
