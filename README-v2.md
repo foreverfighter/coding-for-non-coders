@@ -16,7 +16,11 @@ _Software development concepts explained simply._
 
 Creating computer programs.
 
-This involves [writing<sup>?</sup>](#how-is-code-usually-written), [testing<sup>?</sup>](#what-is-code-testing), [debugging<sup>?</sup>](#what-is-code-debugging), [refactoring<sup>?</sup>](#what-is-code-refactoring), [documenting<sup>?</sup>](#what-is-code-documentation) and [maintaining](#what-is-code-maintainence) [code<sup>?</sup>](#what-is-code).
+This involves [planning out programs<sup>?</sup>](#how-is-a-program-created), [writing<sup>?</sup>](#how-is-code-usually-written), [testing<sup>?</sup>](#what-is-code-testing), [debugging<sup>?</sup>](#what-is-code-debugging), [refactoring<sup>?</sup>](#what-is-code-refactoring), [documenting<sup>?</sup>](#what-is-code-documentation) and [maintaining](#what-is-code-maintenance) [code<sup>?</sup>](#what-is-code).
+
+### How is a program created?
+
+After deciding what we want to make, we need to consider what technologies to use (which frameworks, programming languages, platforms). We also need to think about what features to include in the MVP (minimum viable product, ie. most basic first version). We should also do a mockup of what the user will see (if anything) and prepare a timeline for each planned version.
 
 ### What is code?
 
@@ -52,30 +56,55 @@ First, we will try to replicate/reproduce the bug, usually in the [local environ
 
 ### What is code refactoring?
 
-### What is code maintainence?
+Changing the source code without changing what it does.
+
+Refactoring can make code more performant (faster), use less memory, look more readable and be easier to add on to (more extensible).
+
+### What is code maintenance?
+
+Code maintenance includes fixing bugs in the code as they appear and updating the code to work with current technologies in use so that the program can continue to be used properly.
+
+Maintaining code is also called supporting the code.
+
+### What is deprecated code?
+
+Deprecated code is code which is old and is not recommended for use.
+
+It may still work but may be removed in a future version of the program. Usually, code is deprecated because there is a better alternative available.
 
 ### What is the local environment?
 
-### What are the different types of software?
+The local environment refers to your own computer. Running a website or program locally means running it on your own computer, where it can only be accessed by you.
 
-Computers can store information, create video, graphics or music, run games, make movements (through embedded systems), make predictions, solve problems and communicate with other computers. Software development is telling the computer how to do these things.
+### What is web development?
 
-Some common software development fields are:
+### What is desktop app development?
 
-- Web development
-- Desktop app development
-- Mobile app development
-- Game development
-- Embedded systems / Robotics
-- Internet of things
-- Natural language processing
-- Machine learning
-- Image processing
-- Computer vision
-- Big data
-- Cryptography
-- Security hacking
-- Operating systems
+### What is mobile app development?
+
+### What is game development?
+
+### What are embedded systems?
+
+### What is the Internet of Things (IoT)?
+
+### What is natural language processing (NLP)?
+
+### What is machine learning?
+
+### What is data science?
+
+### What is image processing?
+
+### What is computer vision?
+
+### What is big data?
+
+### What is cryptography?
+
+### What is security hacking?
+
+### What are operating systems?
 
 ### What programming languages should I learn?
 
@@ -87,9 +116,15 @@ A language's popularity is important because developers build tools for the lang
 
 ### What is Stack Overflow?
 
-The main question and answer website used by software developers.
+The [main question and answer website used by software developers<sup>↗</sup>](https://stackoverflow.com/).
 
-### What is open source?
+### What is open source code?
+
+Open source code is code that anyone can see. Anyone can copy the code, ask about it, complain about it, comment on it, and make suggested changes (in [pull requests<sup>?</sup>](#what-is-a-pull-request)) to it. Also called open-source code.
+
+### What is a pull request?
+
+A request for someone with authority to accept some changes to some [code<sup>?</sup>](#what-is-code).
 
 ### What are dependencies?
 
@@ -117,11 +152,11 @@ A sequence (string) of [characters<sup>?</sup>](#what-is-a-character). In many p
 
 ### What is a character?
 
-A character is any letter (like `'g'`), number (like `'5'`), space (`' '`), punctuation mark (like `'.'`), or symbol (like `'\'`) that can be typed on a computer.
+A character is any letter (like `'g'`), number (like `'5'`), space (`' '`), punctuation mark (like `'.'`), or symbol (like `'\'`) that can be typed on a computer. Multiple characters make a [string<sup>?</sup>](#what-is-a-string).
 
 ### What is an integer?
 
-A positive or negative number (like `42`) without decimal places. An integer holds mathematical meaning, and so is different from the string representation of the integer, which has no mathematical meaning.
+A positive or negative number (like `42`) without decimal places. An integer holds mathematical meaning, and so is different from the [string<sup>?</sup>](#what-is-a-string) representation of the integer, which has no mathematical meaning.
 
 ### What is a boolean?
 
@@ -135,7 +170,7 @@ Some lines of code. It can take in inputs known as [parameters<sup>?</sup>](#wha
 
 ### What is a parameter or argument?
 
-An input to a function. The function should use the input in its code.
+An input to a [function<sup>?</sup>](#what-is-a-function-or-method). The function should use the input in its code.
 
 Technically, an argument is the data passed into the function's parameter.
 
@@ -147,23 +182,59 @@ Referencing something using a name instead of the value itself. Also called `der
 
 Checking the type or properties of an object when code is run.
 
-For example, in Python, `dir(pig)` lists every name in `pig`'s [namespace<sup>?</sup>](#what-is-a-namespace) and `type(cat)` returns `cat`'s type.
+For example, in Python, `dir(dog)` lists every name in `dog`'s [namespace<sup>?</sup>](#what-is-a-namespace) and `type(cat)` returns `cat`'s type.
 
 ### What is a namespace?
 
+A space in which names must be unique. Here are a few examples in [JavaScript<sup>?</sup>](#what-is-javascript).
+
+Here, `name` is in the global namespace.
+
+```javascript
+const name = 'bruno'
+```
+
+Here, `name` is in `dog`'s namespace.
+
+```javascript
+const dog = {}
+dog.name = 'bruno'
+```
+
+Here, `name` exists only in the for-of loop's namespace.
+
+```javascript
+const names = ['bruno', 'alfred', 'doggo']
+for (const name of names) {
+  console.log(name)
+}
+```
+
 ### What is object-oriented programming?
 
-A [programming paradigm<sup>?</sup>](#what-is-a-programming-paradigm) using "objects", which have attributes and methods. In most languages, objects are instances of [classes<sup>?</sup>](#what-is-a-class).
+A style of programming (programming paradigm) using "objects", which have attributes and methods. In most languages, objects are instances of [classes<sup>?</sup>](#what-is-a-class).
 
 ### What is boilerplate?
 
+Sections of reusable code meant to be used with few or no changes.
+
 ### What is a hook?
 
-A place in packaged code to insert custom code.
+A place in packaged code to insert custom code. This is different from a [React hook<sup>?</sup>](#what-are-react-hooks).
 
-### What is a programming paradigm?
+### What are React hooks?
+
+Functions in React which allow access to some React API within functional components, without using classes and lifecycle methods.
+
+### What is React?
+
+The [most popular front-end development framework<sup>↗</sup>](https://reactjs.org/) (2019).
 
 ### What is a driver?
+
+Usually, it is some code that allows a device to communicate with an operating system.
+
+It can also refer to a software driver, some code that allows a program to communicate with an operating system in kernel mode.
 
 ### What is thread-safe?
 
@@ -182,6 +253,20 @@ A custom [data type<sup>?</sup>](#what-is-a-data-type). It defines what an objec
 ### What is idempotence?
 
 When an idempotent function is run multiple times on an input, only the first run changes the input.
+
+This [Python<sup>?</sup>](#what-is-python) code is idempotent. No matter how many times you call it, the end result is that `dogs` is set to `5`, and only the first run did anything.
+
+```python
+dogs = 5
+```
+
+This code is NOT idempotent.
+
+```python
+dogs = dogs + 1
+```
+
+`dogs` keeps increasing as we run the code multiple times.
 
 ### What is a return value?
 
