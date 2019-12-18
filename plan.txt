@@ -6,7 +6,7 @@ maybe remove the whole glossary and just use the question style?
 there's no good reason to have two different styles in the same document.
 
 use this style for 'what is (foo)'
-[foo<sup>?</sup>](#foo-header)
+[**foo**](#foo-header)
 
 structure the document
 

@@ -10,8 +10,8 @@ _Technologies, concepts and terms explained simply._
 
 Or start at one of these questions.
 
-1. [What is software development?](#what-is-software-development)
-2. [What is the web?](#what-is-the-web)
+1. [**What is software development?**](#what-is-software-development)
+2. [**What is the web?**](#what-is-the-web)
 
 Internal links are [**bolded**](#usage) and external links are in [_italics_](https://en.wikipedia.org/wiki/Italic_type). Explore through the links or press 'back' to go back to the previous question.
 
@@ -19,7 +19,7 @@ Internal links are [**bolded**](#usage) and external links are in [_italics_](ht
 
 Creating computer programs.
 
-This involves [**planning out programs**](#how-is-a-program-created), [writing<sup>?</sup>](#how-is-code-usually-written), [testing<sup>?</sup>](#what-is-code-testing), [debugging<sup>?</sup>](#what-is-code-debugging), [refactoring<sup>?</sup>](#what-is-code-refactoring), [documenting<sup>?</sup>](#what-is-code-documentation) and [maintaining](#what-is-code-maintenance) [code<sup>?</sup>](#what-is-code).
+This involves [**planning out programs**](#how-is-a-program-created), [**writing**](#how-is-code-usually-written), [**testing**](#what-is-code-testing), [**debugging**](#what-is-code-debugging), [**refactoring**](#what-is-code-refactoring), [**documenting**](#what-is-code-documentation) and [maintaining](#what-is-code-maintenance) [**code**](#what-is-code).
 
 ### How is a program created?
 
@@ -31,35 +31,35 @@ Code is instruction for a computer, written in a programming language. Also call
 
 ### How is code written?
 
-Code is usually written in a [text editor<sup>?</sup>](#what-is-a-text-editor) like [vscode<sup>?</sup>](#what-is-vscode) or [IDE<sup>?</sup>](#what-is-an-ide) like [pycharm<sup>?</sup>](#what-is-pycharm), which can be downloaded free.
+Code is usually written in a [**text editor**](#what-is-a-text-editor) like [**vscode**](#what-is-vscode) or [**IDE**](#what-is-an-ide) like [**pycharm**](#what-is-pycharm), which can be downloaded free.
 
 ### What is VSCode?
 
-The [most popular text editor<sup>↗</sup>](https://code.visualstudio.com/) (2019).
+The [_most popular text editor_](https://code.visualstudio.com/) (2019).
 
 ### What is PyCharm?
 
-A [popular IDE<sup>↗</sup>](https://www.jetbrains.com/pycharm/) for [Python<sup>?</sup>](#what-is-python) (2019).
+A [_popular IDE_](https://www.jetbrains.com/pycharm/) for [**Python**](#what-is-python) (2019).
 
 ### What is code testing?
 
-Running the [code<sup>?</sup>](#what-is-code) and making sure it works. If something doesn't work the way it's supposed to, we say there is a [bug<sup>?</sup>](#what-is-a-bug) and the code needs to be [debugged<sup>?</sup>](#what-is-code-debugging).
+Running the [**code**](#what-is-code) and making sure it works. If something doesn't work the way it's supposed to, we say there is a [**bug**](#what-is-a-bug) and the code needs to be [**debugged**](#what-is-code-debugging).
 
 Automated tests can be written and run to make the process more efficient, especially for larger programs.
 
 ### What is a feature?
 
-Something that a program can do. If the feature doesn't work, there is a [bug<sup>?</sup>](#what-is-a-bug).
+Something that a program can do. If the feature doesn't work, there is a [**bug**](#what-is-a-bug).
 
 ### What is a bug?
 
-A part of a program which doesn't work as intended. Buggy programs need to be [debugged<sup>?</sup>](#what-is-code-debugging).
+A part of a program which doesn't work as intended. Buggy programs need to be [**debugged**](#what-is-code-debugging).
 
 ### What is code debugging?
 
-Fixing [bugs<sup>?</sup>](#what-is-a-bug) in programs.
+Fixing [**bugs**](#what-is-a-bug) in programs.
 
-First, we will try to replicate/reproduce the bug, usually in the [local environment<sup>?</sup>](#what-is-the-local-environment). Next, we try to understand the cause of the bug, either through hypothesis (guessing the cause), reading logs or reading the relevant [source code<sup>?</sup>](#what-is-code). Then, we attempt to fix the bug by editing the code. After the bug is fixed, a regression test may be written to detect if the same bug appears again in future.
+First, we will try to replicate/reproduce the bug, usually in the [**local environment**](#what-is-the-local-environment). Next, we try to understand the cause of the bug, either through hypothesis (guessing the cause), reading logs or reading the relevant [**source code**](#what-is-code). Then, we attempt to fix the bug by editing the code. After the bug is fixed, a regression test may be written to detect if the same bug appears again in future.
 
 ### What is code refactoring?
 
@@ -85,7 +85,7 @@ The local environment refers to your own computer. Running a website or program 
 
 ### What is web development?
 
-[Creating<sup>?</sup>](#how-is-a-program-created), [maintaining<sup>?</sup>](#what-is-code-maintenance) and improving [web apps<sup>?</sup>](#what-is-a-web-app-or-website).
+[**Creating**](#how-is-a-program-created), [**maintaining**](#what-is-code-maintenance) and improving [**web apps**](#what-is-a-web-app-or-website).
 
 ### What is desktop app development?
 
@@ -125,15 +125,15 @@ A language's popularity is important because developers build tools for the lang
 
 ### What is Stack Overflow?
 
-The [main question and answer website used by software developers<sup>↗</sup>](https://stackoverflow.com/).
+The [_main question and answer website used by software developers_](https://stackoverflow.com/).
 
 ### What is open source code?
 
-Open source code is code that anyone can see. Anyone can copy the code, ask about it, complain about it, comment on it, and make suggested changes (in [pull requests<sup>?</sup>](#what-is-a-pull-request)) to it. Also called open-source code.
+Open source code is code that anyone can see. Anyone can copy the code, ask about it, complain about it, comment on it, and make suggested changes (in [**pull requests**](#what-is-a-pull-request)) to it. Also called open-source code.
 
 ### What is a pull request?
 
-A request for someone with authority to accept some changes to some [code<sup>?</sup>](#what-is-code).
+A request for someone with authority to accept some changes to some [**code**](#what-is-code).
 
 ### What are dependencies?
 
@@ -141,45 +141,45 @@ Code that code **imports**(depends on). This includes code written by us, standa
 
 ### What is a dependency tree?
 
-The [dependencies<sup>?</sup>](#what-are-dependencies) for some code, together with the dependencies of those dependencies and so on. The dependency tree needs to be **resolved** so that suitable versions are determined for installation.
+The [**dependencies**](#what-are-dependencies) for some code, together with the dependencies of those dependencies and so on. The dependency tree needs to be **resolved** so that suitable versions are determined for installation.
 
 ### What is a function signature?
 
-A definition of the name, [parameters<sup>?</sup>](#what-is-a-parameter-or-argument) and [return values<sup>?</sup>](#what-is-a-return-value) (and their types) of a function.
+A definition of the name, [**parameters**](#what-is-a-parameter-or-argument) and [**return values**](#what-is-a-return-value) (and their types) of a function.
 
-In [Python<sup>?</sup>](#what-is-python), a function signature can look like this:
+In [**Python**](#what-is-python), a function signature can look like this:
 
 ```python
 def write_readme(repo: str, length: int) -> bool:
 ```
 
-The function name is `write_readme`, the first argument is a [string<sup>?</sup>](#what-is-a-string), the second argument is an [integer<sup>?</sup>](#what-is-an-integer) and it returns a [boolean<sup>?</sup>](#what-is-a-boolean).
+The function name is `write_readme`, the first argument is a [**string**](#what-is-a-string), the second argument is an [**integer**](#what-is-an-integer) and it returns a [**boolean**](#what-is-a-boolean).
 
 ### What is a string?
 
-A sequence (string) of [characters<sup>?</sup>](#what-is-a-character). In many programming languages, strings are surrounded by double quotes like `"cow"` or single quotes like `'cat'` or sometimes backticks like `` `dog` ``.
+A sequence (string) of [**characters**](#what-is-a-character). In many programming languages, strings are surrounded by double quotes like `"cow"` or single quotes like `'cat'` or sometimes backticks like `` `dog` ``.
 
 ### What is a character?
 
-A character is any letter (like `'g'`), number (like `'5'`), space (`' '`), punctuation mark (like `'.'`), or symbol (like `'\'`) that can be typed on a computer. Multiple characters make a [string<sup>?</sup>](#what-is-a-string).
+A character is any letter (like `'g'`), number (like `'5'`), space (`' '`), punctuation mark (like `'.'`), or symbol (like `'\'`) that can be typed on a computer. Multiple characters make a [**string**](#what-is-a-string).
 
 ### What is an integer?
 
-A positive or negative number (like `42`) without decimal places. An integer holds mathematical meaning, and so is different from the [string<sup>?</sup>](#what-is-a-string) representation of the integer, which has no mathematical meaning.
+A positive or negative number (like `42`) without decimal places. An integer holds mathematical meaning, and so is different from the [**string**](#what-is-a-string) representation of the integer, which has no mathematical meaning.
 
 ### What is a boolean?
 
 A type of data with only two possibilities. One represents a true value, and the other, false.
 
-In [Python<sup>?</sup>](#what-is-python), they are written as `True` and `False` while in [Javascript<sup>?</sup>](#what-is-javascript) they are written as `true` and `false`.
+In [**Python**](#what-is-python), they are written as `True` and `False` while in [**Javascript**](#what-is-javascript) they are written as `true` and `false`.
 
 ### What is a function or method?
 
-Some lines of code. It can take in inputs known as [parameters<sup>?</sup>](#what-is-a-parameter-or-argument) and spit out output known as [return values<sup>?</sup>](#what-is-a-return-value) when it finishes.
+Some lines of code. It can take in inputs known as [**parameters**](#what-is-a-parameter-or-argument) and spit out output known as [**return values**](#what-is-a-return-value) when it finishes.
 
 ### What is a parameter or argument?
 
-An input to a [function<sup>?</sup>](#what-is-a-function-or-method). The function should use the input in its code.
+An input to a [**function**](#what-is-a-function-or-method). The function should use the input in its code.
 
 Technically, an argument is the data passed into the function's parameter.
 
@@ -191,11 +191,11 @@ Referencing something using a name instead of the value itself. Also called `der
 
 Checking the type or properties of an object when code is run.
 
-For example, in Python, `dir(dog)` lists every name in `dog`'s [namespace<sup>?</sup>](#what-is-a-namespace) and `type(cat)` returns `cat`'s type.
+For example, in Python, `dir(dog)` lists every name in `dog`'s [**namespace**](#what-is-a-namespace) and `type(cat)` returns `cat`'s type.
 
 ### What is a namespace?
 
-A space in which names must be unique. Here are a few examples in [JavaScript<sup>?</sup>](#what-is-javascript).
+A space in which names must be unique. Here are a few examples in [**JavaScript**](#what-is-javascript).
 
 Here, `name` is in the global namespace.
 
@@ -221,7 +221,7 @@ for (const name of names) {
 
 ### What is object-oriented programming?
 
-A style of programming (programming paradigm) using "objects", which have attributes and methods. In most languages, objects are instances of [classes<sup>?</sup>](#what-is-a-class).
+A style of programming (programming paradigm) using "objects", which have attributes and methods. In most languages, objects are instances of [**classes**](#what-is-a-class).
 
 ### What is boilerplate?
 
@@ -231,7 +231,7 @@ Sections of reusable code meant to be used with few or no changes.
 
 A place in packaged code to insert custom code.
 
-This is different from a [React hook<sup>?</sup>](#what-are-react-hooks).
+This is different from a [**React hook**](#what-are-react-hooks).
 
 ### What are React hooks?
 
@@ -239,7 +239,7 @@ Functions in React which allow access to some React API within functional compon
 
 ### What is React?
 
-The [most popular front-end development framework<sup>↗</sup>](https://reactjs.org/) (2019).
+The [_most popular front-end development framework_](https://reactjs.org/) (2019).
 
 ### What is a driver?
 
@@ -281,19 +281,19 @@ A run of some code. Multiple threads can exist in one process.
 
 ### What is multithreading?
 
-Having multiple [threads<sup>?</sup>](#what-is-a-thread) at the same time.
+Having multiple [**threads**](#what-is-a-thread) at the same time.
 
 ### What is implementation?
 
-Implementing a [feature<sup>?</sup>](#what-is-a-feature) involves writing it and including it in released code.
+Implementing a [**feature**](#what-is-a-feature) involves writing it and including it in released code.
 
 ### What is thread-safe code?
 
-Code which is safe from [race conditions<sup>?</sup>](#what-are-race-conditions) when run in multiple [threads<sup>?</sup>](#what-is-a-thread).
+Code which is safe from [**race conditions**](#what-are-race-conditions) when run in multiple [**threads**](#what-is-a-thread).
 
 ### What are race conditions?
 
-An error which happens when multiple [threads<sup>?</sup>](#what-is-a-thread) use a shared variable, which is changed by one thread while another thread is checking it.
+An error which happens when multiple [**threads**](#what-is-a-thread) use a shared variable, which is changed by one thread while another thread is checking it.
 
 ### What is connection-pooling?
 
@@ -301,7 +301,7 @@ An error which happens when multiple [threads<sup>?</sup>](#what-is-a-thread) us
 
 ### What is a class?
 
-A custom [data type<sup>?</sup>](#what-is-a-data-type). It defines what an object (ie. instance) of that class should have as attributes or methods.
+A custom [**data type**](#what-is-a-data-type). It defines what an object (ie. instance) of that class should have as attributes or methods.
 
 ### What is a data type?
 
@@ -311,7 +311,7 @@ A custom [data type<sup>?</sup>](#what-is-a-data-type). It defines what an objec
 
 When an idempotent function is run multiple times on an input, only the first run changes the input.
 
-This [Python<sup>?</sup>](#what-is-python) code is idempotent. No matter how many times you call it, the end result is that `dogs` is set to `5`, and only the first run did anything.
+This [**Python**](#what-is-python) code is idempotent. No matter how many times you call it, the end result is that `dogs` is set to `5`, and only the first run did anything.
 
 ```python
 dogs = 5
@@ -351,13 +351,13 @@ Also called the internet.
 
 ### What is a web app or website?
 
-A program that can be accessed with a [browser<sup>?</sup>](#what-is-a-browser). It usually requires an internet connection. Web app is the modern term for modern websites. A single web app can serve many [web pages<sup>?</sup>](#what-is-a-web-page).
+A program that can be accessed with a [**browser**](#what-is-a-browser). It usually requires an internet connection. Web app is the modern term for modern websites. A single web app can serve many [**web pages**](#what-is-a-web-page).
 
 Also called a web application.
 
 ### What is a web page?
 
-A page that can be accessed with a [browser<sup>?</sup>](#what-is-a-browser). One web page is saved as one html file (and some other supporting files).
+A page that can be accessed with a [**browser**](#what-is-a-browser). One web page is saved as one html file (and some other supporting files).
 
 ### What is a static web page?
 
@@ -373,11 +373,11 @@ A web page that is delivered to the user's web browser exactly as stored, in con
 
 ### What is Android?
 
-Google's mobile [operating system<sup>?</sup>](#what-is-an-operating-system).
+Google's mobile [**operating system**](#what-is-an-operating-system).
 
 ### What is iOS?
 
-Apple's mobile [operating system<sup>?</sup>](#what-is-an-operating-system).
+Apple's mobile [**operating system**](#what-is-an-operating-system).
 
 ### What is Docker?
 
@@ -451,7 +451,7 @@ Having a secure connection. The user can trust that the site is owned by the pro
 
 ### What is SSH?
 
-A technology to remotely access another computer, often using an [ssh key<sup>?</sup>](#what-is-an-ssh-key).
+A technology to remotely access another computer, often using an [**ssh key**](#what-is-an-ssh-key).
 
 ```bash
 ssh -i deployment_key.txt demo@192.237.248.66
@@ -955,7 +955,7 @@ Yes. `a if condition else b` returns a if condition evaluates to True, else b is
 
 ### What does the “yield” keyword do?
 
-It's a word [generators<sup>?</sup>](#what-are-generators) use.
+It's a word [**generators**](#what-are-generators) use.
 
 ### What are generators?
 
@@ -979,7 +979,7 @@ py.test -s my_test.py
 
 Optional notes which add code clarity by specifying the intended types for variables and function definitions. Static analysis tools like mypy can also catch type errors in code before it is run. Some text editors and IDEs can also provide type information during code completion when type hints are provided.
 
-Since they are optional, only add them as necessary. They are especially useful for [function signatures<sup>?</sup>](#what-is-a-function-signature).
+Since they are optional, only add them as necessary. They are especially useful for [**function signatures**](#what-is-a-function-signature).
 
 Use `# type: ignore` to ignore a mypy error, but first check that it's actually an error.
 
@@ -1010,7 +1010,7 @@ Grouping tests into classes(one class per class tested in the module) allows us 
 
 [The docs](https://docs.python.org/dev/library/unittest.mock.html) recommend to use MagicMocks by default. It saves time defining magic methods.
 
-A MagicMock is just Mock with [magic methods<sup>?</sup>](#what-are-magic-methodsdunders) which don't raise exceptions.
+A MagicMock is just Mock with [**magic methods**](#what-are-magic-methodsdunders) which don't raise exceptions.
 
 ```python
 >>> int(Mock())
@@ -1085,7 +1085,7 @@ A version control system. It helps collaboration, works as a form of backup, and
 
 ### What is Github?
 
-A place to store code, which integrates well with [git<sup>?</sup>](#git).
+A place to store code, which integrates well with [**git**](#git).
 
 ### What is Unix?
 
@@ -1293,11 +1293,11 @@ Also called high-level.
 
 ### What is an interpreter?
 
-A program that directly executes instructions, without requiring them to be [compiled<sup>?</sup>](#what-is-code-compiling) first.
+A program that directly executes instructions, without requiring them to be [**compiled**](#what-is-code-compiling) first.
 
 ### What is the JRE?
 
-The Java Runtime Environment is a program which runs [Java<sup>?</sup>](#what-is-java) programs.
+The Java Runtime Environment is a program which runs [**Java**](#what-is-java) programs.
 
 ### What is a keylogger?
 
