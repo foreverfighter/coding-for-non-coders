@@ -4,17 +4,22 @@ _Technologies, concepts and terms explained simply._
 
 [![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)](https://github.com/siowyisheng/simple-software-development/blob/master/LICENSE) ![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)
 
-## Entry Points
+## Usage
 
-1. Ctrl/Cmd + f, search for what you're looking for!
-2. [What is software development?](#what-is-software-development)
-3. [What is the web?](#what-is-the-web)
+`Ctrl/Cmd + f` to search for what you're looking for.
+
+Or start at one of these questions.
+
+1. [What is software development?](#what-is-software-development)
+2. [What is the web?](#what-is-the-web)
+
+Internal links are [**bolded**](#usage) and external links are in [_italics_](https://en.wikipedia.org/wiki/Italic_type). Explore through the links or press 'back' to go back to the previous question.
 
 ### What is software development?
 
 Creating computer programs.
 
-This involves [planning out programs<sup>?</sup>](#how-is-a-program-created), [writing<sup>?</sup>](#how-is-code-usually-written), [testing<sup>?</sup>](#what-is-code-testing), [debugging<sup>?</sup>](#what-is-code-debugging), [refactoring<sup>?</sup>](#what-is-code-refactoring), [documenting<sup>?</sup>](#what-is-code-documentation) and [maintaining](#what-is-code-maintenance) [code<sup>?</sup>](#what-is-code).
+This involves [**planning out programs**](#how-is-a-program-created), [writing<sup>?</sup>](#how-is-code-usually-written), [testing<sup>?</sup>](#what-is-code-testing), [debugging<sup>?</sup>](#what-is-code-debugging), [refactoring<sup>?</sup>](#what-is-code-refactoring), [documenting<sup>?</sup>](#what-is-code-documentation) and [maintaining](#what-is-code-maintenance) [code<sup>?</sup>](#what-is-code).
 
 ### How is a program created?
 
@@ -70,9 +75,9 @@ Maintaining code is also called supporting the code.
 
 ### What is deprecated code?
 
-Deprecated code is code which is old and is not recommended for use.
+Deprecated code is code which works but is old and not recommended for use.
 
-It may still work but may be removed in a future version of the program. Usually, code is deprecated because there is a better alternative available.
+It may be removed in a future version of the program. Usually, code is deprecated because there is a better alternative available.
 
 ### What is the local environment?
 
@@ -109,8 +114,6 @@ Putting code into a physical device that is more than just a computer, like a ca
 ### What is cryptography?
 
 ### What is security hacking?
-
-### What are operating systems?
 
 ### What programming languages should I learn?
 
@@ -360,6 +363,22 @@ A page that can be accessed with a [browser<sup>?</sup>](#what-is-a-browser). On
 
 A web page that is delivered to the user's web browser exactly as stored, in contrast to dynamic web pages. Also called a static webpage.
 
+### What is an operating system?
+
+### What is Linux?
+
+### What is Windows?
+
+### What is macOS?
+
+### What is Android?
+
+Google's mobile [operating system<sup>?</sup>](#what-is-an-operating-system).
+
+### What is iOS?
+
+Apple's mobile [operating system<sup>?</sup>](#what-is-an-operating-system).
+
 ### What is Docker?
 
 ### What are Containers?
@@ -432,7 +451,7 @@ Having a secure connection. The user can trust that the site is owned by the pro
 
 ### What is SSH?
 
-Remotely accessing another computer, often using an [ssh key<sup>?</sup>](#what-is-an-ssh-key).
+A technology to remotely access another computer, often using an [ssh key<sup>?</sup>](#what-is-an-ssh-key).
 
 ```bash
 ssh -i deployment_key.txt demo@192.237.248.66
@@ -510,7 +529,7 @@ https://askubuntu.com/questions/222348/what-does-sudo-apt-get-update-do
 
 ### What is GraphQL?
 
-GraphQL is a modern way to write and execute API queries.
+GraphQL is a modern way to write and execute API queries over the internet.
 
 [The Simple Guide to GraphQL](https://github.com/siowyisheng/simple-graphql)
 [GraphQL docs](https://graphql.github.io/learn/)
@@ -532,8 +551,6 @@ https://randomuser.me/ is a good one.
 ### What are some good free resources for learning?
 
 - [Google networking course](https://www.coursera.org/learn/computer-networking)
-
-## Data
 
 ### What is data?
 
@@ -583,8 +600,6 @@ A way to select data from a database management system. aka Structured Query Lan
 
 Computing cares about two things: Speed(time efficiency) and memory efficiency. Computing problems can be solved in many ways, but the field strives towards time- and memory-efficient solutions.
 
-## Documentation
-
 ### What is code documentation?
 
 It's the manual for a software.
@@ -606,8 +621,6 @@ It's like Markdown([cheat sheet](https://github.com/adam-p/markdown-here/wiki/Ma
 
 [A primer](http://docutils.sourceforge.net/docs/user/rst/quickstart.html)
 TODO
-
-## Tests
 
 ### What are tests?
 
@@ -688,8 +701,6 @@ Mocha is the most popular framework. Learn to use it [here](https://mochajs.org/
 
 [Jenkins](https://jenkins.io/) is recommended for the big projects for customizations. You need to setup your own server.
 
-## Profiling
-
 ### What is Profiling?
 
 Measuring the speed and memory cost of a program.
@@ -720,8 +731,6 @@ def my_function():
 $ python3 -m timeit '"-".join(str(n) for n in range(100))'
 10000 loops, best of 5: 30.2 usec per loop
 ```
-
-## Languages
 
 ### What is JSON?
 
@@ -984,7 +993,7 @@ from typing import Dict, Tuple, List, Callable, Mapping, Sequence, Iterable, Any
 def null_aware_func(x: Optional[float]) -> Optional[float]:
     if x is None:
         return None
-    return 2.2*x**1.05
+    return 2.2 * x ** 1.05
 ```
 
 ### Should I group my pytest tests into classes?
@@ -1055,9 +1064,7 @@ TypeError: object of type 'Mock' has no len()
 
 ### What is a text editor?
 
-### What is an IDE?
-
-It is like Notepad (on Windows) or Notes (on Mac). It allows us to type and save code as plain text.
+It's like Notepad (on Windows) or Notes (on Mac). It allows us to type and save code as plain text.
 
 ### What is an IDE?
 
@@ -1072,19 +1079,13 @@ _Short for: integrated development environment._
 - ^\s.\*\n selects all lines which start with a whitespace character.
 - You can replace selections with an empty string to delete the selections.
 
-## Git
-
 ### What is Git?
 
 A version control system. It helps collaboration, works as a form of backup, and more.
 
-### Github
-
 ### What is Github?
 
 A place to store code, which integrates well with [git<sup>?</sup>](#git).
-
-## Unix
 
 ### What is Unix?
 
@@ -1157,8 +1158,6 @@ These can be set with `VAR=value`, `export VAR=value` or `env VAR=value`. `value
 
 In the `VAR=value` syntax, value is taken to be a string _by default_ when there are no spaces in it. If there are spaces, you need to enclose the string in quotes.
 
-## Docker
-
 ### What is docker?
 
 An app that allows the deployment of software in independent containers.
@@ -1211,8 +1210,6 @@ $ docker container run  -p 80:80 -v $(pwd):/usr/share/nginx/html nginx
 // access a running container
 $ docker container exec -it nginx bash
 ```
-
-## Jobs
 
 ### What is a developer?
 
@@ -1358,10 +1355,6 @@ The grammar for coding something, which needs to be correct for it to work.
 
 A path defined from a fixed point, usually root directory.
 
-### What is Android?
-
-Google's mobile operating system.
-
 ### What is a directory?
 
 ### What is a file?
@@ -1373,12 +1366,6 @@ The part of the filename after the period. Eg, for 'zen.txt', the extension is '
 ### What is a file system?
 
 Something that keeps your files organized. Windows uses NTFS or FAT32(old). Mac uses HFS+ or HFS(old).
-
-### What is iOS?
-
-Apple's mobile operating system.
-
-### What is an operating system?
 
 ### What is a path?
 
@@ -1408,6 +1395,24 @@ A port for an old type of cable.
 
 A way to give data safely. A message is encrypted with a public key, and can only be decrypted by the matching private key. (not sure)
 
+### What is OneDrive?
+
+A shared storage space for use with SharePoint and Microsoft Teams.
+
+### What is SharePoint?
+
+A system to create SharePoint sites to use with Microsoft Teams.
+
+### What is Microsoft Teams?
+
+A chat app for Office365.
+
+### What is Office365?
+
+### What is PowerApps?
+
+A Microsoft proprietary cross-platform development framework which includes WYSIWYG GUI IDE.
+
 ## Glossary - Images
 
 - **bitmap raster** - An image made of dots. When the image resolution is insufficient, the image looks blocky and pixellated. Compare with vector.
@@ -1421,7 +1426,7 @@ A way to give data safely. A message is encrypted with a public key, and can onl
 - **4g** - A range of technologies which support a mobile data transfer rate of at least 100mbps.
 - **802.11** - A family of wifi standards. A bigger suffixing letter(b > a) means a newer standard.
 - **access point** - A physical place with wifi access.
-- **ajax** - A way for a webpage to update information based on some trigger without loading a new webpage.
+- **ajax** - A way for a webpage to update itself without loading a new webpage.
 - **angular** - A front-end javascript framework.
 - **app inventor** - A web-based, simple way to build android apps.
 - **applet** - A (usually)java application meant to sent over the web for in-browser use.
