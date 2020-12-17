@@ -21,6 +21,26 @@ Creating computer programs.
 
 This involves [**planning out programs**](#how-is-a-program-created), [**writing**](#how-is-code-usually-written), [**testing**](#what-is-code-testing), [**debugging**](#what-is-code-debugging), [**refactoring**](#what-is-code-refactoring), [**documenting**](#what-is-code-documentation) and [**maintaining**](#what-is-code-maintenance) [**code**](#what-is-code).
 
+### What is a computer?
+
+An electronic device for storing and processing [**data**](#what-is-data) according to instructions given to it in programs.
+
+This includes [**mobile devices**](#what-is-a-mobile-device) like smartphones and tablets, as well as laptops, desktops, Raspberry Pis, digital televisions and more.
+
+Different computers use different [**operating systems**](#what-is-an-operating-system).
+
+### What is a mobile device?
+
+Any type of handheld [**computer**](#what-is-a-mobile-device). The most common is the smartphone, but also includes tablets and e-readers.
+
+### What is Raspbian?
+
+The official [**operating system**](#what-is-an-operating-system) of the [**Raspberry Pi**](#what-is-a-raspberry-pi).
+
+### What is a Raspberry Pi?
+
+A low cost, credit-card sized computer that plugs into a computer monitor or TV, and uses a standard keyboard and mouse.
+
 ### How is a program created?
 
 After deciding what we want to make, we need to consider what technologies to use (which frameworks, programming languages, platforms). We also need to think about what features to include in the MVP (minimum viable product, ie. most basic first version). We should also do a mockup of what the user will see (if anything) and prepare a timeline for each planned version.
@@ -365,11 +385,27 @@ A web page that is delivered to the user's web browser exactly as stored, in con
 
 ### What is an operating system?
 
+A software that manages computer hardware and allows computer programs to run.
+
+### What is a kernel?
+
 ### What is Linux?
+
+The [**operating system**](#what-is-an-operating-system) for the vast majority of web servers.
+
+It is one of the three most popular [**operating systems**](#what-is-an-operating-system) for desktop [**computers**](#what-is-a-computer), together with [**Windows**](#what-is-windows) and [**macOS**](#what-is-macos).
 
 ### What is Windows?
 
+The [**operating system**](#what-is-an-operating-system) for most non-Apple desktops.
+
+It is one of the three most popular [**operating systems**](#what-is-an-operating-system) for desktop [**computers**](#what-is-a-computer), together with [**Linux**](#what-is-linux) and [**macOS**](#what-is-macos).
+
 ### What is macOS?
+
+The [**operating system**](#what-is-an-operating-system) for Apple desktops.
+
+It is one of the three most popular [**operating systems**](#what-is-an-operating-system) for desktop [**computers**](#what-is-a-computer), together with [**Windows**](#what-is-windows) and [**macOS**](#what-is-macos).
 
 ### What is Android?
 
@@ -588,6 +624,14 @@ A way to store a lot of data efficiently.
 
 A free relational database management system.
 
+### What is PostgreSQL?
+
+### What is DynamoDB?
+
+A [**DBMS**](#what-is-a-database-management-systemdbms) that works easily with [**AWS Lambda**](#what-is-aws-lambda).
+
+### What is MongoDB?
+
 ### What does it mean to 'query' something?
 
 To get data from (something).
@@ -595,6 +639,14 @@ To get data from (something).
 ### What is SQL?
 
 A way to select data from a database management system. aka Structured Query Language.
+
+### What is FaaS?
+
+Functions-as-a-service (FaaS) is a way to deploy services without interacting directly with a server.
+
+### What is AWS Lambda?
+
+FaaS on AWS.
 
 ### What is computing about?
 
