@@ -43,11 +43,15 @@ A low cost, credit-card sized computer that plugs into a computer monitor or TV,
 
 ### How is a program created?
 
-After deciding what we want to make, we need to consider what technologies to use (which frameworks, programming languages, platforms). We also need to think about what features to include in the MVP (minimum viable product, ie. most basic first version). We should also do a mockup of what the user will see (if anything) and prepare a timeline for each planned version.
+After deciding what we want to make, we need to consider what technologies to use (which frameworks, [**programming languages**](#what-is-a-programming-language), platforms). We also need to think about what features to include in the MVP (minimum viable product, ie. most basic first version). We should also do a mockup of what the user will see (if anything) and prepare a timeline for each planned version.
 
 ### What is code?
 
-Code is instruction for a computer, written in a programming language. Also called source code.
+Code is instructions for a computer, written in a [**programming language**](#what-is-a-programming-language). Also called source code.
+
+### What is a programming language?
+
+A language that a computer can understand. It is a way to give instructions to the computer, through [**code**](#what-is-code).
 
 ### How is code written?
 
@@ -98,7 +102,7 @@ Refactoring can make code more performant (faster), use less memory, look more r
 
 ### What is code maintenance?
 
-Code maintenance includes fixing bugs in the [**code**](#what-is-code) as they appear and updating the code to work with current technologies in use so that the program can continue to be used properly.
+Code maintenance includes [**fixing bugs**](#what-is-code-debugging) in the [**code**](#what-is-code) as they appear and updating the code to work with current technologies in use so that the program can continue to be used properly.
 
 Maintaining code is also called supporting the code.
 
@@ -146,7 +150,7 @@ Putting [**code**](#what-is-code) into a physical device that is more than just 
 
 ### What programming languages should I learn?
 
-A good programming language to learn (1) allows you to do what you want to do, (2) has a lot of community support, ie. it's popular.
+A good [**programming language**](#what-is-a-programming-language) to learn (1) allows you to do what you want to do, (2) has a lot of community support, ie. it's popular.
 
 Regarding (1), different systems use different languages for their software. Mac and iOS apps are written in Swift. C# is a popular language for writing Windows apps. C, C++, Rust are popular for embedded systems. [**Python**](#what-is-python) is popular for machine learning. It's best to read about the different domains in programming to decide what you want to do, and then find the language(s) most suitable for that purpose.
 
@@ -186,7 +190,7 @@ The function name is `write_readme`, the first argument is a [**string**](#what-
 
 ### What is a string?
 
-A sequence (string) of [**characters**](#what-is-a-character). In many programming languages, strings are surrounded by double quotes like `"cow"` or single quotes like `'cat'` or sometimes backticks like `` `dog` ``.
+A sequence (string) of [**characters**](#what-is-a-character). In many [**programming languages**](#what-is-a-programming-language), strings are surrounded by double quotes like `"cow"` or single quotes like `'cat'` or sometimes backticks like `` `dog` ``.
 
 ### What is a character?
 
@@ -804,35 +808,35 @@ A fancier way to write formatted text.
 
 ### What is C#?
 
-A programming language commonly used writing windows apps.
+A [**programming language**](#what-is-a-programming-language) commonly used writing windows apps.
 
 ### What is C++?
 
-A programming language commonly used for computing performance and embedded systems.
+A [**programming language**](#what-is-a-programming-language) commonly used for computing performance and embedded systems.
 
 ### What is Java?
 
-A programming language that can be easily deployed on many types of computers.
+A [**programming language**](#what-is-a-programming-language) that can be easily deployed on many types of computers.
 
 ### What is Javascript?
 
-An easy programming language to learn. It is the primary language of [**code**](#what-is-code) that runs on web pages, but it is also suitable for many other types of code.
+An easy [**programming language**](#what-is-a-programming-language) to learn. It is the primary language of [**code**](#what-is-code) that runs on web pages, but it is also suitable for many other types of code.
 
 ### What is Python?
 
-An easy programming language to learn. It is commonly used for [**data**](#what-is-data) work (data gathering, data analysis, data science) and [server-side programming](#what-is-server-side-programming).
+An easy [**programming language**](#what-is-a-programming-language) to learn. It is commonly used for [**data**](#what-is-data) work (data gathering, data analysis, data science) and [server-side programming](#what-is-server-side-programming).
 
 ### What is a programming paradigm?
 
-A set of features about a programming language.
+A set of features about a [**programming language**](#what-is-a-programming-language).
 
 ### What is php?
 
-A programming language commonly used for server-side programming.
+A [**programming language**](#what-is-a-programming-language) commonly used for server-side programming.
 
 ### What is Ruby?
 
-A high-level, clean programming language, commonly used for web development.
+A high-level, clean [**programming language**](#what-is-a-programming-language), commonly used for web development.
 
 ### What is Rust?
 
