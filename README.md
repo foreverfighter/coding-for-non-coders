@@ -67,6 +67,15 @@ Running the [**code**](#what-is-code) and making sure it works. If something doe
 
 Automated tests can be written and run to make the process more efficient, especially for larger programs.
 
+Tests are functions separate from your software, which tell you whether your [**code**](#what-is-code) works the way it's supposed to.
+
+Tests have 3 or 4 parts.
+
+1. Setup the test.
+2. Exercise the test function.
+3. Assert the expected results.
+4. Teardown the test. (optional)
+
 ### What is a feature?
 
 Something that a program can do. If the feature doesn't work, there is a [**bug**](#what-is-a-bug).
@@ -77,9 +86,9 @@ A part of a program which doesn't work as intended. Buggy programs need to be [*
 
 ### What is code debugging?
 
-Fixing [**bugs**](#what-is-a-bug) in programs.
+Fixing [**bugs**](#what-is-a-bug) in programs. This is to make the programs work as intended.
 
-First, we will try to replicate/reproduce the bug, usually in the [**local environment**](#what-is-the-local-environment). Next, we try to understand the cause of the bug, either through hypothesis (guessing the cause), reading logs or reading the relevant [**source code**](#what-is-code). Then, we attempt to fix the bug by editing the code. After the bug is fixed, a regression test may be written to detect if the same bug appears again in future.
+First, we will try to replicate/reproduce the bug, usually in the [**local environment**](#what-is-the-local-environment). Next, we try to understand the cause of the bug, either through hypothesis (guessing the cause), reading logs or reading the relevant [**source code**](#what-is-code). Then, we attempt to fix the bug by editing the code. After the bug is fixed, a regression [**test**](#what-is-code-testing) may be written to detect if the same bug appears again in future.
 
 ### What is code refactoring?
 
@@ -674,17 +683,6 @@ It's like Markdown([cheat sheet](https://github.com/adam-p/markdown-here/wiki/Ma
 [A primer](http://docutils.sourceforge.net/docs/user/rst/quickstart.html)
 TODO
 
-### What are tests?
-
-Tests are functions separate from your software, which tell you whether your [**code**](#what-is-code) works the way it's supposed to.
-
-Tests have 3 or 4 parts.
-
-1. Setup the test.
-2. Exercise the test function.
-3. Assert the expected results.
-4. Teardown the test.
-
 ### What are some common testing pitfalls?
 
 Tests should test inputs from the public interface and returns to the public interface.
@@ -711,7 +709,7 @@ This is obvious but important.
 
 ### What is a mock, stub or spy?
 
-**Stubs override a function/object** and provide canned answers to calls made during the test. Their purpose is to allow you to run your test.
+**Stubs override a function/object** and provide canned answers to calls made during the [**test**](#what-is-code-testing). Their purpose is to allow you to run your [**test**](#what-is-code-testing).
 
 **Mocks are stubs with in-built tests**. They specify expectations of how the mock is called. This can include with what arguments, how many times, and what was returned.
 
@@ -725,19 +723,19 @@ However, definitions vary between systems.
 
 ### What is monkey patching?
 
-Changing the [**code**](#what-is-code) at runtime, often to isolate code for testing.
+Changing the [**code**](#what-is-code) at runtime, often to isolate code for [**testing**](#what-is-code-testing).
 
 ### How do I write tests for Python?
 
-Pytest is the most popular testing framework. Learn how to use it [here](https://docs.pytest.org/en/latest/getting-started.html).
+Pytest is the most popular [**testing**](#what-is-code-testing) framework. Learn how to use it [here](https://docs.pytest.org/en/latest/getting-started.html).
 
 ### What is tox?
 
-A testing tool that tests [**code**](#what-is-code) against different [**Python**](#what-is-python) versions.
+A [**testing**](#what-is-code-testing) tool that tests [**code**](#what-is-code) against different [**Python**](#what-is-python) versions.
 
 ### How do I write tests for JavaScript?
 
-Mocha is the most popular framework. Learn to use it [here](https://mochajs.org/#getting-started). Other tools to use with it are Chai and Sinon.
+Mocha is the a popular [**testing**](#what-is-code-testing) framework. Learn to use it [here](https://mochajs.org/#getting-started). Other tools to use with it are Chai and Sinon.
 
 ### What is CI/CD?
 
@@ -1052,9 +1050,9 @@ def null_aware_func(x: Optional[float]) -> Optional[float]:
 
 There are pros and cons.
 
-Module-level tests have omit the meaningless `self` argument and are flatter.
+Module-level [**tests**](#what-is-code-testing) have omit the meaningless `self` argument and are flatter.
 
-Grouping tests into classes(one class per class tested in the module) allows us to use the same test name when two classes have the same function name to be tested. It also forces us to group our tests by the class they are testing (and also enables automatic grouping using a text editor).
+Grouping [**tests**](#what-is-code-testing) into classes(one class per class tested in the module) allows us to use the same test name when two classes have the same function name to be tested. It also forces us to group our [**tests**](#what-is-code-testing) by the class they are testing (and also enables automatic grouping using a text editor).
 
 ### What are magic methods/dunders?
 
