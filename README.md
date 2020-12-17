@@ -189,7 +189,7 @@ A positive or negative number (like `42`) without decimal places. An integer hol
 
 ### What is a boolean?
 
-A type of data with only two possibilities. One represents a true value, and the other, false.
+A type of [**data**](#what-is-data) with only two possibilities. One represents a true value, and the other, false.
 
 In [**Python**](#what-is-python), they are written as `True` and `False` while in [**Javascript**](#what-is-javascript) they are written as `true` and `false`.
 
@@ -201,7 +201,7 @@ Some lines of [**code**](#what-is-code). It can take in inputs known as [**param
 
 An input to a [**function**](#what-is-a-function-or-method). The function should use the input in its code.
 
-Technically, an argument is the data passed into the function's parameter.
+Technically, an argument is the [**data**](#what-is-data) passed into the function's parameter.
 
 ### What is indirection?
 
@@ -594,9 +594,9 @@ Information saved on a device.
 
 ### What is scalar data vs vector data?
 
-Scalar data has a single value. For example, the number 5 is scalar.
+Scalar [**data**](#what-is-data) has a single value. For example, the number 5 is scalar.
 
-Vector data can have any number of values. For example, a list of two numbers 4 and 6 is vector.
+Vector [**data**](#what-is-data) can have any number of values. For example, a list of two numbers 4 and 6 is vector.
 
 ### What is Microsoft Access?
 
@@ -604,19 +604,19 @@ A proprietary DBMS for Windows.
 
 ### What is analog data?
 
-Data stored electrically or in some tactile form.
+[**Data**](#what-is-data) stored electrically or in some tactile form.
 
 ### What is digital data?
 
-Data stored in 0s and 1s.
+[**Data**](#what-is-data) stored in 0s and 1s.
 
 ### What is a csv file?
 
-A human-readable file format for data in rows and columns.
+A human-readable file format for [**data**](#what-is-data) in rows and columns.
 
 ### What is a Database Management System(DBMS)?
 
-A way to store a lot of data efficiently.
+A way to store a lot of [**data**](#what-is-data) efficiently.
 
 ### What is an ORM?
 
@@ -634,11 +634,11 @@ A [**DBMS**](#what-is-a-database-management-systemdbms) that works easily with [
 
 ### What does it mean to 'query' something?
 
-To get data from (something).
+To get [**data**](#what-is-data) from (something).
 
 ### What is SQL?
 
-A way to select data from a database management system. aka Structured Query Language.
+A way to select [**data**](#what-is-data) from a database management system. aka Structured Query Language.
 
 ### What is FaaS?
 
@@ -786,11 +786,11 @@ $ python3 -m timeit '"-".join(str(n) for n in range(100))'
 
 ### What is JSON?
 
-A popular language for storing data. Learn it [here](https://learnxinyminutes.com/docs/json/).
+A popular language for storing [**data**](#what-is-data). Learn it [here](https://learnxinyminutes.com/docs/json/).
 
 ### What is YAML?
 
-A very readable language for storing data, which allows comments. Learn it [here](https://learnxinyminutes.com/docs/yaml/). The file extension is `.yml`.
+A very readable language for storing [**data**](#what-is-data), which allows comments. Learn it [here](https://learnxinyminutes.com/docs/yaml/). The file extension is `.yml`.
 
 ### What is TOML?
 
@@ -822,7 +822,7 @@ An easy programming language to learn. It is the primary language of [**code**](
 
 ### What is Python?
 
-An easy programming language to learn. It is commonly used for data work (data gathering, data analysis, data science) and [server-side programming](#what-is-server-side-programming).
+An easy programming language to learn. It is commonly used for [**data**](#what-is-data) work (data gathering, data analysis, data science) and [server-side programming](#what-is-server-side-programming).
 
 ### What is a programming paradigm?
 
@@ -1271,7 +1271,7 @@ Someone who writes [**code**](#what-is-code).
 
 ### What is a data analyst?
 
-Someone who works primarily with data. This usually involves collecting, manipulating, visualizing and analyzing the data.
+Someone who works primarily with [**data**](#what-is-data). This usually involves collecting, manipulating, visualizing and analyzing the [**data**](#what-is-data).
 
 ### What is a data scientist?
 
@@ -1331,7 +1331,7 @@ A program that runs in the background.
 
 ### What is a data type?
 
-A form of data. Running a function using data of an unintended type is a common source of bugs. Eg, integer, string, object.
+A form of [**data**](#what-is-data). Running a function using [**data**](#what-is-data) of an unintended type is a common source of bugs. Eg, integer, string, object.
 
 ### What is a framework?
 
@@ -1363,7 +1363,7 @@ A bunch of [**code**](#what-is-code) to help do something.
 
 ### What is a manifest file?
 
-A file with data about some other files that it comes together with.
+A file with [**data**](#what-is-data) about some other files that it comes together with.
 
 ### What is markup?
 
@@ -1435,7 +1435,7 @@ A part of a hard disk, which can have its own operating system.
 
 ### What is HDMI?
 
-A way to transmit audio and video data in a single cable.
+A way to transmit audio and video [**data**](#what-is-data) in a single cable.
 
 ### What is a parallel port?
 
@@ -1445,7 +1445,7 @@ A port for an old type of cable.
 
 ### What is public key encryption?
 
-A way to give data safely. A message is encrypted with a public key, and can only be decrypted by the matching private key. (not sure)
+A way to give [**data**](#what-is-data) safely. A message is encrypted with a public key, and can only be decrypted by the matching private key. (not sure)
 
 ### What is OneDrive?
 
@@ -1468,14 +1468,14 @@ A Microsoft proprietary cross-platform development framework which includes WYSI
 ## Glossary - Images
 
 - **bitmap raster** - An image made of dots. When the image resolution is insufficient, the image looks blocky and pixellated. Compare with vector.
-- **lossless** - A way of compressing data that retains all of the original information. Compare with **lossy**.
-- **lossy** - A way of compressing data that loses some of the original information. Most commonly, this happens with jpg images. Compare with **lossless**.
+- **lossless** - A way of compressing [**data**](#what-is-data) that retains all of the original information. Compare with **lossy**.
+- **lossy** - A way of compressing [**data**](#what-is-data) that loses some of the original information. Most commonly, this happens with jpg images. Compare with **lossless**.
 - **vector** - An image made of shapes. It can be scaled infinitely at any resolution. Compare with bitmap/raster.
 
 ## Glossary - The Web
 
-- **3g** - A range of technologies which support a mobile data transfer rate of at least 14.4mbps.
-- **4g** - A range of technologies which support a mobile data transfer rate of at least 100mbps.
+- **3g** - A range of technologies which support a mobile [**data**](#what-is-data) transfer rate of at least 14.4mbps.
+- **4g** - A range of technologies which support a mobile [**data**](#what-is-data) transfer rate of at least 100mbps.
 - **802.11** - A family of wifi standards. A bigger suffixing letter(b > a) means a newer standard.
 - **access point** - A physical place with wifi access.
 - **ajax** - A way for a webpage to update itself without loading a new webpage.
@@ -1485,7 +1485,7 @@ A Microsoft proprietary cross-platform development framework which includes WYSI
 - **asp.net** - A Microsoft web framework.
 - **aws** -
 - **babel** -
-- **bandwidth** - The rate that data that can flow through a network connection. It is limited per connection, which is why 10 people downloading files on the same wifi connection causes everyone to slow down.
+- **bandwidth** - The rate that [**data**](#what-is-data) that can flow through a network connection. It is limited per connection, which is why 10 people downloading files on the same wifi connection causes everyone to slow down.
 - **captcha** - A test(usually on the web) designed to block access to programs(bots) but allow human users to pass.
 - **client-side** -
 - **cms** -
@@ -1505,13 +1505,13 @@ A Microsoft proprietary cross-platform development framework which includes WYSI
 - **jsp** - A way for a servlet to create web pages dynamically.
 - **let's encrypt** - A non-profit organization providing free ssl certificates. [site](https://letsencrypt.org/)
 - **mac address** - A number unique to every network device. It is represented by 6 two-digit hexadecimal numbers, like 00:0d:83:b1:c0:8e.
-- **mime mime type** - A label used to identify a type of data.
+- **mime mime type** - A label used to identify a type of [**data**](#what-is-data).
 - **network backbone** - A big, ultra-high bandwidth network connection that connects far away places.
   [wiki](https://en.wikipedia.org/wiki/Programming_paradigm)
 - **newsgroup** - A forum to meet online and talk about a subject.
-- **packet** - A self-sufficient bundle of data sent over a network. It contains(amongst other things) the addresses of the sender and intended recipient.
+- **packet** - A self-sufficient bundle of [**data**](#what-is-data) sent over a network. It contains(amongst other things) the addresses of the sender and intended recipient.
 - **port** -
-- **render** - To load and output a template(may be with data) onto a browser.
+- **render** - To load and output a template(may be with [**data**](#what-is-data)) onto a browser.
 - **restful api** -
 - **root certificates** -
 - **ruby on rails** - A full-stack ruby web framework.
