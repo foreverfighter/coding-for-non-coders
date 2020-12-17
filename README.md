@@ -83,7 +83,7 @@ First, we will try to replicate/reproduce the bug, usually in the [**local envir
 
 ### What is code refactoring?
 
-Changing the source code without changing what it does.
+Changing the [**source code**](#what-is-code) without changing what it does.
 
 Refactoring can make code more performant (faster), use less memory, look more readable and be easier to add on to (more extensible).
 
@@ -149,7 +149,7 @@ The [_main question and answer website used by software developers_](https://sta
 
 ### What is open source code?
 
-Open source code is code that anyone can see. Anyone can copy the code, ask about it, complain about it, comment on it, and make suggested changes (in [**pull requests**](#what-is-a-pull-request)) to it. Also called open-source code.
+Open source [**code**](#what-is-code) is code that anyone can see. Anyone can copy the code, ask about it, complain about it, comment on it, and make suggested changes (in [**pull requests**](#what-is-a-pull-request)) to it. Also called open-source code.
 
 ### What is a pull request?
 
@@ -1149,7 +1149,7 @@ MacOS terminal is based on Unix. Webservers mainly use Unix. We can interact wit
 
 ### What is a Makefile?
 
-A file that lets you compile a program from source code. [This is a good explanation.](https://opensource.com/article/18/8/what-how-makefile)
+A file that lets you compile a program from [**source code**](#what-is-code). [This is a good explanation.](https://opensource.com/article/18/8/what-how-makefile)
 
 ### How to delete a folder?
 
