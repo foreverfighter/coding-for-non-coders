@@ -199,7 +199,7 @@ Some lines of [**code**](#what-is-code). It can take in inputs known as [**param
 
 ### What is a parameter or argument?
 
-An input to a [**function**](#what-is-a-function-or-method). The function should use the input in its code.
+An input to a [**function**](#what-is-a-function-or-method). The function should use the input in its [**code**](#what-is-code).
 
 Technically, an argument is the [**data**](#what-is-data) passed into the function's parameter.
 
