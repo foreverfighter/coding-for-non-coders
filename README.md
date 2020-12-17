@@ -51,7 +51,7 @@ Code is instruction for a computer, written in a programming language. Also call
 
 ### How is code written?
 
-Code is usually written in a [**text editor**](#what-is-a-text-editor) like [**vscode**](#what-is-vscode) or [**IDE**](#what-is-an-ide) like [**pycharm**](#what-is-pycharm), which can be downloaded free.
+[**Code**](#what-is-code) is usually written in a [**text editor**](#what-is-a-text-editor) like [**vscode**](#what-is-vscode) or [**IDE**](#what-is-an-ide) like [**pycharm**](#what-is-pycharm), which can be downloaded free.
 
 ### What is VSCode?
 
@@ -89,13 +89,13 @@ Refactoring can make code more performant (faster), use less memory, look more r
 
 ### What is code maintenance?
 
-Code maintenance includes fixing bugs in the code as they appear and updating the code to work with current technologies in use so that the program can continue to be used properly.
+Code maintenance includes fixing bugs in the [**code**](#what-is-code) as they appear and updating the code to work with current technologies in use so that the program can continue to be used properly.
 
 Maintaining code is also called supporting the code.
 
 ### What is deprecated code?
 
-Deprecated code is code which works but is old and not recommended for use.
+Deprecated code is [**code**](#what-is-code) which works but is old and not recommended for use.
 
 It may be removed in a future version of the program. Usually, code is deprecated because there is a better alternative available.
 
@@ -115,7 +115,7 @@ The local environment refers to your own computer. Running a website or program 
 
 ### What are embedded systems?
 
-Putting code into a physical device that is more than just a computer, like a camera, or toy.
+Putting [**code**](#what-is-code) into a physical device that is more than just a computer, like a camera, or toy.
 
 ### What is the Internet of Things (IoT)?
 
@@ -157,11 +157,11 @@ A request for someone with authority to accept some changes to some [**code**](#
 
 ### What are dependencies?
 
-Code that code **imports**(depends on). This includes code written by us, standard library packages, or third-party packages.
+[**Code**](#what-is-code) that code **imports**(depends on). This includes code written by us, standard library packages, or third-party packages.
 
 ### What is a dependency tree?
 
-The [**dependencies**](#what-are-dependencies) for some code, together with the dependencies of those dependencies and so on. The dependency tree needs to be **resolved** so that suitable versions are determined for installation.
+The [**dependencies**](#what-are-dependencies) for some [**code**](#what-is-code), together with the dependencies of those dependencies and so on. The dependency tree needs to be **resolved** so that suitable versions are determined for installation.
 
 ### What is a function signature?
 
@@ -195,7 +195,7 @@ In [**Python**](#what-is-python), they are written as `True` and `False` while i
 
 ### What is a function or method?
 
-Some lines of code. It can take in inputs known as [**parameters**](#what-is-a-parameter-or-argument) and spit out output known as [**return values**](#what-is-a-return-value) when it finishes.
+Some lines of [**code**](#what-is-code). It can take in inputs known as [**parameters**](#what-is-a-parameter-or-argument) and spit out output known as [**return values**](#what-is-a-return-value) when it finishes.
 
 ### What is a parameter or argument?
 
@@ -209,7 +209,7 @@ Referencing something using a name instead of the value itself. Also called `der
 
 ### What is type introspection?
 
-Checking the type or properties of an object when code is run.
+Checking the type or properties of an object when [**code**](#what-is-code) is run.
 
 For example, in Python, `dir(dog)` lists every name in `dog`'s [**namespace**](#what-is-a-namespace) and `type(cat)` returns `cat`'s type.
 
@@ -245,7 +245,7 @@ A style of programming (programming paradigm) using "objects", which have attrib
 
 ### What is boilerplate?
 
-Sections of reusable code meant to be used with few or no changes.
+Sections of reusable [**code**](#what-is-code) meant to be used with few or no changes.
 
 ### What is a hook?
 
@@ -263,7 +263,7 @@ The [_most popular front-end development framework_](https://reactjs.org/) (2019
 
 ### What is a driver?
 
-Usually, it is some code that allows a device to communicate with an operating system.
+Usually, it is some [**code**](#what-is-code) that allows a device to communicate with an operating system.
 
 It can also refer to a software driver, some code that allows a program to communicate with an operating system in kernel mode.
 
@@ -297,7 +297,7 @@ A Progressive Web App is a
 
 ### What is a thread?
 
-A run of some code. Multiple threads can exist in one process.
+A run of some [**code**](#what-is-code). Multiple threads can exist in one process.
 
 ### What is multithreading?
 
@@ -305,11 +305,11 @@ Having multiple [**threads**](#what-is-a-thread) at the same time.
 
 ### What is implementation?
 
-Implementing a [**feature**](#what-is-a-feature) involves writing it and including it in released code.
+Implementing a [**feature**](#what-is-a-feature) involves writing it and including it in released [**code**](#what-is-code).
 
 ### What is thread-safe code?
 
-Code which is safe from [**race conditions**](#what-are-race-conditions) when run in multiple [**threads**](#what-is-a-thread).
+[**Code**](#what-is-code) which is safe from [**race conditions**](#what-are-race-conditions) when run in multiple [**threads**](#what-is-a-thread).
 
 ### What are race conditions?
 
@@ -331,7 +331,7 @@ A custom [**data type**](#what-is-a-data-type). It defines what an object (ie. i
 
 When an idempotent function is run multiple times on an input, only the first run changes the input.
 
-This [**Python**](#what-is-python) code is idempotent. No matter how many times you call it, the end result is that `dogs` is set to `5`, and only the first run did anything.
+This [**Python**](#what-is-python) [**code**](#what-is-code) is idempotent. No matter how many times you call it, the end result is that `dogs` is set to `5`, and only the first run did anything.
 
 ```python
 dogs = 5
@@ -347,7 +347,7 @@ dogs = dogs + 1
 
 ### What is a return value?
 
-An output for a function, passed to the code which called the function.
+An output for a function, passed to the [**code**](#what-is-code) which called the function.
 
 ### What is integration?
 
@@ -459,7 +459,7 @@ Translating ES6+ Javascript back to ES5 for compatibility with older browsers.
 
 ### What is linting?
 
-Statically analyzing code for style and logical errors.
+Statically analyzing [**code**](#what-is-code) for style and logical errors.
 
 ### What is a live server?
 
@@ -578,7 +578,7 @@ A popular Javascript bundler.
 
 ### What is server-side programming?
 
-The code that is run on the computer serving the web app to users. It usually includes the business logic for the application and the code to interact with the database (if any). ! TO IMPROVE !
+The [**code**](#what-is-code) that is run on the computer serving the web app to users. It usually includes the business logic for the application and the code to interact with the database (if any). ! TO IMPROVE !
 
 ### What are some free APIs for exploring?
 
@@ -676,7 +676,7 @@ TODO
 
 ### What are tests?
 
-Tests are functions separate from your software, which tell you whether your code works the way it's supposed to.
+Tests are functions separate from your software, which tell you whether your [**code**](#what-is-code) works the way it's supposed to.
 
 Tests have 3 or 4 parts.
 
@@ -696,7 +696,7 @@ This is obvious but important.
 
 ### What are the main types of tests?
 
-**Unit tests** test functions. They only test the code that is being tested, also known as CUT(Code Under Test), and nothing else. They are fast and any interaction with outside systems is [mocked or stubbed](https://martinfowler.com/articles/mocksArentStubs.html).
+**Unit tests** test functions. They only test the [**code**](#what-is-code) that is being tested, also known as CUT(Code Under Test), and nothing else. They are fast and any interaction with outside systems is [mocked or stubbed](https://martinfowler.com/articles/mocksArentStubs.html).
 **Functional tests**(or acceptance tests, UI tests, systems tests) simulate user behavior on the software as a whole from the perspective of the user.
 
 ### Why write tests? Why not just run the code and test it manually?
@@ -704,7 +704,7 @@ This is obvious but important.
 1. Software can have too many functions to test manually.
 2. Software can have too many test cases to test manually.
 3. Written tests can run more quickly than manual testing.
-4. Even if you find something wrong, running the code does not tell you exactly which functions are not working correctly. Unit tests tell you exactly which function fails.
+4. Even if you find something wrong, running the [**code**](#what-is-code) does not tell you exactly which functions are not working correctly. Unit tests tell you exactly which function fails.
 5. Written tests can be executed automatically without human attention with CI/CD tools and tools like pytest-watch.
 6. Written tests can be run by others collaborating with you, so that they can contribute code while being confident of not breaking existing functionality.
 7. Written tests can be run by users(or potential buyers) of your code, to ensure that your code works as advertised.
@@ -725,7 +725,7 @@ However, definitions vary between systems.
 
 ### What is monkey patching?
 
-Changing the code at runtime, often to isolate code for testing.
+Changing the [**code**](#what-is-code) at runtime, often to isolate code for testing.
 
 ### How do I write tests for Python?
 
@@ -733,7 +733,7 @@ Pytest is the most popular testing framework. Learn how to use it [here](https:/
 
 ### What is tox?
 
-A testing tool that tests code against different Python versions.
+A testing tool that tests [**code**](#what-is-code) against different Python versions.
 
 ### How do I write tests for JavaScript?
 
@@ -818,7 +818,7 @@ A programming language that can be easily deployed on many types of computers.
 
 ### What is Javascript?
 
-An easy programming language to learn. It is the primary language of code that runs on web pages, but it is also suitable for many other types of code.
+An easy programming language to learn. It is the primary language of [**code**](#what-is-code) that runs on web pages, but it is also suitable for many other types of code.
 
 ### What is Python?
 
@@ -880,7 +880,7 @@ Primarily data work(Data Science, Data Analysis, Data Visualization), working wi
 
 ### What is 'Pythonic' code?
 
-Code that is clear, concise and follows conventions of the Python community.
+[**Code**](#what-is-code) that is clear, concise and follows conventions of the Python community.
 
 ### How do I create 'requirements.txt'?
 
@@ -937,7 +937,7 @@ find . -name '*.pyc' -delete
 
 ### What does if **name** == “**main**”: do?
 
-It protects code from being run when imported. The code within the `if __name__ == “__main__”:` only runs when the file is directly run instead of also when it is imported.
+It protects [**code**](#what-is-code) from being run when imported. The code within the `if __name__ == “__main__”:` only runs when the file is directly run instead of also when it is imported.
 
 ### How can I run a shell command within Python?
 
@@ -1029,7 +1029,7 @@ py.test -s my_test.py
 
 ### What are type hints?
 
-Optional notes which add code clarity by specifying the intended types for variables and function definitions. Static analysis tools like mypy can also catch type errors in code before it is run. Some text editors and IDEs can also provide type information during code completion when type hints are provided.
+Optional notes which add code clarity by specifying the intended types for variables and function definitions. Static analysis tools like mypy can also catch type errors in [**code**](#what-is-code) before it is run. Some text editors and IDEs can also provide type information during code completion when type hints are provided.
 
 Since they are optional, only add them as necessary. They are especially useful for [**function signatures**](#what-is-a-function-signature).
 
@@ -1116,7 +1116,7 @@ TypeError: object of type 'Mock' has no len()
 
 ### What is a text editor?
 
-It's like Notepad (on Windows) or Notes (on Mac). It allows us to type and save code as plain text.
+It's like Notepad (on Windows) or Notes (on Mac). It allows us to type and save [**code**](#what-is-code) as plain text.
 
 ### What is an IDE?
 
@@ -1137,7 +1137,7 @@ A version control system. It helps collaboration, works as a form of backup, and
 
 ### What is Github?
 
-A place to store code, which integrates well with [**git**](#git).
+A place to store [**code**](#what-is-code), which integrates well with [**git**](#git).
 
 ### What is Unix?
 
@@ -1265,7 +1265,7 @@ $ docker container exec -it nginx bash
 
 ### What is a developer?
 
-Someone who writes code.
+Someone who writes [**code**](#what-is-code).
 
 ### What do developers do on a day-to-day basis?
 
@@ -1357,7 +1357,7 @@ A program that records all keys pressed on a computer's keyboard.
 
 ### What is a library?
 
-A bunch of code to help do something.
+A bunch of [**code**](#what-is-code) to help do something.
 
 ### What is low level code?
 
@@ -1373,13 +1373,13 @@ A public-key encryption technology. (to simplify)
 
 ### What is code parsing?
 
-To parse code is to read it.
+To parse [**code**](#what-is-code) is to read it.
 
 ### What is a pipeline?
 
 ### What is a program?
 
-Code that makes up some system. It is usually compiled.
+[**Code**](#what-is-code) that makes up some system. It is usually compiled.
 
 ### What is a proprietary software?
 
@@ -1387,7 +1387,7 @@ Code that makes up some system. It is usually compiled.
 
 ### What is a script?
 
-Code that references some system. It is usually interpreted.
+[**Code**](#what-is-code) that references some system. It is usually interpreted.
 
 ### What is Sublime Text?
 
