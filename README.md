@@ -590,7 +590,7 @@ https://randomuser.me/ is a good one.
 
 ### What is data?
 
-Information on a device.
+Information saved on a device.
 
 ### What is scalar data vs vector data?
 
