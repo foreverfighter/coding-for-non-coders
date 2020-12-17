@@ -139,7 +139,7 @@ Putting [**code**](#what-is-code) into a physical device that is more than just 
 
 A good programming language to learn (1) allows you to do what you want to do, (2) has a lot of community support, ie. it's popular.
 
-Regarding (1), different systems use different languages for their software. Mac and iOS apps are written in Swift. C# is a popular language for writing Windows apps. C, C++, Rust are popular for embedded systems. Python is popular for machine learning. It's best to read about the different domains in programming to decide what you want to do, and then find the language(s) most suitable for that purpose.
+Regarding (1), different systems use different languages for their software. Mac and iOS apps are written in Swift. C# is a popular language for writing Windows apps. C, C++, Rust are popular for embedded systems. [**Python**](#what-is-python) is popular for machine learning. It's best to read about the different domains in programming to decide what you want to do, and then find the language(s) most suitable for that purpose.
 
 A language's popularity is important because developers build tools for the languages that they use, and popular languages have more and better tools. For example, Javascript is known mainly for being the language of the web, but because the web is so popular and important, Javascript is also really popular, and great tools for Machine Learning have also been developed for Javascript.
 
@@ -211,7 +211,7 @@ Referencing something using a name instead of the value itself. Also called `der
 
 Checking the type or properties of an object when [**code**](#what-is-code) is run.
 
-For example, in Python, `dir(dog)` lists every name in `dog`'s [**namespace**](#what-is-a-namespace) and `type(cat)` returns `cat`'s type.
+For example, in [**Python**](#what-is-python), `dir(dog)` lists every name in `dog`'s [**namespace**](#what-is-a-namespace) and `type(cat)` returns `cat`'s type.
 
 ### What is a namespace?
 
@@ -733,7 +733,7 @@ Pytest is the most popular testing framework. Learn how to use it [here](https:/
 
 ### What is tox?
 
-A testing tool that tests [**code**](#what-is-code) against different Python versions.
+A testing tool that tests [**code**](#what-is-code) against different [**Python**](#what-is-python) versions.
 
 ### How do I write tests for JavaScript?
 
@@ -880,7 +880,7 @@ Primarily data work(Data Science, Data Analysis, Data Visualization), working wi
 
 ### What is 'Pythonic' code?
 
-[**Code**](#what-is-code) that is clear, concise and follows conventions of the Python community.
+[**Code**](#what-is-code) that is clear, concise and follows conventions of the [**Python**](#what-is-python) community.
 
 ### How do I create 'requirements.txt'?
 
@@ -1097,7 +1097,7 @@ TypeError: object of type 'Mock' has no len()
 - **list slice** -
 - **method** - A function, owned by a type. For example, strings have a `.format` method.
 - **return value** -
-- **standard library** - Someone else's code, pre-installed with python.
+- **standard library** - Someone else's code, pre-installed with [**Python**](#what-is-python).
 - **string** -
 - **variable** -
 - **while** -
