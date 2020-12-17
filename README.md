@@ -19,7 +19,7 @@ Internal links are [**bolded**](#usage) and external links are in [_italics_](ht
 
 Creating computer programs.
 
-This involves [**planning out programs**](#how-is-a-program-created), [**writing**](#how-is-code-usually-written), [**testing**](#what-is-code-testing), [**debugging**](#what-is-code-debugging), [**refactoring**](#what-is-code-refactoring), [**documenting**](#what-is-code-documentation) and [**maintaining**](#what-is-code-maintenance) [**code**](#what-is-code).
+This involves [**planning out programs**](#how-is-a-program-created), [**writing**](#how-is-code-written), [**testing**](#what-is-code-testing), [**debugging**](#what-is-code-debugging), [**refactoring**](#what-is-code-refactoring), [**documenting**](#what-is-code-documentation) and [**maintaining**](#what-is-code-maintenance) [**code**](#what-is-code).
 
 ### What is a computer?
 
